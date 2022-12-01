@@ -1,0 +1,245 @@
+{
+  "fileName": "Quiz Miller_Spoolman Living in the Environment 16e, Chapter, Chapter 12.pdf.txt",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Which statement is false?",
+      "choices": [
+        "There is enough food currently being grown to feed all of the world\u0027s people.",
+        "Not getting enough to eat is often due to poverty.",
+        "About one in six world citizens does not get enough food to eat.",
+        "Political upheaval, corruption, and war rarely affect food being distributed to those who need it."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 2,
+      "question": "Chronic malnutrition means",
+      "choices": [
+        "not getting enough calories in your diet.",
+        "poor.",
+        "a diet lacking enough protein and key nutrients.",
+        "a diet lacking iron and carbohydrates."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 3,
+      "question": "A long-term diet lacking trace amounts of iodine may result in",
+      "choices": [
+        "goiter.",
+        "fatigue and mental retardation.",
+        "vitamin A deficiency.",
+        "anemia."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 4,
+      "question": "A severe shortage of food accompanied by long-term hunger of most of the population, many deaths, and social disruption is called",
+      "choices": [
+        "mass starvation.",
+        "chronic malnutrition.",
+        "famine.",
+        "warfare."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 5,
+      "question": "Ironically, those who are overnourished face similar health problems of those who are undernourished.",
+      "choices": [
+        "False",
+        "True"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 6,
+      "question": "These foods provide almost 50% of daily calories consumed by people of the world.",
+      "choices": [
+        "fish and rice",
+        "wheat, rice, and corn",
+        "potatoes and beef",
+        "potatoes, rice, and cabbage"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 7,
+      "question": "Industrialized agriculture is also called high-input agriculture because",
+      "choices": [
+        "many resources must be used to gain a high crop yield.",
+        "high-outputs of crops result.",
+        "this type of farming requires large amounts of sunlight, time, animal work, animal wastes for fertilizers, etc.- that is, many natural materials.",
+        "it takes much human work to gain high crop yields."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 8,
+      "question": "Which type of farming is most used by the poor tropical farmer?",
+      "choices": [
+        "greenhouse agriculture",
+        "high-input agriculture",
+        "slash-and-burn agriculture",
+        "plantation agriculture"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 9,
+      "question": "Soil \"layers\" of distinctive composition are called soil",
+      "choices": [
+        "horizons.",
+        "levels.",
+        "zones.",
+        "thicknesses."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 10,
+      "question": "The green revolution was made possible by large inputs of water, fertilizers, and pesticides, increasing the number of crops grown per year per plot of land, and",
+      "choices": [
+        "developing high-yield crops.",
+        "developing richer soils.",
+        "increasing the amount of land used for farming.",
+        "using aquaculture."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 11,
+      "question": "For thousands of years we have been modifying plants by crossbreeding and hybridization. These processes have yielded the domesticated crop plants we eat today. Aside from the 10-15 years it takes to develop a new variety of tomato or corn, what disadvantage is there to new varieties produced by this method?",
+      "choices": [
+        "all of the choices",
+        "Pests and diseases reduce the plants\u0027 yield/resistance/vigor within 5-10 years.",
+        "The cost is prohibitively expensive.",
+        "People soon get tired of the taste."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 12,
+      "question": "Meat animals (primarily cattle, pigs, and chickens)",
+      "choices": [
+        "are mostly in feed lots, with feed grains supplied by the farmer.",
+        "mostly live in large buildings, fed grains, living out their lives indoors.",
+        "are mostly grazed under open sky, eating plants available to them.",
+        "are either grazed in open fields and rangelands (about 50%) or live in confined pens/cages/buildings (about %)."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 13,
+      "question": "The fastest growing area of food production currently is",
+      "choices": [
+        "fisheries.",
+        "aquaculture.",
+        "grain production.",
+        "livestock production."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 14,
+      "question": "The \"blue revolution\" refers to",
+      "choices": [
+        "cleaning the air of pollutants.",
+        "cleaning the oceans of pollutants.",
+        "aquaculture.",
+        "changing the world diet from meat to fish."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 15,
+      "question": "Topsoil erosion leads to",
+      "choices": [
+        "pollution of aquatic systems.",
+        "loss of soil nutrients.",
+        "all of the choices",
+        "desertification."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 16,
+      "question": "Repeated annual application of irrigated water in dry climates leads to a buildup of salts in upper soil layers in a process called",
+      "choices": [
+        "desertification.",
+        "water erosion.",
+        "waterlogging.",
+        "salinization."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 17,
+      "question": "Genetically modified (GM) foods",
+      "choices": [
+        "have been acclaimed universally as a remarkable and needed agricultural breakthrough.",
+        "potentially have many advantages.",
+        "are engineered so that there are no environmental problems.",
+        "all of the choices"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 18,
+      "question": "The kind of chemical used to kill pest plants is called a/an",
+      "choices": [
+        "insecticide.",
+        "herbicide.",
+        "rodenticide",
+        "fungicide."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 19,
+      "question": "An old method of farming has been found to be helpful in keeping pest populations low. This practice is",
+      "choices": [
+        "applying animal manure to crop fields.",
+        "keeping seed from one season to be planted the next season.",
+        "crop rotation.",
+        "deep lowing of the soil."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 20,
+      "question": "In order to help improve food production, governments sometimes ________ as a way of helping farmers.",
+      "choices": [
+        "keep food prices artificially low",
+        "provide subsidies, including tax breaks, to keep farmers in business",
+        "import food from other countries",
+        "take a \"hands off\" approach, letting the marketplace decide prices"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 21,
+      "question": "Terracing, contour planting, strip planting, and wind breaks all have this in common: they are mainly used to",
+      "choices": [
+        "prevent soil erosion.",
+        "increase crop production.",
+        "allow small farmers to stay in business.",
+        "maximize soil water retention."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 23,
+      "question": "In terms of being healthy and living longer, studies indicate the poorest diet",
+      "choices": [
+        "is high in vegetables and fruits, and low in meats.",
+        "includes moderate amounts of meat, cheese, and seafood.",
+        "has a very high meat and starch component.",
+        "is vegetarian."
+      ],
+      "correct": 2
+    }
+  ]
+}

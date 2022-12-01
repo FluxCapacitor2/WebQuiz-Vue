@@ -1,0 +1,225 @@
+{
+  "fileName": "Quiz Miller_Spoolman Living in the Environment 16e, Chapter, Chapter 14.pdf.txt",
+  "questions": [
+    {
+      "number": 1,
+      "question": "The science devoted to the study of the earth\u0027s surface and its interior is",
+      "choices": [
+        "geography.",
+        "meteorology.",
+        "cartography.",
+        "geology."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 2,
+      "question": "Lithosphere is",
+      "choices": [
+        "the upper part of the mantel.",
+        "composed of hard, solid (as opposed to softer, fluid) rock.",
+        "the continental crust.",
+        "all of the choices"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 3,
+      "question": "Geologists call the liquid, molten rock nearest the earth\u0027s center the",
+      "choices": [
+        "crust.",
+        "asthenosphere.",
+        "outer core.",
+        "lithosphere."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 4,
+      "question": "Regions of crust sometimes collide. These collision zones are called",
+      "choices": [
+        "transform faults.",
+        "divergent plate boundaries.",
+        "convergent plate boundaries.",
+        "tectonic plates."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 5,
+      "question": "A process that moves large pieces of rock would be",
+      "choices": [
+        "weathering.",
+        "erosion.",
+        "glaciation.",
+        "all of the choices"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 6,
+      "question": "Liquid rock flowing from active volcanoes is called",
+      "choices": [
+        "ash.",
+        "lava.",
+        "fissure.",
+        "magma."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 7,
+      "question": "The worst volcanic disaster in U.S. history occurred at",
+      "choices": [
+        "Mount Washington in New Hampshire.",
+        "Mount Hood in Oregon.",
+        "Mount McKinley in Alaska.",
+        "Mount St. Helens in Washington State."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 8,
+      "question": "The specific point where an earthquake begins is called the",
+      "choices": [
+        "focus.",
+        "amplitude.",
+        "epicenter.",
+        "seismic wave."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 9,
+      "question": "An earthquake reading of 6.8 on the Richter scale is ________ times more powerful than a reading of 5.8.",
+      "choices": [
+        "1.0",
+        "100",
+        "0.1",
+        "10"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 10,
+      "question": "Earthquakes that occur on the ocean floor",
+      "choices": [
+        "all of the choices",
+        "are called tsunamis.",
+        "may cause tsunamis.",
+        "are always deadly."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 11,
+      "question": "Sodium chloride (table salt) in a water solution will dry to form crystals that we then identify",
+      "choices": [
+        "all of the choices",
+        "sedimentary rock.",
+        "rock.",
+        "mineral."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 12,
+      "question": "The interaction of physical and chemical processes that change rocks from one type to another is called the",
+      "choices": [
+        "hydrologic cycle.",
+        "nitrogen cycle.",
+        "rock cycle.",
+        "carbon cycle."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 13,
+      "question": "Limestone would best be classified as a",
+      "choices": [
+        "metallic mineral.",
+        "renewable resource.",
+        "fossil fuel.",
+        "non-metallic mineral."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 14,
+      "question": "A good, yet relatively inexpensive, low temperature conductor of electricity is",
+      "choices": [
+        "copper.",
+        "molybdenum.",
+        "platinum.",
+        "carbon."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 15,
+      "question": "A major advantage of metallic minerals is that",
+      "choices": [
+        "they are recyclable.",
+        "they cause little environmental degradation.",
+        "they are always inexpensive to extract.",
+        "the earth is constantly making more of them."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 16,
+      "question": "Metal-mining waste material is called",
+      "choices": [
+        "gangue.",
+        "ore.",
+        "overburden.",
+        "ore mineral."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 17,
+      "question": "Mineral resources",
+      "choices": [
+        "are non-renewable.",
+        "are mostly concentrated in the U.S., Canada, Russia, South Africa, and Australia.",
+        "all of the choices",
+        "are distributed unevenly throughout the world."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 18,
+      "question": "Given that metallic minerals are limited resources, depletion time",
+      "choices": [
+        "never factors in new discoveries of the mineral.",
+        "is the time it takes to use up 80% of the reserves of a mineral at a given rate of use.",
+        "all of the choices",
+        "always factors in recycling and reuse."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 19,
+      "question": "New technology(ies) that can be used to extract metals from low-grade ore include:",
+      "choices": [
+        "solar furnaces that create higher temperatures for smelting the ore.",
+        "all of the choices",
+        "new chemicals that remove metals from ores more efficiently.",
+        "bacteria that can live in the ore, extracting/concentrating specific metals."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 21,
+      "question": "Styrofoam has been found to be a suitable substitute for",
+      "choices": [
+        "concrete when sprayed with ceramic as a building material.",
+        "steel and copper as pipe and conduit.",
+        "electrical insulation around electric wires.",
+        "steel and aluminum in auto bodies."
+      ],
+      "correct": 0
+    }
+  ]
+}

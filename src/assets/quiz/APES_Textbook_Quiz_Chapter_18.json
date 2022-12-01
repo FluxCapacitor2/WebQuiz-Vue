@@ -1,0 +1,223 @@
+{
+  "fileName": "Quiz Miller_Spoolman Living in the Environment 16e, Chapter, Chapter 18.pdf.txt",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Which of the following statements regarding the earth\u0027s atmosphere is false?",
+      "choices": [
+        "There is higher atmospheric pressure at lower elevations.",
+        "There is higher air density at higher elevations.",
+        "The atmosphere is classified into layers characterized by changes in temperature.",
+        "The atmosphere provides a living environment for humans."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 2,
+      "question": "The layer of the atmosphere closest to the surface of the earth is the",
+      "choices": [
+        "thermosphere.",
+        "stratosphere.",
+        "mesosphere.",
+        "troposphere."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 3,
+      "question": "Earth\u0027s atmosphere provides",
+      "choices": [
+        "our planet\u0027s weather and climate.",
+        "all of the choices.",
+        "a global shield from incoming solar radiation.",
+        "chemical cycling of vital nutrients."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 4,
+      "question": "The ozone layer is found in the",
+      "choices": [
+        "mesosphere.",
+        "thermosphere.",
+        "stratosphere.",
+        "troposphere."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 5,
+      "question": "Air pollution",
+      "choices": [
+        "is never lethal.",
+        "is only a recent problem.",
+        "only arises from humans.",
+        "has seen greater increases from the burning of fossil fuels."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 6,
+      "question": "Which of the following is not a direct source of pollution?",
+      "choices": [
+        "vehicles",
+        "sun",
+        "volcanoes",
+        "power plants"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 7,
+      "question": "________ are harmful chemicals emitted directly into the air from natural processes and human activities.",
+      "choices": [
+        "Primary pollutants",
+        "Nitrous oxides",
+        "Secondary pollutants",
+        "Aerosols"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 8,
+      "question": "All of the following can contribute to smog except",
+      "choices": [
+        "urbanization.",
+        "sunlight.",
+        "burning coal.",
+        "cooler temperatures."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 9,
+      "question": "A temperature inversion exists when a layer of cool air lies above a layer of warm air.",
+      "choices": [
+        "False",
+        "True"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 10,
+      "question": "Human activities that add excessive amounts of nitrogen oxides and sulfur dioxide to the atmosphere will most likely result in",
+      "choices": [
+        "loss of ozone.",
+        "more volatile organic compounds (VOCs).",
+        "acid deposition.",
+        "global warming."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 11,
+      "question": "Smokestacks at industrial plants can lead to",
+      "choices": [
+        "less regional air pollution.",
+        "less local air pollution.",
+        "a reduction in secondary pollutants.",
+        "a reduction in primary pollutants."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 12,
+      "question": "One challenge with combating acid deposition is that",
+      "choices": [
+        "those causing acid deposition are often not those impacted by it, thus reducing their feel for urgency.",
+        "it is a natural phenomenon.",
+        "we do not know what causes it.",
+        "the technology necessary to offset it is too expensive."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 13,
+      "question": "Levels of many pollutants are often ________ inside a car or building than they are outside.",
+      "choices": [
+        "higher",
+        "less dangerous",
+        "lower",
+        "the same"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 14,
+      "question": "Examples of indoor air pollutants include all of the following except",
+      "choices": [
+        "particulates.?",
+        "carbon monoxide.",
+        "acid deposition.",
+        "living organisms."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 15,
+      "question": "One lifestyle change to combat the effects of air pollution would be to",
+      "choices": [
+        "stay inside.",
+        "drive more often.",
+        "not smoke.?",
+        "move to a city."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 16,
+      "question": "One of the first and still most important laws passed by the United States to address air pollution was the",
+      "choices": [
+        "Endangered Species Act.",
+        "Toxic Release Inventory.",
+        "Cap-and-trade Program.",
+        "Clean Air Act."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 17,
+      "question": "A way to address air pollution from stationary sources would be to",
+      "choices": [
+        "burn low sulfur coal.",
+        "tax polluters.",
+        "all of the choices.",
+        "shift to less polluting, renewable energy sources."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 18,
+      "question": "A way to address air pollution from mobile sources would be to",
+      "choices": [
+        "relax emission control device standards.",
+        "use older cars.",
+        "discourage mass transit.",
+        "walk or bike more often."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 19,
+      "question": "Which of the following would most likely reduce indoor air pollution?",
+      "choices": [
+        "increasing ventilation from outside",
+        "removing houseplants",
+        "increasing indoor air recirculation",
+        "closing windows"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 21,
+      "question": "The future of improving air quality involves not just cleaning the air, but also",
+      "choices": [
+        "creating better air filters for vehicles and buildings.",
+        "moving contaminated air to unpopulated regions.",
+        "avoiding polluted air at certain times of the day.",
+        "reducing the production of pollutants in the first place."
+      ],
+      "correct": 3
+    }
+  ]
+}

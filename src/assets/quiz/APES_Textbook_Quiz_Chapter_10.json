@@ -1,0 +1,206 @@
+{
+  "fileName": "Quiz Miller_Spoolman Living in the Environment 16e, Chapter, Chapter 10.pdf.txt",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Tree plantations",
+      "choices": [
+        "are an effective way to produce wood for paper mills.",
+        "have a high biological diversity.",
+        "are sustainable because the trees lock all necessary soil nutrients in place.",
+        "are composed of many different tree species."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 2,
+      "question": "The most diverse and sustainable forest type is the",
+      "choices": [
+        "second-growth forest.",
+        "commercial forest.",
+        "old-growth forest.",
+        "tree plantation."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 3,
+      "question": "Forests are important to the world\u0027s people because",
+      "choices": [
+        "all of the choices",
+        "they help to remove and store atmospheric carbon dioxide.",
+        "they are an important source of traditional medicines.",
+        "they help to maintain relatively stable world temperatures."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 4,
+      "question": "We are cutting forests faster than they are able to replenish themselves.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 5,
+      "question": "The method of tree harvesting that is most damaging to the environment is",
+      "choices": [
+        "selective cutting.",
+        "strip cutting.",
+        "clear-cutting.",
+        "all of the choices"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 6,
+      "question": "Forest fires are always a bad thing.",
+      "choices": [
+        "False",
+        "True"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 7,
+      "question": "Which of the following is a consequence of unsustainable logging practices and deforestation?",
+      "choices": [
+        "increased soil erosion",
+        "loss of biodiversity",
+        "habitat loss and/or habitat fragmentation",
+        "all of the choices"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 8,
+      "question": "Scientists think that at least one-half of the world\u0027s known species live in",
+      "choices": [
+        "tropical dryland forests.",
+        "the cooler, drier forests (temperate deciduous forests) of North America, Europe, and Asia.",
+        "the cold, dry forest (boreal forests) of Canada and Russia.",
+        "tropical rain forests."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 9,
+      "question": "The Amazon basin is found in which country?",
+      "choices": [
+        "India",
+        "Costa Rica",
+        "Australia",
+        "Brazil"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 10,
+      "question": "Fire as a tool of forest management",
+      "choices": [
+        "has been banned because the resulting destruction is greater than the benefits.",
+        "is very controversial among forest scientists since there is no agreement that fires are beneficial.",
+        "has been banned because of the danger of uncontrolled wildfires.",
+        "is important in removing organic debris so that larger forest fires may be prevented."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 11,
+      "question": "Much of the wood cut in the U.S. is used to produce pulp for making paper. We could reduce the cutting of trees used for this purpose by",
+      "choices": [
+        "using less paper and using paper more efficiently.",
+        "all of the choices",
+        "making pulp from fast-growing plants instead of trees.",
+        "recycling more paper goods."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 12,
+      "question": "Realistic ways that we can reduce tropical rainforest deforestation and promote sustainability include",
+      "choices": [
+        "preventing all cutting of tropical trees.",
+        "all of the choices",
+        "educating consumers about unsustainable practices and encouraging consumption of sustainable goods.",
+        "keeping people from using tropical forests."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 13,
+      "question": "In rangelands and grasslands, livestock tend to gather around ________, making these areas particularly vulnerable to damage.",
+      "choices": [
+        "hilltops",
+        "fence rows",
+        "water",
+        "protected ravines"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 14,
+      "question": "In developing nations, national parks are highly protected areas that act as sanctuaries to wildlife.",
+      "choices": [
+        "False",
+        "True"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 15,
+      "question": "This environmental activist group, composed of more than 1 million members worldwide, is responsible for buying and protecting land, waterways, and wetlands.",
+      "choices": [
+        "The Nature Conservancy",
+        "PETA",
+        "The Environmental Protection Agency",
+        "Greenpeace"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 16,
+      "question": "Biodiversity hot spots are",
+      "choices": [
+        "regions that have many rare and endangered plant and animal species.",
+        "geographical regions whose boundaries are contested between neighboring countries.",
+        "layers of sedimentary rock that are especially rich in fossils.",
+        "regions around nuclear testing zones that have higher than normal mutation rates due to increased radiation levels."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 17,
+      "question": "Ecosystems that we have degraded are irreversibly damaged.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 18,
+      "question": ".The process of fixing human-caused damage to natural ecosystems is called",
+      "choices": [
+        "ecological restoration.",
+        "creating artificial ecosystems.",
+        "ecosystem enhancement.",
+        "ecological replacement."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 20,
+      "question": "Which best illustrates an intentional desire on the part of humans to share their habitats with other species?",
+      "choices": [
+        "leaving crumbs on countertops and floors that cockroaches have access to",
+        "planting bulbs, flowers, and shrubs that deer coincidentally like to eat",
+        "constructing beehives and planting flowers that attract honeybees",
+        "putting garbage in traditional waste cans that raccoons and possums have access to"
+      ],
+      "correct": 2
+    }
+  ]
+}

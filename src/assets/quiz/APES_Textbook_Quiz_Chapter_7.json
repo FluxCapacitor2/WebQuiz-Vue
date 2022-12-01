@@ -1,0 +1,225 @@
+{
+  "fileName": "Quiz Miller_Spoolman Living in the Environment 16e, Chapter, Chapter 7.pdf.txt",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Climate is",
+      "choices": [
+        "only affected by incoming solar radiation.",
+        "a short term set of atmospheric conditions in a local area.",
+        "stable within a given latitude; that is, the climate at the equator over one area of land will be the same as any land occurring at the equator.",
+        "a long term weather pattern over a large area."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 2,
+      "question": "The tropics are warmer than the poles primarily because",
+      "choices": [
+        "the light from the sun is more intense.",
+        "the air currents are warm.",
+        "the ocean currents are warm.",
+        "the spin of the earth draws warm air to the equator."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 3,
+      "question": "Air",
+      "choices": [
+        "that is warmed by sunlight and the land beneath it is less dense. This less dense air rises.",
+        "is warmed by sunlight and the land beneath it, but its density does not change.",
+        "that is warmed by sunlight and the land beneath it is denser. This dense air falls.",
+        "warms the land or water beneath it, but its density does not change."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 4,
+      "question": "An ENSO (El NiÃ±o - Southern Oscillation)",
+      "choices": [
+        "is a large-scale weather pattern in the southern hemisphere that produces warmer Pacific Ocean water and disrupts normal world weather patterns.",
+        "is the name of a weather pattern that occurs over tropical rainforests.",
+        "is a device that measures ocean currents in the southern hemisphere.",
+        "is an ocean current that runs from the east side of South America up the coast of New England, affecting weather patterns throughout the region."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 5,
+      "question": "A total of ________ convection cells (re)distribute warm, moist air and cold, dry air masses, resulting in conditions leading to various biomes.",
+      "choices": [
+        "5",
+        "2",
+        "6",
+        "3"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 6,
+      "question": "All of the following are greenhouse gases, except",
+      "choices": [
+        "N2O, nitrous oxide.",
+        "CH4, methane.",
+        "H2, hydrogen.",
+        "H2O, water vapor."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 7,
+      "question": "Air that travels over a mountain range is ________ than it was before going over.",
+      "choices": [
+        "wetter",
+        "drier",
+        "warmer",
+        "less dense"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 8,
+      "question": "The two most important factors that distinguish biomes are precipitation and",
+      "choices": [
+        "altitude.",
+        "wind.",
+        "latitude.",
+        "temperature."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 9,
+      "question": "When we say that parallel changes in vegetation type occur when we travel from the equator to the poles and from lowlands to mountaintops, we are recognizing that changes in biomes in the two situations are similar. What we are really comparing is biome changes that occur in",
+      "choices": [
+        "latitude versus elevation.",
+        "time versus space.",
+        "convection cells versus elevation.",
+        "longitude versus elevation."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 10,
+      "question": "Although variations in a number of the following factors often occur, which is the defining character of a desert?",
+      "choices": [
+        "temperature",
+        "precipitation",
+        "cloud cover",
+        "plant life"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 11,
+      "question": "Which of the following is not one of the three desert types?",
+      "choices": [
+        "temperate",
+        "dry",
+        "cold",
+        "tropical"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 12,
+      "question": "Although variations in a number of the following factors often occur, which is the defining character of grassland?",
+      "choices": [
+        "latitude",
+        "soil type",
+        "precipitation",
+        "temperature"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 13,
+      "question": "Short-grass prairies fit within the ________ grasslands.",
+      "choices": [
+        "temperate",
+        "tropical",
+        "cold",
+        "tundra"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 14,
+      "question": "Areas of permanently frozen soils in arctic tundra are called",
+      "choices": [
+        "chaparral.",
+        "glaciers.",
+        "ice.",
+        "permafrost."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 15,
+      "question": "The chaparral biome is largely maintained by",
+      "choices": [
+        "warm temperatures.",
+        "water.",
+        "fire.",
+        "cold temperatures."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 16,
+      "question": "Although tropical rainforests are very diverse and high in species richness, it is almost impossible to carry out sustainable agriculture on tropical rainforest soils. This is because",
+      "choices": [
+        "rainfall amounts are too great for most crops.",
+        "light intensity is too great for most crops.",
+        "decomposing organisms are in so great a number that they interfere with crop growth.",
+        "soils contain too few nutrients for most crops."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 17,
+      "question": "Which of the following statements regarding tropical rainforests is false?",
+      "choices": [
+        "At least one-half of the world\u0027s tropical rainforests have already been destroyed or disturbed.",
+        "Unless strong conservation measures are soon taken, most of these forests will be destroyed within your lifetime.",
+        "Tropical rainforests currently cover approximately 20% (one-fifth) of the world\u0027s land surface.",
+        "Tropical rainforests contain about one-half of all living things."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 18,
+      "question": "Unlike either tropical rainforests or coniferous forests, temperate deciduous forest species lose their leaves in the winter. They do this",
+      "choices": [
+        "all of the choices",
+        "so that the nutrients stored in their leaves will be released to the soil by decomposers.",
+        "as a way of minimizing water loss. Leaf loss is done in conjunction with the trees minimizing their metabolism.",
+        "in order to provide a food source for decomposers."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 19,
+      "question": "Mountains play a significant ecological role in all of the following ways except:",
+      "choices": [
+        "they hold the majority of the world\u0027s forests.",
+        "they serve as sanctuaries for plant and animal species.",
+        "they store much heat absorbed during the day, then slowly release the heat back to the environment.",
+        "they hold vast amounts of water as ice; mountains are important in regulating/influencing the Hydrologic Cycle."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 21,
+      "question": "Which of the following is false?",
+      "choices": [
+        "none of the choices",
+        "Human activities are impairing ecological and economic services provided by the world\u0027s biomes.",
+        "A majority of the world\u0027s major terrestrial ecosystems are being degraded or used unsustainably.",
+        "The human ecological footprint is intensifying and spreading across the globe."
+      ],
+      "correct": 0
+    }
+  ]
+}

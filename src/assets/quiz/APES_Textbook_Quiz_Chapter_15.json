@@ -1,0 +1,225 @@
+{
+  "fileName": "Quiz Miller_Spoolman Living in the Environment 16e, Chapter, Chapter 15.pdf.txt",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Fossil fuels and ________ are nonrenewable types of energy.",
+      "choices": [
+        "none of the choices",
+        "hydropower",
+        "biomass",
+        "wind"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 2,
+      "question": "________ is/are used as the raw material(s) in the production of cleaning fluids, pesticides, plastics, medicines, and synthetic fibers.",
+      "choices": [
+        "Petrochemicals",
+        "Coal",
+        "Natural gas",
+        "Gasoline"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 3,
+      "question": "The thick, gooey liquid consisting of hundreds of different hydrocarbon molecules that is pumped out of the ground is called",
+      "choices": [
+        "conventional oil.",
+        "light oil.",
+        "all of the choices",
+        "crude oil."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 4,
+      "question": "Refining crude oil",
+      "choices": [
+        "increases its net energy yield.",
+        "separates different components based on boiling point and volatility.",
+        "all of the choices",
+        "produces light oil."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 5,
+      "question": "Oil prices in 2008 were about",
+      "choices": [
+        "$100.00 per barrel.",
+        "$10.00 per barrel.",
+        "$200.00 per barrel.",
+        "$50.00 per barrel."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 6,
+      "question": "Saudi Arabia has the world\u0027s largest crude oil reserves at 25%. The nation with the second-largest crude oil reserves is",
+      "choices": [
+        "Venezuela.",
+        "Canada.",
+        "Kuwait.",
+        "Iraq."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 7,
+      "question": "In the U.S., the projected trend of automakers is",
+      "choices": [
+        "a shift toward cars that run on diesel fuel.",
+        "a steep decline in sales of cars and trucks that get less than 40 miles per gallon.",
+        "increased production of SUVs to meet consumer demand.",
+        "a shift toward cars that carry many people to accommodate carpooling."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 8,
+      "question": "The United States produces 9% of the world\u0027s oil but consumes",
+      "choices": [
+        "1%.",
+        "39%.",
+        "24%.",
+        "85%."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 9,
+      "question": "Oil recovery is not 100% efficient. Typically, ________ barrel(s) of oil is/are extracted for every ________ barrels of oil found.",
+      "choices": [
+        "1, 2",
+        "2, 5",
+        "3, 10",
+        "1, 3"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 10,
+      "question": "Bitumen is a material found in",
+      "choices": [
+        "oil sand.",
+        "petroleum.",
+        "heavy oil.",
+        "oil shale."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 11,
+      "question": "The solid combustible mixture of hydrocarbons called kerogen is found in",
+      "choices": [
+        "oil shale.",
+        "shale oil.",
+        "bitumen.",
+        "oil sand."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 12,
+      "question": "Which of the following is true?",
+      "choices": [
+        "Conventional gas deposits often from beneath deposits of crude oil.",
+        "Natural gas is almost pure methane.",
+        "Natural gas is most often solidified for transport using high pressure at a very low temperature.",
+        "Of the three fossil fuels, natural gas releases the least carbon dioxide when burned."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 13,
+      "question": "Which statement regarding natural gas is false?",
+      "choices": [
+        "Natural gas is more expensive to extract than petroleum, however it is more versatile.",
+        "At the current rate of consumption, conventional natural gas should last at least 50 years.",
+        "Natural gas is less polluting than other fossil fuels.",
+        "Natural gas is considered a bridge fuel to help make the transition to a more sustainable energy future."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 14,
+      "question": "Which statement is true?",
+      "choices": [
+        "all of the choices",
+        "Coal is the most abundant fossil fuel.",
+        "Coal is the least polluting fossil fuel.",
+        "Coal is the most efficient fossil fuel."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 15,
+      "question": "Heat is the potential enemy of nuclear reactors. Excess heat is prevented and/or controlled by",
+      "choices": [
+        "a coolant (water).",
+        "the cooling tower.",
+        "all of the choices",
+        "control rods."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 16,
+      "question": "Nuclear power plants",
+      "choices": [
+        "have a lifespan of about 15-60 years, after which they may be renovated for additional use.",
+        "can last virtually forever if properly maintained.",
+        "have a lifespan of about 200 years, after which they must be decommissioned.",
+        "have a lifespan of about 15-60 years, after which they must be decommissioned."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 17,
+      "question": "A significant disadvantage of nuclear energy is that",
+      "choices": [
+        "we lack the expertise to make power plant facilities a safe operating environment.",
+        "there have been, and probably will continue to be, many nuclear power plant failures.",
+        "highly radioactive wastes cannot be completely and permanently disposed of at this time.",
+        "uranium-containing ore will run out within a couple of decades."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 18,
+      "question": "Nuclear power plants produce a significant amount of radioactive wastes that must be appropriately disposed of/contained. These wastes remain radioactive (and deadly!) for",
+      "choices": [
+        "thousands to hundreds of thousands of years.",
+        "millions to tens of millions of years.",
+        "hundreds of years.",
+        "decades."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 19,
+      "question": "Which of the following is not considered an appropriate option for the decommissioning of a nuclear power plant?",
+      "choices": [
+        "The plant is enclosed in a tomb that must be monitored for leaks for several thousand years.",
+        "The plant has a physical barrier built around it, with fulltime security for 30-100 years.",
+        "The plant is demolished using standard explosives, then covered with concrete, then clay, and finally soil.",
+        "The plant is dismantled, with its components stored in a high-level nuclear waste storage facility."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 21,
+      "question": "The process used to join two smaller atomic nuclei, releasing energy in the process, is called",
+      "choices": [
+        "nuclear fission.",
+        "radiation.",
+        "the nuclear fuel cycle.",
+        "nuclear fusion."
+      ],
+      "correct": 3
+    }
+  ]
+}

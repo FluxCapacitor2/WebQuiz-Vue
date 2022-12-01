@@ -1,0 +1,223 @@
+{
+  "fileName": "Quiz Miller_Spoolman Living in the Environment 16e, Chapter, Chapter 23.pdf.txt",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Which of the following resources is used to produce goods and services as part of an economic system?",
+      "choices": [
+        "manufactured capital",
+        "natural capital",
+        "all of the choices",
+        "human capital"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 2,
+      "question": "The point where the supplier\u0027s price matches what buyers are willing to pay for some quantity of a good or service is known as the",
+      "choices": [
+        "supply.",
+        "demand.",
+        "market equilibrium.",
+        "balance."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 3,
+      "question": "Which of the following events often occurs in today\u0027s capitalist market system without government interference?",
+      "choices": [
+        "Prices of goods and services accurately reflect true costs.",
+        "Buyers and sellers are always honest with one another.",
+        "All information about health or environmental dangers posed by products is readily revealed to consumers.",
+        "Companies lobby for government subsidies, tax breaks, or regulations."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 4,
+      "question": "Environmental economists argue that markets typically undervalue",
+      "choices": [
+        "manufactured capital.",
+        "business capital.",
+        "human capital.",
+        "natural capital."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 5,
+      "question": "The basic assumption of neoclassical economics is that there is no limit to ________ growth.",
+      "choices": [
+        "species",
+        "economic",
+        "population",
+        "exponential"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 6,
+      "question": "According to neoclassical economists, ecological services have no economic value.",
+      "choices": [
+        "False",
+        "True"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 7,
+      "question": "All of the following scenarios are examples of mitigation costs except for the",
+      "choices": [
+        "amount someone would pay to protect a beach.",
+        "cost to clean up a polluted lake.",
+        "expense of moving an endangered species to better habitat.",
+        "cost to protect a forest from cutting."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 8,
+      "question": "According to some critics, an extremely high discount rate will ________ exploitation of natural resources.",
+      "choices": [
+        "strongly encourage",
+        "slightly encourage",
+        "ignore",
+        "discourage"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 9,
+      "question": "As a resource such as coal is removed from a mine, the costs for continuing to remove the remaining resource tend to",
+      "choices": [
+        "decrease slightly.",
+        "decrease sharply.",
+        "increase.",
+        "remain stable."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 10,
+      "question": "Weighing the pros and cons of a decision, and its impact on all parties, is accomplished with a(n)",
+      "choices": [
+        "optimal level study.",
+        "all of these choices.",
+        "cost-benefit analysis.",
+        "discount rate estimate."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 11,
+      "question": "Excluding indirect costs from a product or service can have all of the following impacts except",
+      "choices": [
+        "hindering the development of more environmentally beneficial goods and services.",
+        "promoting pollution, waste, and environmental degradation.",
+        "raising the cost of the product or service.",
+        "hiding harmful costs from consumers."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 12,
+      "question": "A method for measuring and comparing the economic outputs of nations without considering environmental or social impacts is the",
+      "choices": [
+        "happy planet index (HPI).",
+        "genuine progress indicator (GPI).",
+        "gross national happiness (GNH).",
+        "gross domestic product (GDP)."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 13,
+      "question": "Full-cost pricing is not used more widely for all of the following reasons except",
+      "choices": [
+        "it is difficult to estimate many environmental and health costs.",
+        "many producers of harmful and wasteful products would have to charge less, decreasing their profits.",
+        "most consumers do not associate harmful environmental impacts with the goods and services they buy.",
+        "some producers of harmful products would go out of business."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 14,
+      "question": "Which of the following government practices would not encourage full-cost pricing by producers?",
+      "choices": [
+        "using tradable permits to reduce pollution and resource use",
+        "levying taxes on environmental harmful goods and services",
+        "increasing environmentally harmful subsidies",
+        "labeling environmentally friendly goods and services"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 15,
+      "question": "To be successful, a tax shift to cover the harmful environmental and health costs of products and services would require which of the following?",
+      "choices": [
+        "immediate implementation",
+        "a decrease in salaries",
+        "a safety net for the poor and middle class",
+        "a net increase in overall taxes"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 16,
+      "question": "Regulation is used for which of the following environmental issues?",
+      "choices": [
+        "environmental degradation prevention",
+        "all of the choices",
+        "pollution control",
+        "resource waste reduction"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 17,
+      "question": "Innovative-friendly regulations are demonstrated by all of the following ideals except for",
+      "choices": [
+        "granting enough time for innovation.",
+        "developing green products and more jobs",
+        "allowing industries to meet goals in any way that works.",
+        "punishing companies who do not meet specified standards."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 18,
+      "question": "A service-flow economy is one where",
+      "choices": [
+        "products are sold and purchased.",
+        "both material use and pollution are high.",
+        "customers obtain a good or benefit by leasing or renting.",
+        "equipment is allowed to wear out, and is then disposed."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 19,
+      "question": "For many countries, budgets tend to emphasize",
+      "choices": [
+        "military spending over environmental or health issues.",
+        "environmental spending over military or health issues.",
+        "health spending over environmental or military issues.",
+        "environmental and health spending over military issues."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 21,
+      "question": "Which of the following principles does not describe a low-throughput economy?",
+      "choices": [
+        "producing less waste",
+        "controlling human population growth",
+        "using more energy",
+        "reusing, recycling, or composting more matter resources"
+      ],
+      "correct": 2
+    }
+  ]
+}

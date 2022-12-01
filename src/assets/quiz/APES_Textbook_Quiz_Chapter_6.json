@@ -1,0 +1,190 @@
+{
+  "fileName": "Quiz Miller_Spoolman Living in the Environment 16e, Chapter, Chapter 6.pdf.txt",
+  "questions": [
+    {
+      "number": 1,
+      "question": "From the first 2 billion people on planet earth, it took just 50 years to add 2 billion more. The next 2 billion people were added 25 years later. Assuming the growth rate were to remain constant, when might we expect the next 2 billion people?",
+      "choices": [
+        "10 years",
+        "12.5 years",
+        "25 years",
+        "50 years"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 2,
+      "question": "For the past 200 years, human population growth has",
+      "choices": [
+        "occurred mostly in developed nations.",
+        "decreased in poor nations.",
+        "been exponential.",
+        "occurred mostly in wealthy nations."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 3,
+      "question": "Human populations have been able to grow at the expense of other species, altering other habitat to meet our needs. One way we have altered the environment is by",
+      "choices": [
+        "all of the choices.",
+        "eliminating many natural predators.",
+        "increasing the use of the earth\u0027s net primary productivity.",
+        "using some resources faster than they can be replenished."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 4,
+      "question": "The sustainable human carrying capacity of the earth is ________ people.",
+      "choices": [
+        "10 billion",
+        "30 billion",
+        "2 billion",
+        "we don\u0027t know"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 5,
+      "question": "A given population has increased in size. An increase in what factor besides birth rate may be directly responsible?",
+      "choices": [
+        "emigration",
+        "immigration",
+        "death rate",
+        "no other factor"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 6,
+      "question": "The world\u0027s total fertility rate, that is, the average number of children born to women in a population during their reproductive years, has been",
+      "choices": [
+        "increasing dramatically.",
+        "decreasing slowly.",
+        "decreasing dramatically.",
+        "increasing slowly."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 7,
+      "question": "The average number of children that couples in a population must bear to replace themselves is",
+      "choices": [
+        "crude birth rate.",
+        "population change.",
+        "total fertility rate.",
+        "replacement-level fertility rate."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 8,
+      "question": "When women have access to education and paid employment outside the home, the total fertility rate decreases.",
+      "choices": [
+        "This trend is true for developing nations only.",
+        "This trend is true for developed nations only.",
+        "This trend is false.",
+        "This trend is true for all nations, developed and developing."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 9,
+      "question": "One of the best measures of a society\u0027s quality of life is",
+      "choices": [
+        "infant mortality rate.",
+        "average age of marriage.",
+        "crude birth rate.",
+        "total fertility rate."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 10,
+      "question": "The U.S. life expectancy",
+      "choices": [
+        "is the lowest of all developed countries.",
+        "is the highest of anywhere in the world.",
+        "is lower than 41 other developed nations.",
+        "has decreased since 1900."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 11,
+      "question": "If the replacement-level fertility rate of 2.1 children per woman were achieved tomorrow, the world\u0027s population would",
+      "choices": [
+        "remain stable from that point into the future.",
+        "decline over the next 50 years.",
+        "keep growing for the next 50 years.",
+        "change, but we don\u0027t know how."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 12,
+      "question": "Age structure diagrams that indicate rapidly growing populations have the shape of a/an",
+      "choices": [
+        "tall oval.",
+        "bullet.",
+        "tall rectangle.",
+        "pyramid."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 13,
+      "question": "Age structure diagrams may be used to",
+      "choices": [
+        "get an indication of population growth.",
+        "all of the choices",
+        "get an idea of the numbers of people in different age classes and stages of life.",
+        "get an indication of a population\u0027s economic condition."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 14,
+      "question": "Germany, Bulgaria, and Russia have the following in common:",
+      "choices": [
+        "all have populations that are declining.",
+        "all are in Western Europe.",
+        "all have high infant mortality rates.",
+        "all have high total fertility rates."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 15,
+      "question": "A number of factors that may affect the future world population size are out of our control. Which of the following should not be included in this list?",
+      "choices": [
+        "war",
+        "hurricane",
+        "migration",
+        "new epidemic diseases"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 16,
+      "question": "A high birth rate, low death rate, and an increase in population size are all indicative of the ________ stage of the demographic transition.",
+      "choices": [
+        "Preindustrial (Stage 1)",
+        "Industrial (Stage 3)",
+        "Transitional (Stage 2)",
+        "Postindustrial (Stage 4)"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 18,
+      "question": "A majority of married women throughout the world use modern birth control.",
+      "choices": [
+        "False",
+        "True"
+      ],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "fileName": "Quiz Miller_Spoolman Living in the Environment 16e, Chapter, Chapter 25.pdf.txt",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Which of the following principles is not considered to be an environmental worldview?",
+      "choices": [
+        "planetary management",
+        "anthropocentric",
+        "environmental wisdom",
+        "stewardship"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 2,
+      "question": "Evaluating the importance of a species based solely on its usefulness to humans considers its ________ value.",
+      "choices": [
+        "sentimental",
+        "instrumental",
+        "aesthetic",
+        "economic"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 3,
+      "question": "Human-centered worldviews tend to focus on",
+      "choices": [
+        "long-term environmental benefits.",
+        "short-term economic benefits.",
+        "short-term health benefits.",
+        "long-term social consequences."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 4,
+      "question": "All of the following precepts describe the deep ecology worldview except",
+      "choices": [
+        "nonhuman forms of life have value regardless of their use to us.",
+        "the relationship between humans and the environment is improving.",
+        "a decrease in the human population is necessary.?",
+        "humans are damaging the natural environment with their excessive interference."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 5,
+      "question": "Which of the following ideas does not fall under environmental literacy?",
+      "choices": [
+        "The earth cannot permanently support our current lifestyle.",
+        "Environmental tipping points can be reversed.",
+        "Human impacts on natural capital are growing.",
+        "Natural capital matters."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 6,
+      "question": "In most developed nations, nature is appreciated for its ________ value.",
+      "choices": [
+        "spiritual",
+        "ecological",
+        "economic",
+        "aesthetic"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 7,
+      "question": "Living more sustainably focuses solely on nature.",
+      "choices": [
+        "False",
+        "True"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 8,
+      "question": "Living sustainably involves",
+      "choices": [
+        "ignoring the value of other species.",
+        "living simply.",
+        "collecting natural capital before it is depleted.",
+        "obtaining material things."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 9,
+      "question": "People who have decided to reduce their incomes and alter their lifestyles to foster relationships and community or personal interests are known as",
+      "choices": [
+        "consumers.",
+        "stewards.",
+        "capitalists.",
+        "downshifters."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 10,
+      "question": "In affluent societies, people tend to",
+      "choices": [
+        "consider the social and environmental implications of any purchases.",
+        "simplify their lifestyles.",
+        "purchase only what they need.",
+        "think of wants as needs."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 11,
+      "question": "Living more lightly primarily involves reducing our",
+      "choices": [
+        "habitat destruction.",
+        "wastes produced.",
+        "food consumption.",
+        "ecological footprint."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 12,
+      "question": "Effective long-term solutions for sustainability try to",
+      "choices": [
+        "reduce matter and energy consumption.",
+        "reuse materials.",
+        "recycle resources.",
+        "reduce waste products."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 13,
+      "question": "Avoiding thinking about the state of the environment can lead to all of the following except for",
+      "choices": [
+        "inaction.",
+        "denial.",
+        "indifference.",
+        "solutions."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 14,
+      "question": "One of the greatest dangers to our future is",
+      "choices": [
+        "arrogance.",
+        "confidence.",
+        "apathy.",
+        "ignorance."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 15,
+      "question": "Which of the following principles is not a guideline of the 2000 Earth Charter?",
+      "choices": [
+        "Care for life.",
+        "Focus on the present.",
+        "Respect the earth.",
+        "Build free and just societies."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 16,
+      "question": "Nearly all religions emphasize sound ________ in their teachings.",
+      "choices": [
+        "domination",
+        "capitalism",
+        "consumerism",
+        "stewardship"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 17,
+      "question": "The next major revolution on this planet could be a(n) ________ revolution.",
+      "choices": [
+        "American",
+        "commercial",
+        "environmental",
+        "industrial"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 19,
+      "question": "Currently, we have the knowledge and the natural and financial wealth to make a transition to more sustainable lifestyles and societies.",
+      "choices": [
+        "False",
+        "True"
+      ],
+      "correct": 1
+    }
+  ]
+}

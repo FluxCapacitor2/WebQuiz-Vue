@@ -1,0 +1,223 @@
+{
+  "fileName": "Quiz Miller_Spoolman Living in the Environment 16e, Chapter, Chapter 20.pdf.txt",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Which of the following is not an example of water pollution?",
+      "choices": [
+        "a chemical spill into a lake that has no impact on the environment",
+        "agricultural runoff causing algae blooms",
+        "sediment from development that clogs water filtration plants",
+        "cold water discharge from a dam that kills warm-water fish species"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 2,
+      "question": "The leading cause of water pollution is",
+      "choices": [
+        "agricultural activities.",
+        "industrial activities.",
+        "mining.",
+        "development."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 3,
+      "question": "Streams are able to recover most quickly when",
+      "choices": [
+        "drought or water diversions divert the stream\u0027s flow.",
+        "the stream is dammed.",
+        "the wastes are biodegradable.",
+        "the wastes are nondegradable."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 4,
+      "question": "The biochemical oxygen demand (BOD) of a body of water can be diagrammed with a(n)",
+      "choices": [
+        "environmental impact assessment.",
+        "oxygen sag curve.",
+        "species diversity count.",
+        "population growth curve."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 5,
+      "question": "Developing countries tend to have ________ water than developed countries.",
+      "choices": [
+        "somewhat dirtier",
+        "somewhat cleaner",
+        "much dirtier",
+        "much cleaner"
+      ],
+      "correct": 2
+    },
+    {
+      "number": 6,
+      "question": "Which of the following bodies of water is the least effective at diluting pollution?",
+      "choices": [
+        "lakes and reservoirs",
+        "oceans",
+        "creeks",
+        "rivers"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 7,
+      "question": "The natural nutrient enrichment of a shallow lake, estuary, or slow-moving stream is known as",
+      "choices": [
+        "dilution.",
+        "eutrophication.",
+        "vertical mixing.",
+        "stratification."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 8,
+      "question": "Cultural eutrophication often results in",
+      "choices": [
+        "stratification.",
+        "algae blooms.",
+        "cleaner water.",
+        "oligotrophy."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 9,
+      "question": "Usually, the most effective and cheapest method for dealing with cultural eutrophication is to",
+      "choices": [
+        "ban or limit the use of phosphates in household detergents and employ conservation practices to reduce nutrient runoff.",
+        "use waste treatment plants to remove nitrates and phosphates from wastewater",
+        "control undesirable plant growth with herbicides and algaecides.",
+        "mechanically remove excess weeds."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 10,
+      "question": "In rural areas, most people obtain their drinking water from",
+      "choices": [
+        "underground.",
+        "reservoirs.",
+        "rivers.",
+        "lakes."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 11,
+      "question": "Pollutants in groundwater are typically dispersed in a(n) ________ of widening, contaminated water.",
+      "choices": [
+        "plume",
+        "pool",
+        "bloom",
+        "aquifer"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 12,
+      "question": "Because of the difficulty and expense of cleaning up a contaminated aquifer, preventing contamination is the least expensive and most effective way to protect groundwater resources.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 13,
+      "question": "The ________ requires the EPA to establish national drinking water standards, called maximum contaminant levels, for any pollutants that may have adverse effects on human health.",
+      "choices": [
+        "Clean Water Act",
+        "U.S. Safe Drinking Water Act",
+        "Clean Air Act",
+        "Endangered Species Act"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 14,
+      "question": "The ultimate destination of water pollution is",
+      "choices": [
+        "groundwater.",
+        "lakes.",
+        "rivers.",
+        "oceans."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 15,
+      "question": "In 1989, the Exxon Valdez oil tanker went off course, hit rocks, and released millions of gallons of oil into the waters off of",
+      "choices": [
+        "Alaska.",
+        "Florida.",
+        "Texas.",
+        "California."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 16,
+      "question": "The most challenging type of water pollution to address is",
+      "choices": [
+        "lake.",
+        "river.",
+        "nonpoint.",
+        "point."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 17,
+      "question": "One way of minimizing water pollution from agriculture is with",
+      "choices": [
+        "septic systems.",
+        "eutrophication.",
+        "organic farming.",
+        "bacteria."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 18,
+      "question": "In rural areas, most homes dispose of sewage with the use of a",
+      "choices": [
+        "septic tank.",
+        "wetland-based treatment system.",
+        "wastewater treatment plant.",
+        "composting toilet system."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 19,
+      "question": "In wastewater treatment plants, solid objects are removed or allowed to settle during",
+      "choices": [
+        "bleaching.",
+        "primary sewage treatment.",
+        "secondary sewage treatment.",
+        "tertiary sewage treatment."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 21,
+      "question": "One alternative to traditional septic systems where a soil-like humus suitable for fertilizer is produced is the",
+      "choices": [
+        "wetland-based treatment system.",
+        "composting toilet system.",
+        "septic tank.",
+        "none of the choices"
+      ],
+      "correct": 1
+    }
+  ]
+}

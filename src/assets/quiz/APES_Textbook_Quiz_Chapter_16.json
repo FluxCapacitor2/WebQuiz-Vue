@@ -1,0 +1,225 @@
+{
+  "fileName": "Quiz Miller_Spoolman Living in the Environment 16e, Chapter, Chapter 16.pdf.txt",
+  "questions": [
+    {
+      "number": 1,
+      "question": "In terms of overall energy efficiency, the U.S.",
+      "choices": [
+        "is less efficient than many other industrialized nations.",
+        "is the least efficient of all developed nations.",
+        "is less efficient than developing countries.",
+        "leads the world."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 2,
+      "question": "Recycling materials such as steel and other metals saves energy and money because",
+      "choices": [
+        "the reprocessing of already refined metals uses much less energy than digging and processing ores from the earth.",
+        "we have almost run out of metal-containing ores.",
+        "all of the choices",
+        "these metals are scarce and valuable resources."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 3,
+      "question": "New European, Japanese, and Chinese cars are all significantly more fuel-efficient than U.S. automobiles because these countries",
+      "choices": [
+        "have set high fuel-efficiency standards for new automobiles.",
+        "all of the choices",
+        "produce far fewer SUVs.",
+        "have much higher gasoline taxes, which have caused the production of highly efficient cars."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 4,
+      "question": "Cars that produce no CO2 in their exhaust include",
+      "choices": [
+        "energy-efficient diesel.",
+        "hydrogen fuel cell.",
+        "plug-in hybrid electric.",
+        "all of the choices"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 5,
+      "question": "Green architecture",
+      "choices": [
+        "is widely used in the U.S.",
+        "includes a broad array of energy-efficient designs, natural lighting, passive solar heating, recycled building materials, and other components to maximize building heat efficiency.",
+        "was developed in the U.S.",
+        "all of the choices"
+      ],
+      "correct": 1
+    },
+    {
+      "number": 6,
+      "question": "In terms of keeping houses warm, the most energy-efficient thing we can use/do is",
+      "choices": [
+        "superinsulation.",
+        "the high-efficiency natural gas furnace.",
+        "the geothermal heat pump.",
+        "passive solar heating."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 7,
+      "question": "Retrofitting existing conventional buildings to make them energy efficient means",
+      "choices": [
+        "all of the choices",
+        "using energy-efficient lighting.",
+        "using energy-efficient windows.",
+        "insulating and plugging heat leaks."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 8,
+      "question": "Much energy savings result from using high-efficiency products (e.g., superinsulation, double-pane windows, tankless hot water heaters, etc.), yet we are slow to replace our old technology. A main reason for this is that",
+      "choices": [
+        "the new technology is not readily available to the average consumer.",
+        "the new technology is so expensive that it usually will not pay for itself in savings for over 15 years.",
+        "all of the choices",
+        "while electricity and fossil fuel prices are getting higher, they are not yet high enough to justify the conversion to the new technologies by the majority of people who make less than $50,000 per year."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 9,
+      "question": "One nation is committed to getting all of its energy from renewable resources by 2050. This nation is",
+      "choices": [
+        "China.",
+        "Brazil.",
+        "Iceland.",
+        "the U.S."
+      ],
+      "correct": 2
+    },
+    {
+      "number": 10,
+      "question": "Biomass, wind, and moving water all have this in common:",
+      "choices": [
+        "they are renewable energy sources that derive their energy from the sun.",
+        "they are used to currently produce 20% of the world\u0027s energy.",
+        "all of the choices",
+        "they are largely subsidized by the government, as much as are fossil fuels."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 11,
+      "question": "Water that is heated in copper pipes, exposed to full sunlight, is pumped inside the house to a heat storage unit. This type of heating is",
+      "choices": [
+        "outdated, and no longer used in solar heating technology.",
+        "works well under most climate conditions, even those that receive relatively little direct sun exposure.",
+        "a passive solar system.",
+        "an active solar system."
+      ],
+      "correct": 3
+    },
+    {
+      "number": 12,
+      "question": "Which is true? Solar cookers used in India (reflective dishes or boxes that concentrate sunlight to cook food)",
+      "choices": [
+        "all of the choices",
+        "help reduce deaths by cooking fires and air pollution.",
+        "are inexpensive to build/buy.",
+        "do not require electricity or fuel wood."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 13,
+      "question": "Solar (photovoltaic) cells work by",
+      "choices": [
+        "absorbing photons and transmitting them through electric wires.",
+        "collecting photons on materials that emit electrons, which then cause an electric current.",
+        "reflecting focused sunlight onto a light receptor that transmits light energy.",
+        "collecting and enhancing light energy through magnetic fields."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 14,
+      "question": "Although many alternative energies will probably contribute, many feel that by the end of this century, this will be the world\u0027s number-one renewable source of electricity.",
+      "choices": [
+        "solar",
+        "natural gas",
+        "wind",
+        "nuclear"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 15,
+      "question": "Humans have used water power for millennia. Modern hydropower works by",
+      "choices": [
+        "water falling through a turbine that generates electricity.",
+        "water being heated to form steam that drives a turbine to produce electricity.",
+        "water pressing against elastic membranes near the bottom of dams. Pressure causes protons and electrons to cross the membranes; electricity is generated by the electron flow.",
+        "water being forced through porous plates that release electrons; the electrons flow in wires as electricity."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 16,
+      "question": "Humans have used wind power for millennia. Modern wind power works",
+      "choices": [
+        "as wind blows against the blades of turbines. The blades allow some air to pass through their porous surface, releasing electricity.",
+        "by wind driving a turbine that generates electricity.",
+        "as wind pushes against the blades of windmills; the windmills are attached to pumps that force electrons out of water. This flow of electrons is captured as electricity.",
+        "anywhere/anytime wind is present, making wind power an efficient energy source virtually everywhere in the world."
+      ],
+      "correct": 1
+    },
+    {
+      "number": 17,
+      "question": "Biomass energy",
+      "choices": [
+        "can be produced by burning any plant or animal wastes or residues.",
+        "is renewable as long as use does not exceed regeneration.",
+        "can be produced virtually anywhere from a large variety of organisms.",
+        "all of the choices"
+      ],
+      "correct": 3
+    },
+    {
+      "number": 18,
+      "question": "Geothermal energy",
+      "choices": [
+        "is heat stored underground.",
+        "works by converting heat directly to electricity.",
+        "is very efficient and cost effective, yet has a much higher environmental impact than burning fossil fuels.",
+        "all of the choices"
+      ],
+      "correct": 0
+    },
+    {
+      "number": 19,
+      "question": "Hydrogen can be used as a fuel source. An advantage of hydrogen over fossil fuels is that",
+      "choices": [
+        "all of the choices",
+        "its use would reduce the threat of global warming and climate change.",
+        "hydrogen provides more energy per gram than any other fuel.",
+        "hydrogen forms water, not CO22, when burned."
+      ],
+      "correct": 0
+    },
+    {
+      "number": 21,
+      "question": "Analysts agree that the key to making a shift to a more sustainable energy future will include economics, politics,  and",
+      "choices": [
+        "consumer education.",
+        "all of the choices",
+        "social responsibility.",
+        "globalization."
+      ],
+      "correct": 0
+    }
+  ]
+}
