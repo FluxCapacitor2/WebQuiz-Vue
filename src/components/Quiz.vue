@@ -37,9 +37,7 @@ export default {
             this.$forceUpdate();
         },
         loadQuiz(manifest) {
-            const url = new URL('../' + manifest.resource, import.meta.url).href;
-            fetch(url)
-                .then((response) => response.json())
+            manifest.resource()
                 .then((result) => {
                     this.currentQuiz = result;
                     this.loading = false;

@@ -11,11 +11,6 @@
 
 <script>
 export default {
-    data() {
-        return {
-
-        }
-    },
     props: ["quizzes"],
 }
 </script>
