@@ -41,6 +41,7 @@ export default {
             this.currentQuiz.questions.forEach((question) => {
                 question.selected = undefined;
             })
+            this.showAnswers = false;
             this.$forceUpdate();
         },
         loadQuiz(manifest) {
