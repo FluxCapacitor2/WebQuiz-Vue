@@ -9,13 +9,20 @@
             &middot;
             <a @click="reset()" href="#">Reset</a>
         </div>
-
+        <!--
         <input type="checkbox" v-model="showAnswers" id="showAnswersCheckbox" />
         <label for="showAnswersCheckbox">Show answers</label>
-
-        <div v-for="(question, index) in currentQuiz?.questions ?? []">
+        -->
+        <div v-for="(question, index) in currentQuiz?.questions ?? []"
+            :class="['question', getQuestionClassName(question)]">
+            <p class="status" v-if="showAnswers">
+                <span v-if="question.selected === -1" class="blue">Not answered</span>
+                <span v-else-if="question.selected === question.correct" class="green">Correct</span>
+                <span v-else class="red">Incorrect</span>
+            </p>
             <p><em>Question {{ index + 1 }}:</em> {{ question.question }}</p>
-            <div v-for="(choice, choiceIndex) in question.choices" :class="['choice', getClassName(question, choiceIndex)]">
+            <div v-for="(choice, choiceIndex) in question.choices"
+                :class="['choice', getClassName(question, choiceIndex)]">
                 <input type="radio" :name="'question-' + index" v-model="question.selected" :value="choiceIndex"
                     :id="'q-' + index + '-' + choiceIndex" />
                 <label :for="'q-' + index + '-' + choiceIndex">{{ choice }}</label>
@@ -57,6 +64,10 @@ export default {
             if (question.correct == choiceIndex) return "correct";
             if (question.selected == choiceIndex) return "incorrect"
             return "not-correct";
+        },
+        getQuestionClassName(question) {
+            if (question.selected === -1 && this.showAnswers) return "not-selected";
+            else return "";
         }
     },
     data() {
@@ -64,7 +75,7 @@ export default {
             manifest: undefined,
             currentQuiz: undefined,
             loading: true,
-            showAnswers: true,
+            showAnswers: false,
         }
     },
     mounted() {
@@ -94,7 +105,8 @@ label {
     color: white;
 }
 
-.not-correct {
+.not-correct,
+.not-selected {
     opacity: 0.5;
 }
 
@@ -111,9 +123,22 @@ label {
     margin-left: 10px;
 }
 
+.question {
+    background: rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .choice {
     display: grid;
     grid-template-columns: 15px auto;
     text-align: left;
+    padding-left: 10px;
+    border-radius: 10px;
 }
+
+.blue { color: blue; }
+.green { color: green; }
+.red { color: red; }
 </style>
