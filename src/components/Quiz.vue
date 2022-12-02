@@ -28,9 +28,9 @@
                 <label :for="'q-' + index + '-' + choiceIndex">{{ choice }}</label>
             </div>
         </div>
-        <a href="#top" @click="checkAll()">Check answers</a>
+        <a @click="window.scroll(0, 0); checkAll()">Check answers</a>
         <br />
-        <a href="#top">Scroll to top</a>
+        <a @click="window.scroll(0, 0);">Scroll to top</a>
     </main>
 </template>
 
@@ -77,6 +77,7 @@ export default {
             currentQuiz: undefined,
             loading: true,
             showAnswers: false,
+            window: window,
         }
     },
     mounted() {
@@ -142,4 +143,8 @@ label {
 .blue { color: blue; }
 .green { color: green; }
 .red { color: red; }
+
+a {
+    cursor: pointer;
+}
 </style>
