@@ -39,7 +39,7 @@ export default {
         loadQuiz(manifest) {
             manifest.resource()
                 .then((result) => {
-                    this.currentQuiz = result;
+                    this.currentQuiz = { ...result };
                     this.loading = false;
                 })
                 .catch((err) => {
@@ -99,7 +99,8 @@ label {
 }
 
 .incorrect {
-    color: red;
+    background-color: rgb(138, 0, 0);
+    color: white;
 }
 
 p>em {
