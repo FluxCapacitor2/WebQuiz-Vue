@@ -16,7 +16,7 @@ import hash from 'object-hash'
         <div class="links">
             <router-link :to="'/'">Back to main page</router-link>
             &middot;
-            <a @click="reset()" href="#">Reset</a>
+            <a @click="reset()">Reset</a>
             &middot;
             <span class="status">{{ status }}</span>
         </div>
