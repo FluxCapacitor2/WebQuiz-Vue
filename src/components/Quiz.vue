@@ -1,18 +1,26 @@
+<script type="text/javascript" setup>
+import ls from 'localstorage-slim'
+import hash from 'object-hash'
+</script>
+
 <template>
-    <header>
+    <header v-if="!error">
         <h1>Web Quiz: {{ $route.params.name }}</h1>
     </header>
-    <main>
-        <p v-if="loading">Loading...</p>
+    <main v-if="error">
+        <h1>Error Loading Quiz</h1>
+        <p>The quiz "{{ $route.params.name }}" failed to load.</p>
+        <router-link :to="'/'">Back to main page</router-link>
+    </main>
+    <main v-else>
         <div class="links">
             <router-link :to="'/'">Back to main page</router-link>
             &middot;
             <a @click="reset()" href="#">Reset</a>
+            &middot;
+            <span class="status">{{ status }}</span>
         </div>
-        <!--
-        <input type="checkbox" v-model="showAnswers" id="showAnswersCheckbox" />
-        <label for="showAnswersCheckbox">Show answers</label>
-        -->
+
         <div v-for="(question, index) in currentQuiz?.questions ?? []"
             :class="['question', getQuestionClassName(question)]">
             <p class="status" v-if="showAnswers">
@@ -43,16 +51,39 @@ export default {
             })
             this.showAnswers = false;
             this.$forceUpdate();
+            this.save();
         },
         loadQuiz(manifest) {
+            this.status = "🔄 Loading...";
+            console.log("Loading quiz", this.$route.params.name);
             manifest.resource()
                 .then((result) => {
                     this.currentQuiz = { ...result };
-                    this.loading = false;
+                    this.currentQuiz.hash = hash.sha1(this.currentQuiz);
+                    console.log("Quiz loaded with key:", this.currentQuiz.hash);
+                    if (ls.get(this.$route.params.name) !== null) {
+                        // The user's responses for this quiz are saved in the browser's LocalStorage
+                        // Check if the quiz has changed since the user last loaded it
+                        const quiz = ls.get(this.$route.params.name);
+                        if (quiz.hash === this.currentQuiz.hash) {
+                            // The quiz's content is the same, load previously-saved responses
+                            this.currentQuiz = quiz;
+                            console.log("Restored progress");
+                        }
+                    }
+                    this.save();
                 })
                 .catch((err) => {
                     console.warn("Error fetching quiz", err);
+                    this.loadStoredQuiz();
+                    this.error = true;
                 });
+        },
+        loadStoredQuiz() {
+            this.currentQuiz = ls.get(this.$route.params.name);
+            console.log("Loaded offline version of the quiz", this.currentQuiz);
+            this.status = "⚠️ Using offline version of quiz";
+            this.error = false;
         },
         checkAll() {
             for (const question of this.currentQuiz.questions) {
@@ -69,18 +100,30 @@ export default {
         getQuestionClassName(question) {
             if (question.selected === -1 && this.showAnswers) return "not-selected";
             else return "";
+        },
+        save() {
+            if (this.currentQuiz && this.quizName) {
+                // Save the user's responses in LocalStorage for up to 3 days
+                this.status = "Saving...";
+                ls.set(this.quizName, this.currentQuiz, { ttl: 60 * 60 * 24 * 3 });
+                console.log("Saved responses to LocalStorage", this.quizName, this.currentQuiz);
+                this.status = "✅ Responses saved offline";
+            }
         }
     },
     data() {
         return {
             manifest: undefined,
             currentQuiz: undefined,
-            loading: true,
+            quizName: undefined,
+            error: undefined,
             showAnswers: false,
+            status: "Loading...",
             window: window,
         }
     },
     mounted() {
+        this.quizName = this.$route.params.name;
         let found = false;
         for (const manifest of this.$props.quizzes) {
             if (manifest.name == this.$route.params.name) {
@@ -91,7 +134,15 @@ export default {
         }
 
         if (!found)
-            this.$router.push("/");
+            this.loadStoredQuiz();
+
+
+        this.$watch(() => this.currentQuiz?.questions, (newValue) => {
+            this.save();
+        }, { deep: true });
+    },
+    beforeUnmount() {
+        this.save();
     },
     props: ["quizzes"],
 }
@@ -140,9 +191,17 @@ label {
     border-radius: 10px;
 }
 
-.blue { color: blue; }
-.green { color: green; }
-.red { color: red; }
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
 
 a {
     cursor: pointer;
