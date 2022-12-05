@@ -146,7 +146,7 @@
       "number": 14,
       "question": "Examples of indoor air pollutants include all of the following except",
       "choices": [
-        "particulates.?",
+        "particulates.",
         "carbon monoxide.",
         "acid deposition.",
         "living organisms."
@@ -159,7 +159,7 @@
       "choices": [
         "stay inside.",
         "drive more often.",
-        "not smoke.?",
+        "not smoke.",
         "move to a city."
       ],
       "correct": 2
