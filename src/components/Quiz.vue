@@ -1,29 +1,44 @@
 <script type="text/javascript" setup>
 import ls from 'localstorage-slim'
-import hash from 'object-hash'
+import { faListCheck, faCheckCircle, faCircleArrowLeft, faArrowsRotate, faArrowUpLong, faBoltLightning, faCirclePause } from '@fortawesome/free-solid-svg-icons'
 </script>
 
 <template>
     <header v-if="!error">
-        <h1>Web Quiz: {{ $route.params.name }}</h1>
+        <h1><fa-icon :icon="faListCheck" /> Web Quiz:
+            <span v-if="$route.params.name.split(',').length > 4">
+                ({{ $route.params.name.split(',').length }} quizzes)</span>
+            <span v-else>{{ $route.params.name.replaceAll(',', ', ') }}</span>
+        </h1>
     </header>
     <main v-if="error">
         <h1>Error Loading Quiz</h1>
         <p>The quiz "{{ $route.params.name }}" failed to load.</p>
-        <router-link :to="'/'">Back to main page</router-link>
+        <router-link :to="'/'" class="link-button">Back to main page</router-link>
     </main>
-    <main v-else>
+    <main v-else-if="questions">
         <div class="links">
-            <router-link :to="'/'">Back to main page</router-link>
-            &middot;
-            <a @click="reset()">Reset</a>
-            &middot;
-            <span class="status">{{ status }}</span>
+            <router-link :to="'/'" class="link-button">
+                <fa-icon :icon="faCircleArrowLeft" />
+                Back to main page
+            </router-link>
+            <a @click="checkAll()" class="link-button">
+                <fa-icon :icon="faCheckCircle" />
+                Check answers
+            </a>
+            <a @click="reset()" class="link-button">
+                <fa-icon :icon="faArrowsRotate" />
+                Reset
+            </a>
+            <a @click="instant = !instant" class="link-button">
+                <fa-icon :icon="instant ? faBoltLightning : faCirclePause" />
+                Answer feedback: {{ instant ? "Instant" : "Delayed" }}
+            </a>
         </div>
 
-        <div v-for="(question, index) in currentQuiz?.questions ?? []"
-            :class="['question', getQuestionClassName(question)]">
-            <p class="status" v-if="showAnswers">
+        <div v-for="(question, index) in questions" :class="['question', getQuestionClassName(question)]">
+            <p class="status"
+                v-if="(instant && question.selected !== undefined && question.selected !== -1) || showAnswers">
                 <span v-if="question.selected === -1" class="blue">Not answered</span>
                 <span v-else-if="question.selected === question.correct" class="green">Correct</span>
                 <span v-else class="red">Incorrect</span>
@@ -36,9 +51,24 @@ import hash from 'object-hash'
                 <label :for="'q-' + index + '-' + choiceIndex">{{ choice }}</label>
             </div>
         </div>
-        <a @click="window.scroll(0, 0); checkAll()">Check answers</a>
-        <br />
-        <a @click="window.scroll(0, 0);">Scroll to top</a>
+        <div class="links">
+            <router-link :to="'/'" class="link-button">
+                <fa-icon :icon="faCircleArrowLeft" />
+                Back to main page
+            </router-link>
+            <a @click="window.scroll(0, 0); checkAll()" class="link-button">
+                <fa-icon :icon="faCheckCircle" />
+                Check answers
+            </a>
+            <a @click="reset()" class="link-button">
+                <fa-icon :icon="faArrowsRotate" />
+                Reset
+            </a>
+            <a @click="window.scroll(0, 0)" class="link-button">
+                <fa-icon :icon="faArrowUpLong" />
+                Scroll to top
+            </a>
+        </div>
     </main>
 </template>
 
@@ -46,100 +76,97 @@ import hash from 'object-hash'
 export default {
     methods: {
         reset() {
-            this.currentQuiz.questions.forEach((question) => {
-                question.selected = undefined;
-            })
+            this.questions.forEach((question) => {
+                question.selected = -1;
+                ls.clear(question.quiz + "_" + question.number);
+            });
             this.showAnswers = false;
             this.$forceUpdate();
             this.save();
         },
-        loadQuiz(manifest) {
-            this.status = "🔄 Loading...";
-            console.log("Loading quiz", this.$route.params.name);
-            manifest.resource()
-                .then((result) => {
-                    this.currentQuiz = { ...result };
-                    this.currentQuiz.hash = hash.sha1(this.currentQuiz);
-                    console.log("Quiz loaded with key:", this.currentQuiz.hash);
-                    if (ls.get(this.$route.params.name) !== null) {
-                        // The user's responses for this quiz are saved in the browser's LocalStorage
-                        // Check if the quiz has changed since the user last loaded it
-                        const quiz = ls.get(this.$route.params.name);
-                        if (quiz.hash === this.currentQuiz.hash) {
-                            // The quiz's content is the same, load previously-saved responses
-                            this.currentQuiz = quiz;
-                            console.log("Restored progress");
-                        }
-                    }
-                    this.save();
-                })
-                .catch((err) => {
-                    console.warn("Error fetching quiz", err);
-                    this.loadStoredQuiz();
-                    this.error = true;
-                });
-        },
-        loadStoredQuiz() {
-            this.currentQuiz = ls.get(this.$route.params.name);
-            console.log("Loaded offline version of the quiz", this.currentQuiz);
-            this.status = "⚠️ Using offline version of quiz";
-            this.error = false;
-        },
         checkAll() {
-            for (const question of this.currentQuiz.questions) {
+            for (const question of this.questions) {
                 if (question.selected === undefined) question.selected = -1;
             }
             this.showAnswers = true;
         },
         getClassName(question, choiceIndex) {
-            if (question.selected === undefined || !this.showAnswers) return "";
+            const show = this.showAnswers || (question.selected !== undefined && question.selected !== -1 && this.instant);
+            if (!show) return "";
             if (question.correct == choiceIndex) return "correct";
             if (question.selected == choiceIndex) return "incorrect"
             return "not-correct";
         },
         getQuestionClassName(question) {
-            if (question.selected === -1 && this.showAnswers) return "not-selected";
-            else return "";
+            const show = this.showAnswers || (question.selected !== undefined && question.selected !== -1 && this.instant);
+            if (show) {
+                if (question.selected === -1 || question.selected === undefined) return "not-selected";
+                else if (question.selected === question.correct) return "correct";
+                else return "incorrect";
+            } else return "";
         },
         save() {
-            if (this.currentQuiz && this.quizName) {
-                // Save the user's responses in LocalStorage for up to 3 days
-                this.status = "Saving...";
-                ls.set(this.quizName, this.currentQuiz, { ttl: 60 * 60 * 24 * 3 });
-                console.log("Saved responses to LocalStorage", this.quizName, this.currentQuiz);
+            if (this.questions) {
+                // Save the user's responses in LocalStorage for 3 days
+                this.questions.forEach((question) => {
+                    if (question.selected !== undefined && question.selected !== -1) {
+                        ls.set(question.quiz + "_" + question.number, question.selected, { ttl: 60 * 60 * 24 * 7 });
+                    }
+                });
+                console.log("Saved responses offline");
                 this.status = "✅ Responses saved offline";
             }
-        }
+        },
+        loadResponses() {
+            this.questions.forEach((question) => {
+                const selection = ls.get(question.quiz + "_" + question.number);
+                if (selection !== null && selection !== -1 && !selection.hasOwnProperty("ttl")) {
+                    question.selected = selection;
+                }
+            });
+            this.status = "✅ Loaded saved responses";
+        },
+        loadQuestions(resources) {
+            this.status = "🔄 Loading...";
+            return Promise.all(resources.map((resource) => {
+                // resource is a function that returns a Promise which resolves to the quiz data.
+                return resource();
+            }));
+        },
     },
     data() {
         return {
-            manifest: undefined,
-            currentQuiz: undefined,
-            quizName: undefined,
+            questions: undefined,
             error: undefined,
             showAnswers: false,
             status: "Loading...",
             window: window,
+            instant: ls.get('answer_feedback') ?? false,
         }
     },
     mounted() {
-        this.quizName = this.$route.params.name;
-        let found = false;
-        for (const manifest of this.$props.quizzes) {
-            if (manifest.name == this.$route.params.name) {
-                this.loadQuiz(manifest);
-                this.manifest = manifest;
-                found = true;
-            }
-        }
+        // Get the URL to fetch for each quiz
+        const quizzes = this.$route.params.name.split(",")
+            .map((quizName) => {
+                const manifest = this.$props.quizzes.find((manifest) => manifest.name == quizName);
+                return manifest?.resource ?? this.$router.push("/")
+            });
 
-        if (!found)
-            this.loadStoredQuiz();
-
-
-        this.$watch(() => this.currentQuiz?.questions, (newValue) => {
-            this.save();
-        }, { deep: true });
+        // Load the questions from each source
+        this.loadQuestions(quizzes).then((result) => {
+            // Update the UI to display all of the questions
+            this.questions = result.flatMap((quiz) => {
+                const questions = quiz.questions.map((q) => {
+                    q.quiz = quiz.displayName;
+                    return q;
+                });
+                return questions;
+            });
+            this.loadResponses();
+            this.$watch(() => this.questions, (newValue) => {
+                this.save();
+            }, { deep: true });
+        });
     },
     beforeUnmount() {
         this.save();
@@ -149,21 +176,26 @@ export default {
 </script>
 
 <style>
+.links {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
 label {
     margin: 10px 0;
 }
 
-.correct {
+.choice.correct {
     background-color: green;
     color: white;
 }
 
-.not-correct,
-.not-selected {
+.choice.not-correct,
+.choice.not-selected {
     opacity: 0.5;
 }
 
-.incorrect {
+.choice.incorrect {
     background-color: rgb(138, 0, 0);
     color: white;
 }
@@ -205,5 +237,9 @@ label {
 
 a {
     cursor: pointer;
+}
+
+.large {
+    font-size: 1.5em;
 }
 </style>
