@@ -1,13 +1,16 @@
 <script setup type="text/javascript">
-import { faListCheck, faFolderOpen, faCircleArrowLeft, faLayerGroup, faCheckCircle, faCircleStop } from '@fortawesome/free-solid-svg-icons'
+import { faListCheck, faFolderOpen, faCircleArrowLeft, faLayerGroup, faCheckCircle, faCircleStop, faBookBookmark } from '@fortawesome/free-solid-svg-icons'
 </script>
 
 <template>
     <h1 class="heading">
         <fa-icon :icon="faFolderOpen" />
         Choose a Quiz
+        <div class="chip">
+            <fa-icon :icon="faBookBookmark" />
+            {{ $route.params.category }}
+        </div>
     </h1>
-    <h2 class="subheading">{{ $route.params.category }}</h2>
     <div :class="(combining && added.length > 0) ? 'wrapper-3col' : 'wrapper-2col'">
         <router-link :to="'/'" class="link-button">
             <fa-icon :icon="faCircleArrowLeft"></fa-icon>
@@ -17,7 +20,8 @@ import { faListCheck, faFolderOpen, faCircleArrowLeft, faLayerGroup, faCheckCirc
             <fa-icon :icon="faLayerGroup"></fa-icon>
             Combine quizzes
         </a>
-        <router-link :to="'/quiz/' + $route.params.category + '/' + added.join(',')" class="link-button" v-else-if="added.length > 0">
+        <router-link :to="'/quiz/' + $route.params.category + '/' + added.join(',')" class="link-button"
+            v-else-if="added.length > 0">
             <fa-icon :icon="faCheckCircle"></fa-icon>
             Start {{ added.length }} quizzes
         </router-link>
@@ -83,8 +87,12 @@ export default {
     text-align: center;
 }
 
-.subheading {
-    text-align: center;
-    color: rgb(80, 80, 80);
+.chip {
+    background-color: var(--item-bg-color);
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.6em;
+    margin-left: 10px;
 }
 </style>

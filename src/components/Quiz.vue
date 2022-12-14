@@ -228,7 +228,7 @@ label {
 }
 
 .question {
-    background: rgba(0, 0, 0, 0.1);
+    background: var(--item-bg-color);
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -263,10 +263,6 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
-    .question {
-        background-color: rgba(150, 150, 150, 0.1);
-    }
-
     .blue {
         color: rgb(85, 85, 255);
     }
