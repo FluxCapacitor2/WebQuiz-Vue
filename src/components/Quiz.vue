@@ -60,9 +60,13 @@ import { faListCheck, faCheckCircle, faCircleArrowLeft, faArrowsRotate, faArrowU
                 <fa-icon :icon="faCircleArrowLeft" />
                 Back to main page
             </router-link>
-            <a @click="window.scroll(0, 0); checkAll()" class="link-button">
+            <a @click="window.scroll(0, 0); checkAll()" class="link-button" v-if="!showAnswers">
                 <fa-icon :icon="faCheckCircle" />
                 Check answers
+            </a>
+            <a @click="showAnswers = false" class="link-button" v-else>
+                <fa-icon :icon="faCircleStop" />
+                Hide answers
             </a>
             <a @click="reset()" class="link-button">
                 <fa-icon :icon="faArrowsRotate" />
