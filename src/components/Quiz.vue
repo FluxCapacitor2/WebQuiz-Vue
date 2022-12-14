@@ -1,6 +1,6 @@
 <script type="text/javascript" setup>
 import ls from 'localstorage-slim'
-import { faListCheck, faCheckCircle, faCircleArrowLeft, faArrowsRotate, faArrowUpLong, faBoltLightning, faCirclePause } from '@fortawesome/free-solid-svg-icons'
+import { faListCheck, faCheckCircle, faCircleArrowLeft, faArrowsRotate, faArrowUpLong, faBoltLightning, faCirclePause, faCircleStop } from '@fortawesome/free-solid-svg-icons'
 </script>
 
 <template>
@@ -22,9 +22,13 @@ import { faListCheck, faCheckCircle, faCircleArrowLeft, faArrowsRotate, faArrowU
                 <fa-icon :icon="faCircleArrowLeft" />
                 Back to main page
             </router-link>
-            <a @click="checkAll()" class="link-button">
+            <a @click="checkAll()" class="link-button" v-if="!showAnswers">
                 <fa-icon :icon="faCheckCircle" />
                 Check answers
+            </a>
+            <a @click="showAnswers = false" class="link-button" v-else>
+                <fa-icon :icon="faCircleStop" />
+                Hide answers
             </a>
             <a @click="reset()" class="link-button">
                 <fa-icon :icon="faArrowsRotate" />
@@ -185,6 +189,10 @@ label {
     margin: 10px 0;
 }
 
+.status>* {
+    font-weight: bold;
+}
+
 .choice.correct {
     background-color: green;
     color: white;
@@ -241,5 +249,14 @@ a {
 
 .large {
     font-size: 1.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .question {
+    background-color: rgba(150, 150, 150, 0.1);
+  }
+  .blue {
+    color: rgb(85, 85, 255);
+  }
 }
 </style>

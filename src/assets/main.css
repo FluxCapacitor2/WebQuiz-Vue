@@ -24,6 +24,12 @@ a,
   text-align: center;
 }
 
+@media (prefers-color-scheme: dark) {
+  .link-button {
+    background-color: rgba(150, 150, 150, 0.1);
+  }
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
