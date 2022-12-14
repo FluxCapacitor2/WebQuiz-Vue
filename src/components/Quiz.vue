@@ -137,6 +137,13 @@ export default {
                 return resource();
             }));
         },
+        shuffle(a) { // https://stackoverflow.com/a/6274381
+            for (let i = a.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+        }
     },
     data() {
         return {
@@ -159,13 +166,13 @@ export default {
         // Load the questions from each source
         this.loadQuestions(quizzes).then((result) => {
             // Update the UI to display all of the questions
-            this.questions = result.flatMap((quiz) => {
+            this.questions = this.shuffle(result.flatMap((quiz) => {
                 const questions = quiz.questions.map((q) => {
                     q.quiz = quiz.displayName;
                     return q;
                 });
                 return questions;
-            });
+            }));
             this.loadResponses();
             this.$watch(() => this.questions, (newValue) => {
                 this.save();
@@ -252,11 +259,12 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
-  .question {
-    background-color: rgba(150, 150, 150, 0.1);
-  }
-  .blue {
-    color: rgb(85, 85, 255);
-  }
+    .question {
+        background-color: rgba(150, 150, 150, 0.1);
+    }
+
+    .blue {
+        color: rgb(85, 85, 255);
+    }
 }
 </style>
