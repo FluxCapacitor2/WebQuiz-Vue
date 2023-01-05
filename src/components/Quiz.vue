@@ -216,7 +216,7 @@ export default {
         },
         link() {
             const host = window.location.host;
-            const basePath = process.env.NODE_ENV === "production" ? "/WebQuiz/" : "";
+            const basePath = process.env.NODE_ENV === "production" ? "/WebQuiz/#" : "";
             return host + basePath + getLink(this.selectedQuizzes.map((quiz) => quiz.id), this.$props.quizzes);
         }
     },
