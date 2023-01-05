@@ -16,9 +16,9 @@ import { getLink } from '../main';
             {{ shareBtnText }}
         </a>
     </header>
-    <main v-if="loading && !error && loaded !== quizzes.length">
+    <main v-if="loading && !error && loaded !== selectedQuizzes.length">
         <h1>Loading Quiz...</h1>
-        <progress :max="quizzes.length" :value="loaded"></progress>{{ loaded }}/{{ quizzes.length }}
+        <progress :max="selectedQuizzes.length" :value="loaded"></progress>{{ loaded }}/{{ selectedQuizzes.length }}
     </main>
     <main v-if="error">
         <h1>Error Loading Quiz</h1>
