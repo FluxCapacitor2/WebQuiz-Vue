@@ -1,15 +1,20 @@
 <script type="text/javascript" setup>
 import ls from 'localstorage-slim'
-import { faListCheck, faCheckCircle, faCircleArrowLeft, faArrowsRotate, faArrowUpLong, faBoltLightning, faCirclePause, faCircleStop } from '@fortawesome/free-solid-svg-icons'
+import { faLink, faListCheck, faCheckCircle, faCircleArrowLeft, faArrowsRotate, faArrowUpLong, faBoltLightning, faCirclePause, faCircleStop } from '@fortawesome/free-solid-svg-icons'
+import { getLink } from '../main';
 </script>
 
 <template>
     <header v-if="!error">
         <h1><fa-icon :icon="faListCheck" /> Web Quiz:
-            <span v-if="$route.params.name.split(',').length > 4">
-                ({{ $route.params.name.split(',').length }} quizzes)</span>
-            <span v-else>{{ $route.params.name.replaceAll(',', ', ') }}</span>
+            <span v-if="quizNames.length > 4">
+                ({{ quizNames.length }} quizzes)</span>
+            <span v-else>{{ quizNames.join(", ") }}</span>
         </h1>
+        <a @click="copy(link)">
+            <fa-icon :icon="faLink"></fa-icon>
+            {{ shareBtnText }}
+        </a>
     </header>
     <main v-if="error">
         <h1>Error Loading Quiz</h1>
@@ -86,7 +91,7 @@ export default {
         reset() {
             this.questions.forEach((question) => {
                 question.selected = -1;
-                ls.clear(question.quiz + "_" + question.number);
+                ls.remove(question.quiz + "_" + question.number);
             });
             this.showAnswers = false;
             this.$forceUpdate();
@@ -122,7 +127,6 @@ export default {
                     }
                 });
                 console.log("Saved responses offline");
-                this.status = "✅ Responses saved offline";
             }
         },
         loadResponses() {
@@ -132,10 +136,8 @@ export default {
                     question.selected = selection;
                 }
             });
-            this.status = "✅ Loaded saved responses";
         },
         loadQuestions(resources) {
-            this.status = "🔄 Loading...";
             return Promise.all(resources.map((resource) => {
                 // resource is a function that returns a Promise which resolves to the quiz data.
                 return resource();
@@ -147,6 +149,18 @@ export default {
                 [a[i], a[j]] = [a[j], a[i]];
             }
             return a;
+        },
+        copy(text) {
+            this.window.navigator.clipboard.writeText(text).then(() => {
+                this.shareBtnText = "Link copied!";
+            }).catch((err) => {
+                console.err(err);
+                this.shareBtnText = "Failed to copy link.";
+                prompt("There was an error automatically copying the link to your clipboard. You can copy the link from the text field below:", this.link);
+            })
+            setTimeout(() => {
+                this.shareBtnText = "Share a link to this quiz";
+            }, 10_000);
         }
     },
     data() {
@@ -154,21 +168,17 @@ export default {
             questions: undefined,
             error: undefined,
             showAnswers: false,
-            status: "Loading...",
             window: window,
             instant: ls.get('answer_feedback') ?? false,
+            sharing: false,
+            shareBtnText: "Share a link to this quiz",
+            resources: {},
         }
     },
     mounted() {
-        // Get the URL to fetch for each quiz
-        const quizzes = this.$route.params.name.split(",")
-            .map((quizName) => {
-                const manifest = this.$props.quizzes.find((manifest) => manifest.name == quizName);
-                return manifest?.resource ?? this.$router.push("/")
-            });
-
         // Load the questions from each source
-        this.loadQuestions(quizzes).then((result) => {
+        const resources = this.selectedQuizzes.map((quiz) => quiz.resource);
+        this.loadQuestions(resources).then((result) => {
             // Update the UI to display all of the questions
             this.questions = this.shuffle(result.flatMap((quiz) => {
                 const questions = quiz.questions.map((q) => {
@@ -185,6 +195,30 @@ export default {
     },
     beforeUnmount() {
         this.save();
+    },
+    computed: {
+        selectedQuizzes() {
+            if (this.$route.params.index) {
+                return [this.$props.quizzes[this.$route.params.index]];
+            }
+            const total = this.$route.params.name;
+            const length = this.$props.quizzes.length;
+            const quizzes = [];
+            for (let i = 0; i < length; i++) {
+                if (total >> i & 1 === 1) {
+                    quizzes.push(this.$props.quizzes[i]);
+                }
+            }
+            return quizzes;
+        },
+        quizNames() {
+            return this.selectedQuizzes.map((quiz) => quiz.name);
+        },
+        link() {
+            const host = window.location.host;
+            const basePath = process.env.NODE_ENV === "production" ? "/WebQuiz/" : "";
+            return host + basePath + getLink(this.selectedQuizzes.map((quiz) => quiz.id), this.$props.quizzes);
+        }
     },
     props: ["quizzes"],
 }

@@ -7,8 +7,13 @@ const router = createRouter({
   history: process.env.NODE_ENV === 'production' ? createWebHashHistory(import.meta.env.BASE_URL) : createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/quiz/:category/:name',
-      name: 'quiz',
+      path: '/quiz/:name',
+      name: 'quiz-by-encoded-id',
+      component: Quiz
+    },
+    {
+      path: '/quiz/i/:index',
+      name: 'quiz-by-index',
       component: Quiz
     },
     {

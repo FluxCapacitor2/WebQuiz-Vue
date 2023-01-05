@@ -1,5 +1,6 @@
 <script setup type="text/javascript">
-import { faListCheck, faFolderOpen, faCircleArrowLeft, faLayerGroup, faCheckCircle, faCircleStop, faBookBookmark } from '@fortawesome/free-solid-svg-icons'
+import { faListCheck, faFolderOpen, faCircleArrowLeft, faLayerGroup, faCheckCircle, faCircleStop, faBookBookmark, faCheckDouble } from '@fortawesome/free-solid-svg-icons'
+import { getLink } from '../main';
 </script>
 
 <template>
@@ -11,35 +12,43 @@ import { faListCheck, faFolderOpen, faCircleArrowLeft, faLayerGroup, faCheckCirc
             {{ $route.params.category }}
         </div>
     </h1>
-    <div :class="(combining && added.length > 0) ? 'wrapper-3col' : 'wrapper-2col'">
+    <div class="wrapper-2col">
         <router-link :to="'/'" class="link-button">
             <fa-icon :icon="faCircleArrowLeft"></fa-icon>
             Go back
         </router-link>
-        <a @click="combining = true" class="link-button" v-if="!combining">
+        <a @click="combining = true" class="link-button" v-if="!combining" title="Display the questions from multiple quizzes at once, with question order randomized.">
             <fa-icon :icon="faLayerGroup"></fa-icon>
             Combine quizzes
         </a>
-        <router-link :to="'/quiz/' + $route.params.category + '/' + added.join(',')" class="link-button"
-            v-else-if="added.length > 0">
-            <fa-icon :icon="faCheckCircle"></fa-icon>
-            Start {{ added.length }} quizzes
-        </router-link>
         <a @click="combining = false" v-if="combining" class="link-button">
             <fa-icon :icon="faCircleStop"></fa-icon>
             Stop combining
         </a>
+        <a @click="toggleAll()" v-if="combining" class="link-button" :title="added.length !== quizzes.length ? 'Select ' + quizzes.length + ' quizzes' : 'Deselect ' + added.length + ' quizzes'">
+            <fa-icon :icon="faCheckDouble"></fa-icon>
+            {{ added.length !== quizzes.length ? "Select all" : "Select none" }}
+        </a>
+        <router-link :to="getLink(added, $props.quizzes)" class="link-button bold-link-button"
+            v-if="combining && added.length > 0">
+            <fa-icon :icon="faCheckCircle"></fa-icon>
+            Start {{ added.length }} quizzes
+        </router-link>
+        <a v-if="combining && added.length === 0" class="link-button disabled" title="You must select one or more quizzes to combine.">
+            <fa-icon :icon="faCheckCircle"></fa-icon>
+            Start quizzes
+        </a>
     </div>
     <div class="wrapper-4col" v-if="!combining">
-        <router-link v-for="quiz in quizzes" :key="quiz.resource" :to="'/quiz/' + quiz.subject + '/' + quiz.name"
+        <router-link v-for="quiz in quizzes" :key="quiz.id" :to="getLink([quiz.id], $props.quizzes)"
             class="link-button">
             <fa-icon :icon="faListCheck" />
             {{ quiz.name }}
         </router-link>
     </div>
     <div class="wrapper-4col" v-else>
-        <a v-for="quiz in quizzes" :key="quiz.resource" class="link-button" @click="toggle(quiz.name)">
-            <input type="checkbox" v-model="added" :value="quiz.name" />
+        <a v-for="quiz in quizzes" :key="quiz.id" class="link-button" @click="toggle(quiz.id)">
+            <input type="checkbox" v-model="added" :value="quiz.id" />
             {{ quiz.name }}
         </a>
     </div>
@@ -61,6 +70,13 @@ export default {
                 this.added.push(name);
             } else {
                 this.added.splice(index, 1);
+            }
+        },
+        toggleAll() {
+            if (this.added.length === this.$props.quizzes.length) {
+                this.added = [];
+            } else {
+                this.added = this.$props.quizzes.map((quiz) => quiz.id);
             }
         }
     }
