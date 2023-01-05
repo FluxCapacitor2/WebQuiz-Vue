@@ -16,6 +16,10 @@ import { getLink } from '../main';
             {{ shareBtnText }}
         </a>
     </header>
+    <main v-if="loading && !error && loaded !== quizzes.length">
+        <h1>Loading Quiz...</h1>
+        <progress :max="quizzes.length" :value="loaded"></progress>{{ loaded }}/{{ quizzes.length }}
+    </main>
     <main v-if="error">
         <h1>Error Loading Quiz</h1>
         <p>The quiz "{{ $route.params.name }}" failed to load.</p>
@@ -41,7 +45,7 @@ import { getLink } from '../main';
             </a>
             <a @click="instant = !instant" class="link-button">
                 <fa-icon :icon="instant ? faBoltLightning : faCirclePause" />
-                Answer feedback: {{ instant ? "Instant" : "Delayed" }}
+                Answer feedback: {{ instant? "Instant": "Delayed" }}
             </a>
         </div>
 
@@ -138,9 +142,12 @@ export default {
             });
         },
         loadQuestions(resources) {
+            this.loading = true;
             return Promise.all(resources.map((resource) => {
                 // resource is a function that returns a Promise which resolves to the quiz data.
-                return resource();
+                const res = resource();
+                res.then((quiz) => this.loaded++);
+                return res;
             }));
         },
         shuffle(a) { // https://stackoverflow.com/a/6274381
@@ -173,6 +180,8 @@ export default {
             sharing: false,
             shareBtnText: "Share a link to this quiz",
             resources: {},
+            loading: true,
+            loaded: 0,
         }
     },
     mounted() {
@@ -191,6 +200,7 @@ export default {
             this.$watch(() => this.questions, (newValue) => {
                 this.save();
             }, { deep: true });
+            this.loading = false;
         });
     },
     beforeUnmount() {
@@ -299,6 +309,19 @@ a {
 @media (prefers-color-scheme: dark) {
     .blue {
         color: rgb(85, 85, 255);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .links {
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .links {
+        grid-template-columns: auto;
     }
 }
 </style>
