@@ -5,6 +5,7 @@ import { getLink } from '../main';
 </script>
 
 <template>
+    <div class="progress" v-if="questions" :style="{ width: `${(answered / questions.length) * 100}%` }"></div>
     <header v-if="!error">
         <h1><fa-icon :icon="faListCheck" /> Web Quiz:
             <span v-if="quizNames.length > 4">
@@ -168,7 +169,7 @@ export default {
             setTimeout(() => {
                 this.shareBtnText = "Share a link to this quiz";
             }, 10_000);
-        }
+        },
     },
     data() {
         return {
@@ -228,6 +229,10 @@ export default {
             const host = window.location.host;
             const basePath = process.env.NODE_ENV === "production" ? "/WebQuiz/#" : "";
             return host + basePath + getLink(this.selectedQuizzes.map((quiz) => quiz.id), this.$props.quizzes);
+        },
+        answered() {
+            if (!this.questions) return 0;
+            return this.questions.filter((q) => q.selected !== undefined && q.selected !== -1).length
         }
     },
     props: ["quizzes"],
@@ -235,6 +240,15 @@ export default {
 </script>
 
 <style>
+.progress {
+    height: 0.25rem;
+    background: hsl(160, 100%, 37%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
 .links {
     display: grid;
     grid-template-columns: repeat(4, 25%);
