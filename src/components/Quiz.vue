@@ -134,8 +134,8 @@ export default {
                 console.log("Saved responses offline");
             }
         },
-        loadResponses() {
-            this.questions.forEach((question) => {
+        loadResponses(questions) {
+            questions.forEach((question) => {
                 const selection = ls.get(question.quiz + "_" + question.number);
                 if (selection !== null && selection !== -1 && !selection.hasOwnProperty("ttl")) {
                     question.selected = selection;
@@ -190,14 +190,26 @@ export default {
         const resources = this.selectedQuizzes.map((quiz) => quiz.resource);
         this.loadQuestions(resources).then((result) => {
             // Update the UI to display all of the questions
-            this.questions = this.shuffle(result.flatMap((quiz) => {
-                const questions = quiz.questions.map((q) => {
+            const questions = result.flatMap((quiz) => {
+                return quiz.questions.map((q) => {
                     q.quiz = quiz.displayName;
                     return q;
                 });
-                return questions;
-            }));
-            this.loadResponses();
+            });
+            this.loadResponses(questions);
+            // Separate questions based on whether they have been answered.
+            const grouped = questions.reduce((acc, q) => {
+                if (q.selected !== undefined && q.selected !== -1) {
+                    acc.answered.push(q);
+                } else {
+                    acc.unanswered.push(q);
+                }
+                return acc;
+            }, {answered: [], unanswered: []});
+            // Shuffle the answered and unanswered questions separately and combine them
+            // Answered questions should appear before any unanswered questions
+            this.questions = this.shuffle(grouped.answered).concat(this.shuffle(grouped.unanswered));
+
             this.$watch(() => this.questions, (newValue) => {
                 this.save();
             }, { deep: true });
