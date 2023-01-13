@@ -128,7 +128,7 @@ export default {
                 // Save the user's responses in LocalStorage for 3 days
                 this.questions.forEach((question) => {
                     if (question.selected !== undefined && question.selected !== -1) {
-                        ls.set(question.quiz + "_" + question.number, question.selected, { ttl: 60 * 60 * 24 * 7 });
+                        ls.set(question.quiz + "_" + question.number, question.selected, { ttl: 60 * 60 * 24 * 180 });
                     }
                 });
                 console.log("Saved responses offline");
