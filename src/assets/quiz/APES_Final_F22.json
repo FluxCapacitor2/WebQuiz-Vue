@@ -1,422 +1,489 @@
 {
-    "id": "apes_f22",
-    "displayName": "Final Exam Review",
-    "questions": [
-        {
-            "number": 5,
-            "question": "Solids, liquids, and gases created through the compression of ancient organic plant and animal material in the Earth's crust are called",
-            "choices": [
-                "fossil fuels", "inorganics", "biomass", "sustainable fuels", "nuclear fuels"
-            ]
-        },
-        {
-            "number": 6,
-            "question": "Zebra mussels are",
-            "choices": [
-                "the largest of the mussels",
-                "an introduced alien species in the Great Lakes",
-                "actually more spotted than striped",
-                "a native species in the Chesapeake Bay",
-                "related to zebra clams"
-            ]
-        },
-        {
-            "number": 7,
-            "question": "Overgrazing of grasslands can lead to reduced range quality. Two of the major effects of overgrazing are",
-            "choices": [
-                "higher fire potential and increased productivity",
-                "erosion and desertification",
-                "higher primary productivity and ammonification",
-                "eutrophication and increased methane production",
-                "soil compaction and subsidence"
-            ]
-        },
-        {
-            "number": 8,
-            "question": "When species are transported geographically to an unknown area, they are called",
-            "choices": [
-                "native species", "fouling species", "nonnative species", "functional species", "game fish"
-            ]
-        },
-        {
-            "number": 9,
-            "question": "In the workplace, bad air mixed with mold spores has led to",
-            "choices": [
-                "greater appreciation of weekends", "sick building syndrome", "shorter coffee breaks", "increased productivity", "reduced medical costs"
-            ]
-        },
-        {
-            "number": 10,
-            "question": "Soils found in mid-latitude grasslands would be most accurately described as having",
-            "choices": [
-                "a layer of permafrost right below the O-horizon",
-                "a small amount of nutrients but an abundant decomposer food web",
-                "a deep layer of humus and decayed plant material",
-                "a high content of iron oxides and very little moisture",
-                "a high acid content with little organic matter"
-            ]
-        },
-        {
-            "number": 11,
-            "question": "The three main anthropogenic sources of gaseous air pollutants in the United States are:",
-            "choices": [
-                "soil erosion, volcanoes, and forest fires",
-                "industry, transportation, and energy production",
-                "soil erosion, volcanoes, and energy production",
-                "industry, construction, and agriculture",
-                "industry, transportation, and agriculture"
-            ]
-        },
-        {
-            "number": 12,
-            "question": "Rachel Carson's contributions to the environmental movement include which of the following?",
-            "choices": [
-                "discovering the thinning of the ozone layer in polar regions",
-                "increasing public awareness of the risks of using pesticides",
-                "alerting the public to the hazardous waste problem at Love Canal",
-                "being the first female administrator of the EPA",
-                "starting the first Earth Day in 1970"
-            ]
-        },
-        {
-            "number": 13,
-            "question": "Which of the following best illustrates the concept of tragedy of the commons?",
-            "choices": [
-                "selecting harvesting of trees by a timber company in a national forest",
-                "inadvertent destruction of beneficial species while attempting to control pests",
-                "depletion of an aquifer by regional farmers",
-                "legislation of catch limits to avoid depletion of fish stocks in a shared lake"
-            ]
-        },
-        {
-            "number": 14,
-            "question": "Which pesticide was banned due to its bioaccumulation in wildlife?",
-            "choices": [
-                "CFCs", "DDT", "arsenic", "mercury", "lead"
-            ]
-        },
-        {
-            "number": 15,
-            "question": "When an ecosystem reaches its final stage of balanced species development, it is called a(n)",
-            "choices": [
-                "pioneer species", "initial niche", "population", "climax community", "extinction zone"
-            ]
-        },
-        {
-            "number": 16,
-            "question": "The soil layer that contributes organic material to topsoil is the _____ horizon.",
-            "choices": [
-                "A", "B", "C", "D", "O"
-            ]
-        },
-        {
-            "number": 17,
-            "question": "CAFE standards refer to",
-            "choices": [
-                "pesticide regulations",
-                "nuclear regulations",
-                "fuel efficiency",
-                "endangered species",
-                "water pollutants"
-            ]
-        },
-        {
-            "number": 18,
-            "question": "\"The maximum number of species that can be sustained in an ecosystem.\" This sentence best defines",
-            "choices": [
-                "the carrying capacity",
-                "the upward curve of a population graph",
-                "a community",
-                "an ecotone",
-                "natural selection"
-            ]
-        },
-        {
-            "number": 19,
-            "question": "Gound-level ozone in most major United States cities results primarily from",
-            "choices": [
-                "motor vehicle exhaust",
-                "burning coal",
-                "producing electrical power",
-                "burning fuel for cooking",
-                "industrial emissions"
-            ]
-        },
-        {
-            "number": 20,
-            "question": "An integrate dpest management approach to pest control emphasizes which of the following?",
-            "choices": [
-                "reduction of crop damage to an economically tolerable level",
-                "eradication of the pest population",
-                "use of plant monocultures to simplify spraying",
-                "elimination of the use of second-generation pesticides",
-                "reliance on spraying broad-spectrum pesticides"
-            ]
-        },
-        {
-            "number": 21,
-            "question": "The half-life of radon gas is approximately four days. Four weeks after the introduction of radon into a sealed room, the fraction of the original amount remaining is closest to",
-            "choices": [
-                "1/8", "1/64", "1/32", "1/2", "1/128"
-            ]
-        },
-        {
-            "number": 22,
-            "question": "Prior to mine reclamation laws, mine drainage and acidic runoff from coal tailings were toxic byproducts of",
-            "choices": [
-                "industrial processing",
-                "urban development",
-                "tilling",
-                "strip mining",
-                "underground mining"
-            ]
-        },
-        {
-            "number": 23,
-            "question": "Global warming works a lot like",
-            "choices": [
-                "the Gulf Stream",
-                "a guesthouse",
-                "an island hotspot",
-                "a greenhouse",
-                "an electric blanket"
-            ]
-        },
-        {
-            "number": 24,
-            "question": "Which community depends on periodic fires for reproduction?",
-            "choices": [
-                "savannah", "tundra", "coastal pine forest", "boreal forest", "mangrove forest"
-            ]
-        },
-        {
-            "number": 25,
-            "question": "Which of the following describes the heat-island effect?",
-            "choices": [
-                "rapid decomposition in swamps releases a large amount of heat",
-                "warm water in the Pacific causes excessive evaporation into the atmosphere",
-                "tropical islands reflect heat back into the atmosphere",
-                "lakes retain heat and provide warmth for landmasses nearby",
-                "urban areas trap more heat than rural areas do"
-            ]
-        },
-        {
-            "number": 26,
-            "question": "The major reserves of nitrogen and sulfur in the biosphere are correctly identified by which of the following?",
-            "choices": [
-                "rocks for N and atmosphere for S",
-                "atmosphere for both N and S",
-                "atmosphere for N and rocks for S",
-                "rocks for N and vegetation for S",
-                "rocks for both N and S"
-            ]
-        },
-        {
-            "number": 27,
-            "question": "The biffest advantage of nuclear energy generation is that",
-            "choices": [
-                "many developing countries are rapidly increasing their nuclear portfolio",
-                "it doesn't generate greenhouse gases",
-                "it takes very few people to operate a plant",
-                "it produces low-wattage power"
-            ]
-        },
-        {
-            "number": 28,
-            "question": "Nuclear power is commonly generated using the element",
-            "choices": [
-                "copper", "platinum", "mercury", "uranium", "actinium"
-            ]
-        },
-        {
-            "number": 29,
-            "question": "A sustainable society would emphasize",
-            "choices": [
-                "maintaining the current rates of energy flow and resource use",
-                "converting the world's high-quality energy resources to low-quality heat",
-                "using energy efficiently and reusing and recycling matter",
-                "recycling both matter and high-quality energy",
-                "quickly expanding nuclear power, because it is a renewable resource"
-            ]
-        },
-        {
-            "number": 30,
-            "question": "Which of the following is managed on a multiple-use basis?",
-            "choices": [
-                "national resource lands", "county nature preserves", "national wilderness areas", "national wildlife refuges", "national parks"
-            ]
-        },
-        {
-            "number": 31,
-            "question": "In the northern hemisphere, ocean gyres flow in what direction?",
-            "choices": [
-                "clockwise", "ocean gyres are not predictable", "counter-clockwise", "east", "west"
-            ]
-        },
-        {
-            "number": 32,
-            "question": "When logging is carried out in a watershed, a likely effect on the local streams is",
-            "choices": [
-                "decreased input of sediments",
-                "mitigation of anoxia",
-                "decreased nutrient levels",
-                "increased oligotrophic conditions",
-                "increased water temperature"
-            ]
-        },
-        {
-            "number": 33,
-            "question": "Which of the following is a major goal of the program begun in 1995 to reintroduce the gray wolf into Yellowstone National Park?",
-            "choices": [
-                "decrease the number of sheep and cattle that wander into the park and overgraze the vegetation",
-                "decrease the number of grizzly bears, because they were becoming a nuissance",
-                "increase the dwindling numbers of tourists that visit the park each year",
-                "upset the natural predator-prey balance between coyotes and elk",
-                "enable the removal of the gray wolf from the endangered species list"
-            ]
-        },
-        {
-            "number": 34,
-            "question": "Which of the following federal laws specifically deals with the cleanup of abandoned hazardous waste sites?",
-            "choices": [
-                "Comprehensive Environmental Responsibility Compensation and Liability Act",
-                "Clean Water Act",
-                "Safe Drinking Water Act",
-                "Clean Air Act",
-                "Resource Conservation and Recovery Act"
-            ]
-        },
-        {
-            "number": 35,
-            "question": "Losses of usable energy between successive trophic levels in an ecosystem are best accounted for by which of the following?",
-            "choices": [
-                "the first law of thermodynamics",
-                "limiting factors in the ecosystem",
-                "the process of ecological succession",
-                "the second law of thermodynamics",
-                "the law of conservation of mass"
-            ]
-        },
-        {
-            "number": 36,
-            "question": "If the Earth had no atmosphere, the mean surface temperature would be approximately -15°C. With our present atmosphere, Earth's mean surface temperature is approximately +15°C. Which of the following is the best explanation for this difference?",
-            "choices": [
-                "absorption of ultraviolet radiation by the ozone layer",
-                "scattering of visible radiation by aerosols",
-                "absorption of infrared radiation by atmospheric gases",
-                "reflection of incident solar radiation by clouds",
-                "the breakdown of oxygen molecules in the thermosphere"
-            ]
-        },
-        {
-            "number": 37,
-            "question": "Which of the following can be used to assess the biological diversity of an area?",
-            "choices": [
-                "genetic variation within each species and number of species present",
-                "population size of each species and area occupied by each population",
-                "minimum population area and minimum viable population size",
-                "ratio of r-strategists to K-strategists and life expectancy of K-strategists",
-                "number of individuals under fifteen years old and number of individuals over sixty-five years old"
-            ]
-        },
-        {
-            "number": 38,
-            "question": "City heat islands cause",
-            "choices": [
-                "greater visibility", "less dust and lightning strikes", "residents to seek winter vacations", "pollutants to collect", "reduced rainfall"
-            ]
-        },
-        {
-            "number": 39,
-            "question": "Pollution is considered an external cost when",
-            "choices": [
-                "it has harmful effects borne only by the people who purchase the products that cause the pollution",
-                "it has a significant impact on the consumer's decision to buy a product that pollutes",
-                "the cost to the environment is not reflected in the price of the products that produce the pollution",
-                "it is produced in the external environment by a malfunction in the operation of the product",
-                "it is a hidden cost that would result in a greater demand for the product if the consumer were aware of the hidden cost"
-            ]
-        },
-        {
-            "number": 40,
-            "question": "The consumption of mosquitoes by bats and the control of flooding provided by tropical forests in maintainous areas of Central America are examples of",
-            "choices": [
-                "adaptive radiation",
-                "ecosystem services",
-                "ecological equilibrium",
-                "evolution by natural selection",
-                "positive feedback loops"
-            ]
-        },
-        {
-            "number": 41,
-            "question": "The use of which of the following to control agricultural insect pests is most likely to have a negative and persistent impact on an ecosystem?",
-            "choices": [
-                "a parasitic wasp",
-                "a chlorinated hydrocarbon",
-                "a soil ogranism that kills insect larvae",
-                "a toxic plant derivative",
-                "an insecticidal soap that kills through suffocation"
-            ]
-        },
-        {
-            "number": 42,
-            "question": "Alligators in a Florida lake polluted by high levels of dioxins (chlorinated hydrocarbons) had low testosterone levels and failed to reproduce. Scientists came to the conclusion that the dioxins were acting as which of the following?",
-            "choices": [
-                "growth hormones", "immune-system suppressors", "mutagens", "carcinogens", "endocrine disruptors"
-            ]
-        },
-        {
-            "number": 43,
-            "question": "The most economically important fish affected by hydroelectrics dams is",
-            "choices": [
-                "salmon", "tilapia", "chilean sea bass", "catfish", "bluefin tuna"
-            ]
-        },
-        {
-            "number": 44,
-            "question": "Which is the following practices would have the biggest impact on achieving global sustainability?",
-            "choices": [
-                "reducing human population size",
-                "developing ecotourism venues",
-                "replanting deforested areas",
-                "recycling aluminum cans",
-                "using fuel-efficient vehicles"
-            ]
-        },
-        {
-            "number": 45,
-            "question": "Which of the following has a late-loss survivorship curve?",
-            "choices": [
-                "elephant", "cockroach", "bacteria", "sparrow", "seahorse"
-            ]
-        },
-        {
-            "number": 46,
-            "question": "(streamwatch) What is the primary source of nitrates and phosphates in the wetland?",
-            "choices": [
-                "pesticides runoff", "acid rain", "sediment runoff", "fertilizer runoff", "tennis balls"
-            ]
-        },
-        {
-            "number": 47,
-            "question": "(streamwatch) Acid rain would be evidenced by",
-            "choices": [
-                "low turbidity", "high pH", "low pH", "low dissolved oxygen", "high dissolved oxygen"
-            ]
-        },
-        {
-            "number": 48,
-            "question": "(streamwatch) The unit JTU is a measurement of",
-            "choices": [
-                "turbidity", "flow rate", "temperature", "color", "tree height"
-            ]
-        },{
-            "number": 49,
-            "question": "The large net used for catching fish in the wetlands is called a",
-            "choices": [
-                "nekton net", "kick net", "dip net", "seine net", "plankton net"
-            ]
-        }
-    ]
+  "id": "apes_f22",
+  "displayName": "Final Exam Review",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Which is a colorless, odorless gas that is a naturally occurring decay product of uranium?",
+      "choices": ["carbon dioxide", "radon", "lead", "asbestos", "formaldehyde"]
+    },
+    {
+      "number": 2,
+      "question": "Which gas is emitted from most manufactured building materials and furniture?",
+      "choices": ["carbon dioxide", "radon", "lead", "asbestos", "formaldehyde"]
+    },
+    {
+      "number": 3,
+      "question": "Which is composed of fibers known to cause lung disease?",
+      "choices": ["carbon dioxide", "radon", "lead", "asbestos", "formaldehyde"]
+    },
+    {
+      "number": 4,
+      "question": "Which is found in old plumbing pipes and fixtures and some ceramic glazes?",
+      "choices": ["carbon dioxide", "radon", "lead", "asbestos", "formaldehyde"]
+    },
+    {
+      "number": 5,
+      "question": "Solids, liquids, and gases created through the compression of ancient organic plant and animal material in the Earth's crust are called",
+      "choices": [
+        "fossil fuels",
+        "inorganics",
+        "biomass",
+        "sustainable fuels",
+        "nuclear fuels"
+      ]
+    },
+    {
+      "number": 6,
+      "question": "Zebra mussels are",
+      "choices": [
+        "the largest of the mussels",
+        "an introduced alien species in the Great Lakes",
+        "actually more spotted than striped",
+        "a native species in the Chesapeake Bay",
+        "related to zebra clams"
+      ]
+    },
+    {
+      "number": 7,
+      "question": "Overgrazing of grasslands can lead to reduced range quality. Two of the major effects of overgrazing are",
+      "choices": [
+        "higher fire potential and increased productivity",
+        "erosion and desertification",
+        "higher primary productivity and ammonification",
+        "eutrophication and increased methane production",
+        "soil compaction and subsidence"
+      ]
+    },
+    {
+      "number": 8,
+      "question": "When species are transported geographically to an unknown area, they are called",
+      "choices": [
+        "native species",
+        "fouling species",
+        "nonnative species",
+        "functional species",
+        "game fish"
+      ]
+    },
+    {
+      "number": 9,
+      "question": "In the workplace, bad air mixed with mold spores has led to",
+      "choices": [
+        "greater appreciation of weekends",
+        "sick building syndrome",
+        "shorter coffee breaks",
+        "increased productivity",
+        "reduced medical costs"
+      ]
+    },
+    {
+      "number": 10,
+      "question": "Soils found in mid-latitude grasslands would be most accurately described as having",
+      "choices": [
+        "a layer of permafrost right below the O-horizon",
+        "a small amount of nutrients but an abundant decomposer food web",
+        "a deep layer of humus and decayed plant material",
+        "a high content of iron oxides and very little moisture",
+        "a high acid content with little organic matter"
+      ]
+    },
+    {
+      "number": 11,
+      "question": "The three main anthropogenic sources of gaseous air pollutants in the United States are:",
+      "choices": [
+        "soil erosion, volcanoes, and forest fires",
+        "industry, transportation, and energy production",
+        "soil erosion, volcanoes, and energy production",
+        "industry, construction, and agriculture",
+        "industry, transportation, and agriculture"
+      ]
+    },
+    {
+      "number": 12,
+      "question": "Rachel Carson's contributions to the environmental movement include which of the following?",
+      "choices": [
+        "discovering the thinning of the ozone layer in polar regions",
+        "increasing public awareness of the risks of using pesticides",
+        "alerting the public to the hazardous waste problem at Love Canal",
+        "being the first female administrator of the EPA",
+        "starting the first Earth Day in 1970"
+      ]
+    },
+    {
+      "number": 13,
+      "question": "Which of the following best illustrates the concept of tragedy of the commons?",
+      "choices": [
+        "selecting harvesting of trees by a timber company in a national forest",
+        "inadvertent destruction of beneficial species while attempting to control pests",
+        "depletion of an aquifer by regional farmers",
+        "legislation of catch limits to avoid depletion of fish stocks in a shared lake"
+      ]
+    },
+    {
+      "number": 14,
+      "question": "Which pesticide was banned due to its bioaccumulation in wildlife?",
+      "choices": ["CFCs", "DDT", "arsenic", "mercury", "lead"]
+    },
+    {
+      "number": 15,
+      "question": "When an ecosystem reaches its final stage of balanced species development, it is called a(n)",
+      "choices": [
+        "pioneer species",
+        "initial niche",
+        "population",
+        "climax community",
+        "extinction zone"
+      ]
+    },
+    {
+      "number": 16,
+      "question": "The soil layer that contributes organic material to topsoil is the _____ horizon.",
+      "choices": ["A", "B", "C", "D", "O"]
+    },
+    {
+      "number": 17,
+      "question": "CAFE standards refer to",
+      "choices": [
+        "pesticide regulations",
+        "nuclear regulations",
+        "fuel efficiency",
+        "endangered species",
+        "water pollutants"
+      ]
+    },
+    {
+      "number": 18,
+      "question": "\"The maximum number of species that can be sustained in an ecosystem.\" This sentence best defines",
+      "choices": [
+        "the carrying capacity",
+        "the upward curve of a population graph",
+        "a community",
+        "an ecotone",
+        "natural selection"
+      ]
+    },
+    {
+      "number": 19,
+      "question": "Ground-level ozone in most major United States cities results primarily from",
+      "choices": [
+        "motor vehicle exhaust",
+        "burning coal",
+        "producing electrical power",
+        "burning fuel for cooking",
+        "industrial emissions"
+      ]
+    },
+    {
+      "number": 20,
+      "question": "An integrated pest management approach to pest control emphasizes which of the following?",
+      "choices": [
+        "reduction of crop damage to an economically tolerable level",
+        "eradication of the pest population",
+        "use of plant monocultures to simplify spraying",
+        "elimination of the use of second-generation pesticides",
+        "reliance on spraying broad-spectrum pesticides"
+      ]
+    },
+    {
+      "number": 21,
+      "question": "The half-life of radon gas is approximately four days. Four weeks after the introduction of radon into a sealed room, the fraction of the original amount remaining is closest to",
+      "choices": ["1/8", "1/64", "1/32", "1/2", "1/128"]
+    },
+    {
+      "number": 22,
+      "question": "Prior to mine reclamation laws, mine drainage and acidic runoff from coal tailings were toxic byproducts of",
+      "choices": [
+        "industrial processing",
+        "urban development",
+        "tilling",
+        "strip mining",
+        "underground mining"
+      ]
+    },
+    {
+      "number": 23,
+      "question": "Global warming works a lot like",
+      "choices": [
+        "the Gulf Stream",
+        "a guesthouse",
+        "an island hotspot",
+        "a greenhouse",
+        "an electric blanket"
+      ]
+    },
+    {
+      "number": 24,
+      "question": "Which community depends on periodic fires for reproduction?",
+      "choices": [
+        "savannah",
+        "tundra",
+        "coastal pine forest",
+        "boreal forest",
+        "mangrove forest"
+      ]
+    },
+    {
+      "number": 25,
+      "question": "Which of the following describes the heat-island effect?",
+      "choices": [
+        "rapid decomposition in swamps releases a large amount of heat",
+        "warm water in the Pacific causes excessive evaporation into the atmosphere",
+        "tropical islands reflect heat back into the atmosphere",
+        "lakes retain heat and provide warmth for landmasses nearby",
+        "urban areas trap more heat than rural areas do"
+      ]
+    },
+    {
+      "number": 26,
+      "question": "The major reserves of nitrogen and sulfur in the biosphere are correctly identified by which of the following?",
+      "choices": [
+        "rocks for N and atmosphere for S",
+        "atmosphere for both N and S",
+        "atmosphere for N and rocks for S",
+        "rocks for N and vegetation for S",
+        "rocks for both N and S"
+      ]
+    },
+    {
+      "number": 27,
+      "question": "The biggest advantage of nuclear energy generation is that",
+      "choices": [
+        "many developing countries are rapidly increasing their nuclear portfolio",
+        "it doesn't generate greenhouse gases",
+        "it takes very few people to operate a plant",
+        "it produces low-wattage power"
+      ]
+    },
+    {
+      "number": 28,
+      "question": "Nuclear power is commonly generated using the element",
+      "choices": ["copper", "platinum", "mercury", "uranium", "actinium"]
+    },
+    {
+      "number": 29,
+      "question": "A sustainable society would emphasize",
+      "choices": [
+        "maintaining the current rates of energy flow and resource use",
+        "converting the world's high-quality energy resources to low-quality heat",
+        "using energy efficiently and reusing and recycling matter",
+        "recycling both matter and high-quality energy",
+        "quickly expanding nuclear power, because it is a renewable resource"
+      ]
+    },
+    {
+      "number": 30,
+      "question": "Which of the following is managed on a multiple-use basis?",
+      "choices": [
+        "national resource lands",
+        "county nature preserves",
+        "national wilderness areas",
+        "national wildlife refuges",
+        "national parks"
+      ]
+    },
+    {
+      "number": 31,
+      "question": "In the northern hemisphere, ocean gyres flow in what direction?",
+      "choices": [
+        "clockwise",
+        "ocean gyres are not predictable",
+        "counter-clockwise",
+        "east",
+        "west"
+      ]
+    },
+    {
+      "number": 32,
+      "question": "When logging is carried out in a watershed, a likely effect on the local streams is",
+      "choices": [
+        "decreased input of sediments",
+        "mitigation of anoxia",
+        "decreased nutrient levels",
+        "increased oligotrophic conditions",
+        "increased water temperature"
+      ]
+    },
+    {
+      "number": 33,
+      "question": "Which of the following is a major goal of the program begun in 1995 to reintroduce the gray wolf into Yellowstone National Park?",
+      "choices": [
+        "decrease the number of sheep and cattle that wander into the park and overgraze the vegetation",
+        "decrease the number of grizzly bears, because they were becoming a nuisance",
+        "increase the dwindling numbers of tourists that visit the park each year",
+        "upset the natural predator-prey balance between coyotes and elk",
+        "enable the removal of the gray wolf from the endangered species list"
+      ]
+    },
+    {
+      "number": 34,
+      "question": "Which of the following federal laws specifically deals with the cleanup of abandoned hazardous waste sites?",
+      "choices": [
+        "Comprehensive Environmental Responsibility Compensation and Liability Act",
+        "Clean Water Act",
+        "Safe Drinking Water Act",
+        "Clean Air Act",
+        "Resource Conservation and Recovery Act"
+      ]
+    },
+    {
+      "number": 35,
+      "question": "Losses of usable energy between successive trophic levels in an ecosystem are best accounted for by which of the following?",
+      "choices": [
+        "the first law of thermodynamics",
+        "limiting factors in the ecosystem",
+        "the process of ecological succession",
+        "the second law of thermodynamics",
+        "the law of conservation of mass"
+      ]
+    },
+    {
+      "number": 36,
+      "question": "If the Earth had no atmosphere, the mean surface temperature would be approximately -15°C. With our present atmosphere, Earth's mean surface temperature is approximately +15°C. Which of the following is the best explanation for this difference?",
+      "choices": [
+        "absorption of ultraviolet radiation by the ozone layer",
+        "scattering of visible radiation by aerosols",
+        "absorption of infrared radiation by atmospheric gases",
+        "reflection of incident solar radiation by clouds",
+        "the breakdown of oxygen molecules in the thermosphere"
+      ]
+    },
+    {
+      "number": 37,
+      "question": "Which of the following can be used to assess the biological diversity of an area?",
+      "choices": [
+        "genetic variation within each species and number of species present",
+        "population size of each species and area occupied by each population",
+        "minimum population area and minimum viable population size",
+        "ratio of r-strategists to K-strategists and life expectancy of K-strategists",
+        "number of individuals under fifteen years old and number of individuals over sixty-five years old"
+      ]
+    },
+    {
+      "number": 38,
+      "question": "City heat islands cause",
+      "choices": [
+        "greater visibility",
+        "less dust and lightning strikes",
+        "residents to seek winter vacations",
+        "pollutants to collect",
+        "reduced rainfall"
+      ]
+    },
+    {
+      "number": 39,
+      "question": "Pollution is considered an external cost when",
+      "choices": [
+        "it has harmful effects borne only by the people who purchase the products that cause the pollution",
+        "it has a significant impact on the consumer's decision to buy a product that pollutes",
+        "the cost to the environment is not reflected in the price of the products that produce the pollution",
+        "it is produced in the external environment by a malfunction in the operation of the product",
+        "it is a hidden cost that would result in a greater demand for the product if the consumer were aware of the hidden cost"
+      ]
+    },
+    {
+      "number": 40,
+      "question": "The consumption of mosquitoes by bats and the control of flooding provided by tropical forests in mountainous areas of Central America are examples of",
+      "choices": [
+        "adaptive radiation",
+        "ecosystem services",
+        "ecological equilibrium",
+        "evolution by natural selection",
+        "positive feedback loops"
+      ]
+    },
+    {
+      "number": 41,
+      "question": "The use of which of the following to control agricultural insect pests is most likely to have a negative and persistent impact on an ecosystem?",
+      "choices": [
+        "a parasitic wasp",
+        "a chlorinated hydrocarbon",
+        "a soil organism that kills insect larvae",
+        "a toxic plant derivative",
+        "an insecticidal soap that kills through suffocation"
+      ]
+    },
+    {
+      "number": 42,
+      "question": "Alligators in a Florida lake polluted by high levels of dioxins (chlorinated hydrocarbons) had low testosterone levels and failed to reproduce. Scientists came to the conclusion that the dioxins were acting as which of the following?",
+      "choices": [
+        "growth hormones",
+        "immune-system suppressors",
+        "mutagens",
+        "carcinogens",
+        "endocrine disruptors"
+      ]
+    },
+    {
+      "number": 43,
+      "question": "The most economically important fish affected by hydroelectric dams is",
+      "choices": [
+        "salmon",
+        "tilapia",
+        "chilean sea bass",
+        "catfish",
+        "bluefin tuna"
+      ]
+    },
+    {
+      "number": 44,
+      "question": "Which is the following practices would have the biggest impact on achieving global sustainability?",
+      "choices": [
+        "reducing human population size",
+        "developing ecotourism venues",
+        "replanting deforested areas",
+        "recycling aluminum cans",
+        "using fuel-efficient vehicles"
+      ]
+    },
+    {
+      "number": 45,
+      "question": "Which of the following has a late-loss survivorship curve?",
+      "choices": ["elephant", "cockroach", "bacteria", "sparrow", "seahorse"]
+    },
+    {
+      "number": 46,
+      "question": "(streamwatch) What is the primary source of nitrates and phosphates in the wetland?",
+      "choices": [
+        "pesticides runoff",
+        "acid rain",
+        "sediment runoff",
+        "fertilizer runoff",
+        "tennis balls"
+      ]
+    },
+    {
+      "number": 47,
+      "question": "(streamwatch) Acid rain would be evidenced by",
+      "choices": [
+        "low turbidity",
+        "high pH",
+        "low pH",
+        "low dissolved oxygen",
+        "high dissolved oxygen"
+      ]
+    },
+    {
+      "number": 48,
+      "question": "(streamwatch) The unit JTU is a measurement of",
+      "choices": [
+        "turbidity",
+        "flow rate",
+        "temperature",
+        "color",
+        "tree height"
+      ]
+    },
+    {
+      "number": 49,
+      "question": "The large net used for catching fish in the wetlands is called a",
+      "choices": [
+        "nekton net",
+        "kick net",
+        "dip net",
+        "seine net",
+        "plankton net"
+      ]
+    }
+  ]
 }
