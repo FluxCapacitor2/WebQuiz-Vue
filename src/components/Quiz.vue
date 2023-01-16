@@ -1,6 +1,6 @@
 <script type="text/javascript" setup>
 import ls from 'localstorage-slim'
-import { faLink, faListCheck, faCheckCircle, faCircleArrowLeft, faArrowsRotate, faArrowUpLong, faBoltLightning, faCirclePause, faCircleStop } from '@fortawesome/free-solid-svg-icons'
+import { faLink, faListCheck, faCheckCircle, faCircleArrowLeft, faArrowsRotate, faArrowUpLong, faBoltLightning, faCirclePause, faCircleStop, faLocationCrosshairs } from '@fortawesome/free-solid-svg-icons'
 import { getLink } from '../main';
 </script>
 
@@ -88,6 +88,10 @@ import { getLink } from '../main';
             </a>
         </div>
     </main>
+
+    <a class="btn-floating" @click="scrollToLastQuestion()">
+        <fa-icon :icon="faLocationCrosshairs" />
+    </a>
 </template>
 
 <script>
@@ -125,10 +129,10 @@ export default {
         },
         save() {
             if (this.questions) {
-                // Save the user's responses in LocalStorage for 3 days
+                // Save the user's responses in LocalStorage
                 this.questions.forEach((question) => {
                     if (question.selected !== undefined && question.selected !== -1) {
-                        ls.set(question.quiz + "_" + question.number, question.selected, { ttl: 60 * 60 * 24 * 180 });
+                        ls.set(question.quiz + "_" + question.number, question.selected);
                     }
                 });
                 console.log("Saved responses offline");
@@ -170,6 +174,14 @@ export default {
                 this.shareBtnText = "Share a link to this quiz";
             }, 10_000);
         },
+        scrollToLastQuestion() {
+            for (const question of document.querySelectorAll(".question")) {
+                if (question.querySelectorAll(":checked").length === 0) {
+                    question.scrollIntoView({ behavior: "smooth" });
+                    return;
+                }
+            }
+        }
     },
     data() {
         return {
@@ -205,7 +217,7 @@ export default {
                     acc.unanswered.push(q);
                 }
                 return acc;
-            }, {answered: [], unanswered: []});
+            }, { answered: [], unanswered: [] });
             // Shuffle the answered and unanswered questions separately and combine them
             // Answered questions should appear before any unanswered questions
             this.questions = this.shuffle(grouped.answered).concat(this.shuffle(grouped.unanswered));
@@ -348,6 +360,29 @@ a {
 @media screen and (max-width: 700px) {
     .links {
         grid-template-columns: auto;
+    }
+}
+
+.btn-floating,
+.btn-floating:hover {
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    background: hsl(0, 0%, 89%);
+}
+
+@media (prefers-color-scheme: dark) {
+
+    .btn-floating,
+    .btn-floating:hover {
+        background: hsl(0, 0%, 26%);
     }
 }
 </style>
