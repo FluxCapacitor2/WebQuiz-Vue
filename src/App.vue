@@ -58,6 +58,7 @@ export default {
         { subject: "APES", name: "Review 1", id: "apes_rev1", resource: () => import("./assets/quiz/APES_Review_1.json"), },
         { subject: "APES", name: "Review 2", id: "apes_rev2", resource: () => import("./assets/quiz/APES_Review_2.json"), },
         { subject: "APES", name: "Review 3", id: "apes_rev3", resource: () => import("./assets/quiz/APES_Review_3.json"), },
+        { subject: "APES", name: "Final Review", id: "apes_f22", resource: () => import("./assets/quiz/APES_Final_F22.json"), },
       ],
     };
   }

@@ -5,22 +5,50 @@
     {
       "number": 1,
       "question": "Which is a colorless, odorless gas that is a naturally occurring decay product of uranium?",
-      "choices": ["carbon dioxide", "radon", "lead", "asbestos", "formaldehyde"]
+      "choices": [
+        "carbon dioxide",
+        "radon",
+        "lead",
+        "asbestos",
+        "formaldehyde"
+      ],
+      "correct": 1
     },
     {
       "number": 2,
       "question": "Which gas is emitted from most manufactured building materials and furniture?",
-      "choices": ["carbon dioxide", "radon", "lead", "asbestos", "formaldehyde"]
+      "choices": [
+        "carbon dioxide",
+        "radon",
+        "lead",
+        "asbestos",
+        "formaldehyde"
+      ],
+      "correct": 4
     },
     {
       "number": 3,
       "question": "Which is composed of fibers known to cause lung disease?",
-      "choices": ["carbon dioxide", "radon", "lead", "asbestos", "formaldehyde"]
+      "choices": [
+        "carbon dioxide",
+        "radon",
+        "lead",
+        "asbestos",
+        "formaldehyde"
+      ],
+      "correct": 3
     },
     {
       "number": 4,
       "question": "Which is found in old plumbing pipes and fixtures and some ceramic glazes?",
-      "choices": ["carbon dioxide", "radon", "lead", "asbestos", "formaldehyde"]
+      "choices": [
+        "carbon dioxide",
+        "radon",
+        "lead",
+        "asbestos",
+        "formaldehyde"
+      ],
+      "correct": 2
     },
     {
       "number": 5,
@@ -31,7 +59,8 @@
         "biomass",
         "sustainable fuels",
         "nuclear fuels"
-      ]
+      ],
+      "correct": 0
     },
     {
       "number": 6,
@@ -42,7 +71,8 @@
         "actually more spotted than striped",
         "a native species in the Chesapeake Bay",
         "related to zebra clams"
-      ]
+      ],
+      "correct": 1
     },
     {
       "number": 7,
@@ -53,7 +83,8 @@
         "higher primary productivity and ammonification",
         "eutrophication and increased methane production",
         "soil compaction and subsidence"
-      ]
+      ],
+      "correct": 1
     },
     {
       "number": 8,
@@ -64,7 +95,8 @@
         "nonnative species",
         "functional species",
         "game fish"
-      ]
+      ],
+      "correct": 2
     },
     {
       "number": 9,
@@ -75,7 +107,8 @@
         "shorter coffee breaks",
         "increased productivity",
         "reduced medical costs"
-      ]
+      ],
+      "correct": 1
     },
     {
       "number": 10,
@@ -86,7 +119,8 @@
         "a deep layer of humus and decayed plant material",
         "a high content of iron oxides and very little moisture",
         "a high acid content with little organic matter"
-      ]
+      ],
+      "correct": 2
     },
     {
       "number": 11,
@@ -97,7 +131,8 @@
         "soil erosion, volcanoes, and energy production",
         "industry, construction, and agriculture",
         "industry, transportation, and agriculture"
-      ]
+      ],
+      "correct": 1
     },
     {
       "number": 12,
@@ -108,7 +143,8 @@
         "alerting the public to the hazardous waste problem at Love Canal",
         "being the first female administrator of the EPA",
         "starting the first Earth Day in 1970"
-      ]
+      ],
+      "correct": 1
     },
     {
       "number": 13,
@@ -118,12 +154,20 @@
         "inadvertent destruction of beneficial species while attempting to control pests",
         "depletion of an aquifer by regional farmers",
         "legislation of catch limits to avoid depletion of fish stocks in a shared lake"
-      ]
+      ],
+      "correct": 2
     },
     {
       "number": 14,
       "question": "Which pesticide was banned due to its bioaccumulation in wildlife?",
-      "choices": ["CFCs", "DDT", "arsenic", "mercury", "lead"]
+      "choices": [
+        "CFCs",
+        "DDT",
+        "arsenic",
+        "mercury",
+        "lead"
+      ],
+      "correct": 1
     },
     {
       "number": 15,
@@ -134,12 +178,20 @@
         "population",
         "climax community",
         "extinction zone"
-      ]
+      ],
+      "correct": 3
     },
     {
       "number": 16,
       "question": "The soil layer that contributes organic material to topsoil is the _____ horizon.",
-      "choices": ["A", "B", "C", "D", "O"]
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "O"
+      ],
+      "correct": 4
     },
     {
       "number": 17,
@@ -150,7 +202,8 @@
         "fuel efficiency",
         "endangered species",
         "water pollutants"
-      ]
+      ],
+      "correct": 2
     },
     {
       "number": 18,
@@ -161,7 +214,8 @@
         "a community",
         "an ecotone",
         "natural selection"
-      ]
+      ],
+      "correct": 0
     },
     {
       "number": 19,
@@ -172,7 +226,8 @@
         "producing electrical power",
         "burning fuel for cooking",
         "industrial emissions"
-      ]
+      ],
+      "correct": 0
     },
     {
       "number": 20,
@@ -183,12 +238,20 @@
         "use of plant monocultures to simplify spraying",
         "elimination of the use of second-generation pesticides",
         "reliance on spraying broad-spectrum pesticides"
-      ]
+      ],
+      "correct": 0
     },
     {
       "number": 21,
       "question": "The half-life of radon gas is approximately four days. Four weeks after the introduction of radon into a sealed room, the fraction of the original amount remaining is closest to",
-      "choices": ["1/8", "1/64", "1/32", "1/2", "1/128"]
+      "choices": [
+        "1/8",
+        "1/64",
+        "1/32",
+        "1/2",
+        "1/128"
+      ],
+      "correct": 4
     },
     {
       "number": 22,
@@ -199,7 +262,8 @@
         "tilling",
         "strip mining",
         "underground mining"
-      ]
+      ],
+      "correct": 3
     },
     {
       "number": 23,
@@ -210,7 +274,8 @@
         "an island hotspot",
         "a greenhouse",
         "an electric blanket"
-      ]
+      ],
+      "correct": 3
     },
     {
       "number": 24,
@@ -221,7 +286,8 @@
         "coastal pine forest",
         "boreal forest",
         "mangrove forest"
-      ]
+      ],
+      "correct": 2
     },
     {
       "number": 25,
@@ -232,7 +298,8 @@
         "tropical islands reflect heat back into the atmosphere",
         "lakes retain heat and provide warmth for landmasses nearby",
         "urban areas trap more heat than rural areas do"
-      ]
+      ],
+      "correct": 4
     },
     {
       "number": 26,
@@ -243,7 +310,8 @@
         "atmosphere for N and rocks for S",
         "rocks for N and vegetation for S",
         "rocks for both N and S"
-      ]
+      ],
+      "correct": 2
     },
     {
       "number": 27,
@@ -253,12 +321,20 @@
         "it doesn't generate greenhouse gases",
         "it takes very few people to operate a plant",
         "it produces low-wattage power"
-      ]
+      ],
+      "correct": 1
     },
     {
       "number": 28,
       "question": "Nuclear power is commonly generated using the element",
-      "choices": ["copper", "platinum", "mercury", "uranium", "actinium"]
+      "choices": [
+        "copper",
+        "platinum",
+        "mercury",
+        "uranium",
+        "actinium"
+      ],
+      "correct": 3
     },
     {
       "number": 29,
@@ -269,7 +345,8 @@
         "using energy efficiently and reusing and recycling matter",
         "recycling both matter and high-quality energy",
         "quickly expanding nuclear power, because it is a renewable resource"
-      ]
+      ],
+      "correct": 2
     },
     {
       "number": 30,
@@ -280,7 +357,8 @@
         "national wilderness areas",
         "national wildlife refuges",
         "national parks"
-      ]
+      ],
+      "correct": 0
     },
     {
       "number": 31,
@@ -291,7 +369,8 @@
         "counter-clockwise",
         "east",
         "west"
-      ]
+      ],
+      "correct": 0
     },
     {
       "number": 32,
@@ -302,7 +381,8 @@
         "decreased nutrient levels",
         "increased oligotrophic conditions",
         "increased water temperature"
-      ]
+      ],
+      "correct": 4
     },
     {
       "number": 33,
@@ -313,7 +393,8 @@
         "increase the dwindling numbers of tourists that visit the park each year",
         "upset the natural predator-prey balance between coyotes and elk",
         "enable the removal of the gray wolf from the endangered species list"
-      ]
+      ],
+      "correct": 4
     },
     {
       "number": 34,
@@ -324,7 +405,8 @@
         "Safe Drinking Water Act",
         "Clean Air Act",
         "Resource Conservation and Recovery Act"
-      ]
+      ],
+      "correct": 0
     },
     {
       "number": 35,
@@ -335,7 +417,8 @@
         "the process of ecological succession",
         "the second law of thermodynamics",
         "the law of conservation of mass"
-      ]
+      ],
+      "correct": 3
     },
     {
       "number": 36,
@@ -346,7 +429,8 @@
         "absorption of infrared radiation by atmospheric gases",
         "reflection of incident solar radiation by clouds",
         "the breakdown of oxygen molecules in the thermosphere"
-      ]
+      ],
+      "correct": 2
     },
     {
       "number": 37,
@@ -357,7 +441,8 @@
         "minimum population area and minimum viable population size",
         "ratio of r-strategists to K-strategists and life expectancy of K-strategists",
         "number of individuals under fifteen years old and number of individuals over sixty-five years old"
-      ]
+      ],
+      "correct": 0
     },
     {
       "number": 38,
@@ -368,7 +453,8 @@
         "residents to seek winter vacations",
         "pollutants to collect",
         "reduced rainfall"
-      ]
+      ],
+      "correct": 3
     },
     {
       "number": 39,
@@ -379,7 +465,8 @@
         "the cost to the environment is not reflected in the price of the products that produce the pollution",
         "it is produced in the external environment by a malfunction in the operation of the product",
         "it is a hidden cost that would result in a greater demand for the product if the consumer were aware of the hidden cost"
-      ]
+      ],
+      "correct": 2
     },
     {
       "number": 40,
@@ -390,7 +477,8 @@
         "ecological equilibrium",
         "evolution by natural selection",
         "positive feedback loops"
-      ]
+      ],
+      "correct": 1
     },
     {
       "number": 41,
@@ -401,7 +489,8 @@
         "a soil organism that kills insect larvae",
         "a toxic plant derivative",
         "an insecticidal soap that kills through suffocation"
-      ]
+      ],
+      "correct": 1
     },
     {
       "number": 42,
@@ -412,7 +501,8 @@
         "mutagens",
         "carcinogens",
         "endocrine disruptors"
-      ]
+      ],
+      "correct": 4
     },
     {
       "number": 43,
@@ -423,7 +513,8 @@
         "chilean sea bass",
         "catfish",
         "bluefin tuna"
-      ]
+      ],
+      "correct": 0
     },
     {
       "number": 44,
@@ -434,12 +525,20 @@
         "replanting deforested areas",
         "recycling aluminum cans",
         "using fuel-efficient vehicles"
-      ]
+      ],
+      "correct": 0
     },
     {
       "number": 45,
       "question": "Which of the following has a late-loss survivorship curve?",
-      "choices": ["elephant", "cockroach", "bacteria", "sparrow", "seahorse"]
+      "choices": [
+        "elephant",
+        "cockroach",
+        "bacteria",
+        "sparrow",
+        "seahorse"
+      ],
+      "correct": 0
     },
     {
       "number": 46,
@@ -450,7 +549,8 @@
         "sediment runoff",
         "fertilizer runoff",
         "tennis balls"
-      ]
+      ],
+      "correct": 3
     },
     {
       "number": 47,
@@ -461,7 +561,8 @@
         "low pH",
         "low dissolved oxygen",
         "high dissolved oxygen"
-      ]
+      ],
+      "correct": 2
     },
     {
       "number": 48,
@@ -472,7 +573,8 @@
         "temperature",
         "color",
         "tree height"
-      ]
+      ],
+      "correct": 0
     },
     {
       "number": 49,
@@ -483,7 +585,8 @@
         "dip net",
         "seine net",
         "plankton net"
-      ]
+      ],
+      "correct": 3
     }
   ]
 }
