@@ -37,7 +37,7 @@
             "correct": 2
         },
         {
-            "question": "What happens at a subduction zone",
+            "question": "What happens at a subduction zone?",
             "choices": [
                 "continental plate subducts under oceanic plate",
                 "continental plate subducts under continental plate",
@@ -139,7 +139,7 @@
             "correct": 1
         },
         {
-            "question": "Which of the following was not a result of El Nino?",
+            "question": "Which of the following was not a result of El Niño?",
             "choices": [
                 "less rain in Indonesia",
                 "more rain in South America",
