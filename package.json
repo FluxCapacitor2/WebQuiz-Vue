@@ -14,7 +14,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
-    "@fortawesome/vue-fontawesome": "^3.0.2",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
     "localstorage-slim": "^2.3.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
