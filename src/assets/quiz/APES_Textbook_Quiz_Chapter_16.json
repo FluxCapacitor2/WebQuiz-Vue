@@ -93,12 +93,7 @@
     {
       "number": 9,
       "question": "One nation is committed to getting all of its energy from renewable resources by 2050. This nation is",
-      "choices": [
-        "China.",
-        "Brazil.",
-        "Iceland.",
-        "the U.S."
-      ],
+      "choices": ["China.", "Brazil.", "Iceland.", "the U.S."],
       "correct": 2
     },
     {
@@ -148,12 +143,7 @@
     {
       "number": 14,
       "question": "Although many alternative energies will probably contribute, many feel that by the end of this century, this will be the world\u0027s number-one renewable source of electricity.",
-      "choices": [
-        "solar",
-        "natural gas",
-        "wind",
-        "nuclear"
-      ],
+      "choices": ["solar", "natural gas", "wind", "nuclear"],
       "correct": 0
     },
     {

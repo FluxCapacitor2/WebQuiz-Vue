@@ -49,12 +49,7 @@
     {
       "number": 5,
       "question": "Causing the deaths of many children under the age of five by dehydration, this disease is",
-      "choices": [
-        "hepatitis.",
-        "HIV.",
-        "diphtheria.",
-        "diarrhea."
-      ],
+      "choices": ["hepatitis.", "HIV.", "diphtheria.", "diarrhea."],
       "correct": 3
     },
     {
@@ -148,10 +143,7 @@
     {
       "number": 14,
       "question": "All natural chemicals are safe.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 0
     },
     {

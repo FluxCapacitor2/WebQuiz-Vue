@@ -16,12 +16,7 @@
     {
       "number": 2,
       "question": "Evaluating the importance of a species based solely on its usefulness to humans considers its ________ value.",
-      "choices": [
-        "sentimental",
-        "instrumental",
-        "aesthetic",
-        "economic"
-      ],
+      "choices": ["sentimental", "instrumental", "aesthetic", "economic"],
       "correct": 1
     },
     {
@@ -60,21 +55,13 @@
     {
       "number": 6,
       "question": "In most developed nations, nature is appreciated for its ________ value.",
-      "choices": [
-        "spiritual",
-        "ecological",
-        "economic",
-        "aesthetic"
-      ],
+      "choices": ["spiritual", "ecological", "economic", "aesthetic"],
       "correct": 2
     },
     {
       "number": 7,
       "question": "Living more sustainably focuses solely on nature.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 0
     },
     {
@@ -91,12 +78,7 @@
     {
       "number": 9,
       "question": "People who have decided to reduce their incomes and alter their lifestyles to foster relationships and community or personal interests are known as",
-      "choices": [
-        "consumers.",
-        "stewards.",
-        "capitalists.",
-        "downshifters."
-      ],
+      "choices": ["consumers.", "stewards.", "capitalists.", "downshifters."],
       "correct": 3
     },
     {
@@ -135,23 +117,13 @@
     {
       "number": 13,
       "question": "Avoiding thinking about the state of the environment can lead to all of the following except for",
-      "choices": [
-        "inaction.",
-        "denial.",
-        "indifference.",
-        "solutions."
-      ],
+      "choices": ["inaction.", "denial.", "indifference.", "solutions."],
       "correct": 3
     },
     {
       "number": 14,
       "question": "One of the greatest dangers to our future is",
-      "choices": [
-        "arrogance.",
-        "confidence.",
-        "apathy.",
-        "ignorance."
-      ],
+      "choices": ["arrogance.", "confidence.", "apathy.", "ignorance."],
       "correct": 2
     },
     {
@@ -168,32 +140,19 @@
     {
       "number": 16,
       "question": "Nearly all religions emphasize sound ________ in their teachings.",
-      "choices": [
-        "domination",
-        "capitalism",
-        "consumerism",
-        "stewardship"
-      ],
+      "choices": ["domination", "capitalism", "consumerism", "stewardship"],
       "correct": 3
     },
     {
       "number": 17,
       "question": "The next major revolution on this planet could be a(n) ________ revolution.",
-      "choices": [
-        "American",
-        "commercial",
-        "environmental",
-        "industrial"
-      ],
+      "choices": ["American", "commercial", "environmental", "industrial"],
       "correct": 2
     },
     {
       "number": 19,
       "question": "Currently, we have the knowledge and the natural and financial wealth to make a transition to more sustainable lifestyles and societies.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 1
     }
   ]

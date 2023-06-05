@@ -49,12 +49,7 @@
     {
       "number": 5,
       "question": "A total of ________ convection cells (re)distribute warm, moist air and cold, dry air masses, resulting in conditions leading to various biomes.",
-      "choices": [
-        "5",
-        "2",
-        "6",
-        "3"
-      ],
+      "choices": ["5", "2", "6", "3"],
       "correct": 2
     },
     {
@@ -71,23 +66,13 @@
     {
       "number": 7,
       "question": "Air that travels over a mountain range is ________ than it was before going over.",
-      "choices": [
-        "wetter",
-        "drier",
-        "warmer",
-        "less dense"
-      ],
+      "choices": ["wetter", "drier", "warmer", "less dense"],
       "correct": 1
     },
     {
       "number": 8,
       "question": "The two most important factors that distinguish biomes are precipitation and",
-      "choices": [
-        "altitude.",
-        "wind.",
-        "latitude.",
-        "temperature."
-      ],
+      "choices": ["altitude.", "wind.", "latitude.", "temperature."],
       "correct": 3
     },
     {
@@ -104,56 +89,31 @@
     {
       "number": 10,
       "question": "Although variations in a number of the following factors often occur, which is the defining character of a desert?",
-      "choices": [
-        "temperature",
-        "precipitation",
-        "cloud cover",
-        "plant life"
-      ],
+      "choices": ["temperature", "precipitation", "cloud cover", "plant life"],
       "correct": 1
     },
     {
       "number": 11,
       "question": "Which of the following is not one of the three desert types?",
-      "choices": [
-        "temperate",
-        "dry",
-        "cold",
-        "tropical"
-      ],
+      "choices": ["temperate", "dry", "cold", "tropical"],
       "correct": 1
     },
     {
       "number": 12,
       "question": "Although variations in a number of the following factors often occur, which is the defining character of grassland?",
-      "choices": [
-        "latitude",
-        "soil type",
-        "precipitation",
-        "temperature"
-      ],
+      "choices": ["latitude", "soil type", "precipitation", "temperature"],
       "correct": 2
     },
     {
       "number": 13,
       "question": "Short-grass prairies fit within the ________ grasslands.",
-      "choices": [
-        "temperate",
-        "tropical",
-        "cold",
-        "tundra"
-      ],
+      "choices": ["temperate", "tropical", "cold", "tundra"],
       "correct": 0
     },
     {
       "number": 14,
       "question": "Areas of permanently frozen soils in arctic tundra are called",
-      "choices": [
-        "chaparral.",
-        "glaciers.",
-        "ice.",
-        "permafrost."
-      ],
+      "choices": ["chaparral.", "glaciers.", "ice.", "permafrost."],
       "correct": 3
     },
     {

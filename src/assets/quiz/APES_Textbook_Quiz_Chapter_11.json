@@ -170,12 +170,7 @@
     {
       "number": 16,
       "question": "Given that humans have been on the earth for a long time, modifying it to suit their own desires, it comes as no surprise to learn that aquatic species have been pushed out of at least ________% of their habitat.",
-      "choices": [
-        "50",
-        "95",
-        "99",
-        "10"
-      ],
+      "choices": ["50", "95", "99", "10"],
       "correct": 0
     },
     {

@@ -38,10 +38,7 @@
     {
       "number": 4,
       "question": "An apple falls to the earth. Similarly, leaves, stones, and baseballs all fall to the earth when released. Our conclusion is that all things fall to the earth\u0027s surface when dropped. This is an example of inductive reasoning.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 1
     },
     {
@@ -69,12 +66,7 @@
     {
       "number": 7,
       "question": "Which of the following best describes water, H2O?",
-      "choices": [
-        "compound",
-        "matter, compound",
-        "matter, element",
-        "element"
-      ],
+      "choices": ["compound", "matter, compound", "matter, element", "element"],
       "correct": 1
     },
     {
@@ -91,12 +83,7 @@
     {
       "number": 9,
       "question": "The fundamental structural unit of life is the",
-      "choices": [
-        "cell.",
-        "gene.",
-        "chromosome.",
-        "organism."
-      ],
+      "choices": ["cell.", "gene.", "chromosome.", "organism."],
       "correct": 0
     },
     {
@@ -124,12 +111,7 @@
     {
       "number": 12,
       "question": "The energy present in sunlight is ________ energy.",
-      "choices": [
-        "electromagnetic",
-        "mechanical",
-        "physical",
-        "potential"
-      ],
+      "choices": ["electromagnetic", "mechanical", "physical", "potential"],
       "correct": 0
     },
     {
@@ -146,10 +128,7 @@
     {
       "number": 14,
       "question": "The First Law of Thermodynamics states that the energy coming out of a system is always less than the energy put into the system.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 1
     },
     {
@@ -166,12 +145,7 @@
     {
       "number": 16,
       "question": "Your friend wants to buy a new car. He asks your advice, since he wants an efficient car and knows you know the latest on green technology cars. Your advice makes him change his mind from the red SUV to the blue hybrid. In this conversation, changing his mind was a/an",
-      "choices": [
-        "input.",
-        "system.",
-        "flow.",
-        "output."
-      ],
+      "choices": ["input.", "system.", "flow.", "output."],
       "correct": 3
     },
     {

@@ -50,12 +50,7 @@
     {
       "number": 5,
       "question": "When the focus for saving a species from extinction is what that species can do for humans, we say that it has ________ value.",
-      "choices": [
-        "ecological",
-        "existence",
-        "use",
-        "bequest"
-      ],
+      "choices": ["ecological", "existence", "use", "bequest"],
       "correct": 2
     },
     {
@@ -83,12 +78,7 @@
     {
       "number": 8,
       "question": "Saving the blue whale from extinction simply because it has as much right to exist as humans or any other species is based on its ________ value.",
-      "choices": [
-        "use",
-        "intrinsic",
-        "non-use",
-        "ecological"
-      ],
+      "choices": ["use", "intrinsic", "non-use", "ecological"],
       "correct": 1
     },
     {
@@ -116,12 +106,7 @@
     {
       "number": 11,
       "question": "The U.S. state with the highest extinction rate is",
-      "choices": [
-        "Alaska.",
-        "Hawaii.",
-        "California.",
-        "Florida."
-      ],
+      "choices": ["Alaska.", "Hawaii.", "California.", "Florida."],
       "correct": 1
     },
     {

@@ -5,23 +5,13 @@
     {
       "number": 1,
       "question": "Fossil fuels and ________ are nonrenewable types of energy.",
-      "choices": [
-        "none of the choices",
-        "hydropower",
-        "biomass",
-        "wind"
-      ],
+      "choices": ["none of the choices", "hydropower", "biomass", "wind"],
       "correct": 0
     },
     {
       "number": 2,
       "question": "________ is/are used as the raw material(s) in the production of cleaning fluids, pesticides, plastics, medicines, and synthetic fibers.",
-      "choices": [
-        "Petrochemicals",
-        "Coal",
-        "Natural gas",
-        "Gasoline"
-      ],
+      "choices": ["Petrochemicals", "Coal", "Natural gas", "Gasoline"],
       "correct": 0
     },
     {
@@ -60,12 +50,7 @@
     {
       "number": 6,
       "question": "Saudi Arabia has the world\u0027s largest crude oil reserves at 25%. The nation with the second-largest crude oil reserves is",
-      "choices": [
-        "Venezuela.",
-        "Canada.",
-        "Kuwait.",
-        "Iraq."
-      ],
+      "choices": ["Venezuela.", "Canada.", "Kuwait.", "Iraq."],
       "correct": 1
     },
     {
@@ -82,45 +67,25 @@
     {
       "number": 8,
       "question": "The United States produces 9% of the world\u0027s oil but consumes",
-      "choices": [
-        "1%.",
-        "39%.",
-        "24%.",
-        "85%."
-      ],
+      "choices": ["1%.", "39%.", "24%.", "85%."],
       "correct": 2
     },
     {
       "number": 9,
       "question": "Oil recovery is not 100% efficient. Typically, ________ barrel(s) of oil is/are extracted for every ________ barrels of oil found.",
-      "choices": [
-        "1, 2",
-        "2, 5",
-        "3, 10",
-        "1, 3"
-      ],
+      "choices": ["1, 2", "2, 5", "3, 10", "1, 3"],
       "correct": 3
     },
     {
       "number": 10,
       "question": "Bitumen is a material found in",
-      "choices": [
-        "oil sand.",
-        "petroleum.",
-        "heavy oil.",
-        "oil shale."
-      ],
+      "choices": ["oil sand.", "petroleum.", "heavy oil.", "oil shale."],
       "correct": 0
     },
     {
       "number": 11,
       "question": "The solid combustible mixture of hydrocarbons called kerogen is found in",
-      "choices": [
-        "oil shale.",
-        "shale oil.",
-        "bitumen.",
-        "oil sand."
-      ],
+      "choices": ["oil shale.", "shale oil.", "bitumen.", "oil sand."],
       "correct": 0
     },
     {

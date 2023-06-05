@@ -160,13 +160,7 @@
     {
       "number": 14,
       "question": "Which pesticide was banned due to its bioaccumulation in wildlife?",
-      "choices": [
-        "CFCs",
-        "DDT",
-        "arsenic",
-        "mercury",
-        "lead"
-      ],
+      "choices": ["CFCs", "DDT", "arsenic", "mercury", "lead"],
       "correct": 1
     },
     {
@@ -184,13 +178,7 @@
     {
       "number": 16,
       "question": "The soil layer that contributes organic material to topsoil is the _____ horizon.",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "O"
-      ],
+      "choices": ["A", "B", "C", "D", "O"],
       "correct": 4
     },
     {
@@ -244,13 +232,7 @@
     {
       "number": 21,
       "question": "The half-life of radon gas is approximately four days. Four weeks after the introduction of radon into a sealed room, the fraction of the original amount remaining is closest to",
-      "choices": [
-        "1/8",
-        "1/64",
-        "1/32",
-        "1/2",
-        "1/128"
-      ],
+      "choices": ["1/8", "1/64", "1/32", "1/2", "1/128"],
       "correct": 4
     },
     {
@@ -327,13 +309,7 @@
     {
       "number": 28,
       "question": "Nuclear power is commonly generated using the element",
-      "choices": [
-        "copper",
-        "platinum",
-        "mercury",
-        "uranium",
-        "actinium"
-      ],
+      "choices": ["copper", "platinum", "mercury", "uranium", "actinium"],
       "correct": 3
     },
     {
@@ -531,13 +507,7 @@
     {
       "number": 45,
       "question": "Which of the following has a late-loss survivorship curve?",
-      "choices": [
-        "elephant",
-        "cockroach",
-        "bacteria",
-        "sparrow",
-        "seahorse"
-      ],
+      "choices": ["elephant", "cockroach", "bacteria", "sparrow", "seahorse"],
       "correct": 0
     },
     {

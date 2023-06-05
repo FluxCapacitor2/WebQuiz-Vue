@@ -16,12 +16,7 @@
     {
       "number": 2,
       "question": "The point where the supplier\u0027s price matches what buyers are willing to pay for some quantity of a good or service is known as the",
-      "choices": [
-        "supply.",
-        "demand.",
-        "market equilibrium.",
-        "balance."
-      ],
+      "choices": ["supply.", "demand.", "market equilibrium.", "balance."],
       "correct": 2
     },
     {
@@ -49,21 +44,13 @@
     {
       "number": 5,
       "question": "The basic assumption of neoclassical economics is that there is no limit to ________ growth.",
-      "choices": [
-        "species",
-        "economic",
-        "population",
-        "exponential"
-      ],
+      "choices": ["species", "economic", "population", "exponential"],
       "correct": 1
     },
     {
       "number": 6,
       "question": "According to neoclassical economists, ecological services have no economic value.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 1
     },
     {

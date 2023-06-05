@@ -5,12 +5,7 @@
     {
       "number": 1,
       "question": "The largest of four, this ocean contains more than one-half the earth\u0027s water and covers one-third of the earth\u0027s surface.",
-      "choices": [
-        "Indian",
-        "Pacific",
-        "Atlantic",
-        "Arctic"
-      ],
+      "choices": ["Indian", "Pacific", "Atlantic", "Arctic"],
       "correct": 1
     },
     {
@@ -71,12 +66,7 @@
     {
       "number": 7,
       "question": "This aquatic zone makes up only 10% of the world\u0027s ocean area, but contains 90% of all marine species.",
-      "choices": [
-        "Coastal Zone",
-        "Abyssal Zone",
-        "Bathyal Zone",
-        "life zone"
-      ],
+      "choices": ["Coastal Zone", "Abyssal Zone", "Bathyal Zone", "life zone"],
       "correct": 0
     },
     {
@@ -115,12 +105,7 @@
     {
       "number": 11,
       "question": "Although a number of factors vary, the primary factor that defines each of the three open ocean zones (euphotic, bathyal, abyssal) is",
-      "choices": [
-        "pressure.",
-        "light.",
-        "temperature.",
-        "nutrients."
-      ],
+      "choices": ["pressure.", "light.", "temperature.", "nutrients."],
       "correct": 1
     },
     {
@@ -137,32 +122,19 @@
     {
       "number": 13,
       "question": "In a 2008 four-year study, researchers discovered that one primary species has greatly affected the world\u0027s oceans.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 0
     },
     {
       "number": 14,
       "question": "Because of its high amount of sunlight and nutrients that wash in from the land, this freshwater zone has a high biodiversity. Species include crayfish, turtles, frogs, and rooted plants.",
-      "choices": [
-        "limnetic",
-        "littoral",
-        "profundal",
-        "benthic"
-      ],
+      "choices": ["limnetic", "littoral", "profundal", "benthic"],
       "correct": 1
     },
     {
       "number": 15,
       "question": "A large lake that has clear, cold water and very few organisms living in it is called a ________ lake.",
-      "choices": [
-        "hypereutrophic",
-        "mesotrophic",
-        "oligotrophic",
-        "eutrophic"
-      ],
+      "choices": ["hypereutrophic", "mesotrophic", "oligotrophic", "eutrophic"],
       "correct": 2
     },
     {
@@ -201,12 +173,7 @@
     {
       "number": 19,
       "question": "Which of the following is not considered a freshwater inland wetland?",
-      "choices": [
-        "marsh",
-        "arctic tundra in summer",
-        "swamp",
-        "lake"
-      ],
+      "choices": ["marsh", "arctic tundra in summer", "swamp", "lake"],
       "correct": 3
     },
     {

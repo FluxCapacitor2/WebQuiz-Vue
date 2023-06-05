@@ -49,10 +49,7 @@
     {
       "number": 5,
       "question": "Ironically, those who are overnourished face similar health problems of those who are undernourished.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 1
     },
     {
@@ -91,12 +88,7 @@
     {
       "number": 9,
       "question": "Soil \"layers\" of distinctive composition are called soil",
-      "choices": [
-        "horizons.",
-        "levels.",
-        "zones.",
-        "thicknesses."
-      ],
+      "choices": ["horizons.", "levels.", "zones.", "thicknesses."],
       "correct": 0
     },
     {
@@ -190,12 +182,7 @@
     {
       "number": 18,
       "question": "The kind of chemical used to kill pest plants is called a/an",
-      "choices": [
-        "insecticide.",
-        "herbicide.",
-        "rodenticide",
-        "fungicide."
-      ],
+      "choices": ["insecticide.", "herbicide.", "rodenticide", "fungicide."],
       "correct": 1
     },
     {

@@ -5,12 +5,7 @@
     {
       "number": 1,
       "question": "The science devoted to the study of the earth\u0027s surface and its interior is",
-      "choices": [
-        "geography.",
-        "meteorology.",
-        "cartography.",
-        "geology."
-      ],
+      "choices": ["geography.", "meteorology.", "cartography.", "geology."],
       "correct": 3
     },
     {
@@ -27,12 +22,7 @@
     {
       "number": 3,
       "question": "Geologists call the liquid, molten rock nearest the earth\u0027s center the",
-      "choices": [
-        "crust.",
-        "asthenosphere.",
-        "outer core.",
-        "lithosphere."
-      ],
+      "choices": ["crust.", "asthenosphere.", "outer core.", "lithosphere."],
       "correct": 2
     },
     {
@@ -60,12 +50,7 @@
     {
       "number": 6,
       "question": "Liquid rock flowing from active volcanoes is called",
-      "choices": [
-        "ash.",
-        "lava.",
-        "fissure.",
-        "magma."
-      ],
+      "choices": ["ash.", "lava.", "fissure.", "magma."],
       "correct": 1
     },
     {
@@ -82,23 +67,13 @@
     {
       "number": 8,
       "question": "The specific point where an earthquake begins is called the",
-      "choices": [
-        "focus.",
-        "amplitude.",
-        "epicenter.",
-        "seismic wave."
-      ],
+      "choices": ["focus.", "amplitude.", "epicenter.", "seismic wave."],
       "correct": 0
     },
     {
       "number": 9,
       "question": "An earthquake reading of 6.8 on the Richter scale is ________ times more powerful than a reading of 5.8.",
-      "choices": [
-        "1.0",
-        "100",
-        "0.1",
-        "10"
-      ],
+      "choices": ["1.0", "100", "0.1", "10"],
       "correct": 3
     },
     {
@@ -148,12 +123,7 @@
     {
       "number": 14,
       "question": "A good, yet relatively inexpensive, low temperature conductor of electricity is",
-      "choices": [
-        "copper.",
-        "molybdenum.",
-        "platinum.",
-        "carbon."
-      ],
+      "choices": ["copper.", "molybdenum.", "platinum.", "carbon."],
       "correct": 0
     },
     {
@@ -170,12 +140,7 @@
     {
       "number": 16,
       "question": "Metal-mining waste material is called",
-      "choices": [
-        "gangue.",
-        "ore.",
-        "overburden.",
-        "ore mineral."
-      ],
+      "choices": ["gangue.", "ore.", "overburden.", "ore mineral."],
       "correct": 0
     },
     {

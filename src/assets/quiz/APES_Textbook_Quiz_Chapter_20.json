@@ -60,12 +60,7 @@
     {
       "number": 6,
       "question": "Which of the following bodies of water is the least effective at diluting pollution?",
-      "choices": [
-        "lakes and reservoirs",
-        "oceans",
-        "creeks",
-        "rivers"
-      ],
+      "choices": ["lakes and reservoirs", "oceans", "creeks", "rivers"],
       "correct": 0
     },
     {
@@ -104,32 +99,19 @@
     {
       "number": 10,
       "question": "In rural areas, most people obtain their drinking water from",
-      "choices": [
-        "underground.",
-        "reservoirs.",
-        "rivers.",
-        "lakes."
-      ],
+      "choices": ["underground.", "reservoirs.", "rivers.", "lakes."],
       "correct": 0
     },
     {
       "number": 11,
       "question": "Pollutants in groundwater are typically dispersed in a(n) ________ of widening, contaminated water.",
-      "choices": [
-        "plume",
-        "pool",
-        "bloom",
-        "aquifer"
-      ],
+      "choices": ["plume", "pool", "bloom", "aquifer"],
       "correct": 0
     },
     {
       "number": 12,
       "question": "Because of the difficulty and expense of cleaning up a contaminated aquifer, preventing contamination is the least expensive and most effective way to protect groundwater resources.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 0
     },
     {
@@ -146,34 +128,19 @@
     {
       "number": 14,
       "question": "The ultimate destination of water pollution is",
-      "choices": [
-        "groundwater.",
-        "lakes.",
-        "rivers.",
-        "oceans."
-      ],
+      "choices": ["groundwater.", "lakes.", "rivers.", "oceans."],
       "correct": 3
     },
     {
       "number": 15,
       "question": "In 1989, the Exxon Valdez oil tanker went off course, hit rocks, and released millions of gallons of oil into the waters off of",
-      "choices": [
-        "Alaska.",
-        "Florida.",
-        "Texas.",
-        "California."
-      ],
+      "choices": ["Alaska.", "Florida.", "Texas.", "California."],
       "correct": 0
     },
     {
       "number": 16,
       "question": "The most challenging type of water pollution to address is",
-      "choices": [
-        "lake.",
-        "river.",
-        "nonpoint.",
-        "point."
-      ],
+      "choices": ["lake.", "river.", "nonpoint.", "point."],
       "correct": 2
     },
     {

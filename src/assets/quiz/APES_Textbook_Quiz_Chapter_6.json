@@ -5,12 +5,7 @@
     {
       "number": 1,
       "question": "From the first 2 billion people on planet earth, it took just 50 years to add 2 billion more. The next 2 billion people were added 25 years later. Assuming the growth rate were to remain constant, when might we expect the next 2 billion people?",
-      "choices": [
-        "10 years",
-        "12.5 years",
-        "25 years",
-        "50 years"
-      ],
+      "choices": ["10 years", "12.5 years", "25 years", "50 years"],
       "correct": 1
     },
     {
@@ -49,12 +44,7 @@
     {
       "number": 5,
       "question": "A given population has increased in size. An increase in what factor besides birth rate may be directly responsible?",
-      "choices": [
-        "emigration",
-        "immigration",
-        "death rate",
-        "no other factor"
-      ],
+      "choices": ["emigration", "immigration", "death rate", "no other factor"],
       "correct": 1
     },
     {
@@ -126,12 +116,7 @@
     {
       "number": 12,
       "question": "Age structure diagrams that indicate rapidly growing populations have the shape of a/an",
-      "choices": [
-        "tall oval.",
-        "bullet.",
-        "tall rectangle.",
-        "pyramid."
-      ],
+      "choices": ["tall oval.", "bullet.", "tall rectangle.", "pyramid."],
       "correct": 3
     },
     {
@@ -159,12 +144,7 @@
     {
       "number": 15,
       "question": "A number of factors that may affect the future world population size are out of our control. Which of the following should not be included in this list?",
-      "choices": [
-        "war",
-        "hurricane",
-        "migration",
-        "new epidemic diseases"
-      ],
+      "choices": ["war", "hurricane", "migration", "new epidemic diseases"],
       "correct": 2
     },
     {
@@ -181,10 +161,7 @@
     {
       "number": 18,
       "question": "A majority of married women throughout the world use modern birth control.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 1
     }
   ]

@@ -60,12 +60,7 @@
     {
       "number": 6,
       "question": "Which of the following is not a direct source of pollution?",
-      "choices": [
-        "vehicles",
-        "sun",
-        "volcanoes",
-        "power plants"
-      ],
+      "choices": ["vehicles", "sun", "volcanoes", "power plants"],
       "correct": 1
     },
     {
@@ -93,10 +88,7 @@
     {
       "number": 9,
       "question": "A temperature inversion exists when a layer of cool air lies above a layer of warm air.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 0
     },
     {
@@ -135,12 +127,7 @@
     {
       "number": 13,
       "question": "Levels of many pollutants are often ________ inside a car or building than they are outside.",
-      "choices": [
-        "higher",
-        "less dangerous",
-        "lower",
-        "the same"
-      ],
+      "choices": ["higher", "less dangerous", "lower", "the same"],
       "correct": 0
     },
     {

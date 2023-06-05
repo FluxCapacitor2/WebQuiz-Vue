@@ -38,12 +38,7 @@
     {
       "number": 4,
       "question": "Urban growth tends to occur more slowly in ________ countries.",
-      "choices": [
-        "poor",
-        "drought-plagued",
-        "developed",
-        "developing"
-      ],
+      "choices": ["poor", "drought-plagued", "developed", "developing"],
       "correct": 2
     },
     {
@@ -93,21 +88,13 @@
     {
       "number": 9,
       "question": "Pollution from cities rarely affects surrounding regions.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 1
     },
     {
       "number": 10,
       "question": "When it comes to weather, cities are generally ________ than surrounding areas.",
-      "choices": [
-        "warmer",
-        "drier",
-        "cooler",
-        "clearer"
-      ],
+      "choices": ["warmer", "drier", "cooler", "clearer"],
       "correct": 0
     },
     {
@@ -135,12 +122,7 @@
     {
       "number": 13,
       "question": "The largest source of outdoor air pollution is",
-      "choices": [
-        "automobiles.",
-        "industries.",
-        "factories.",
-        "power plants."
-      ],
+      "choices": ["automobiles.", "industries.", "factories.", "power plants."],
       "correct": 0
     },
     {

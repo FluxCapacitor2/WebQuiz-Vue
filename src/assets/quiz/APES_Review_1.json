@@ -4,19 +4,13 @@
   "questions": [
     {
       "question": "What kind of feedback loop is demonstrated by predator-prey population growth?",
-      "choices": [
-        "negative",
-        "positive"
-      ],
+      "choices": ["negative", "positive"],
       "number": 1,
       "correct": 0
     },
     {
       "question": "What kind of feedback loop is demonstrated by human population growth?",
-      "choices": [
-        "negative",
-        "positive"
-      ],
+      "choices": ["negative", "positive"],
       "number": 2,
       "correct": 1
     },
@@ -57,13 +51,7 @@
     },
     {
       "question": "What form of energy is produced during every energy conversion",
-      "choices": [
-        "none",
-        "solar",
-        "radiant",
-        "kinetic",
-        "thermal"
-      ],
+      "choices": ["none", "solar", "radiant", "kinetic", "thermal"],
       "number": 6,
       "correct": 4
     },
@@ -116,33 +104,19 @@
     },
     {
       "question": "Which of the following concepts includes all of the rest?",
-      "choices": [
-        "ecosystem",
-        "habitat",
-        "community",
-        "population",
-        "species"
-      ],
+      "choices": ["ecosystem", "habitat", "community", "population", "species"],
       "number": 11,
       "correct": 0
     },
     {
       "question": "Which is likely to have the most biodiversity?",
-      "choices": [
-        "a terrestrial biome",
-        "a marine biome",
-        "a shoreline biome"
-      ],
+      "choices": ["a terrestrial biome", "a marine biome", "a shoreline biome"],
       "number": 12,
       "correct": 2
     },
     {
       "question": "What kind of pyramid cannot have a smaller base (producers) than a top (tertiary consumers)",
-      "choices": [
-        "energy pyramid",
-        "biomass pyramid",
-        "numbers pyramid"
-      ],
+      "choices": ["energy pyramid", "biomass pyramid", "numbers pyramid"],
       "number": 13,
       "correct": 2
     },
@@ -172,12 +146,7 @@
     },
     {
       "question": "Which biome requires the most rainfall?",
-      "choices": [
-        "deciduous forest",
-        "grassland",
-        "chaparral",
-        "desert"
-      ],
+      "choices": ["deciduous forest", "grassland", "chaparral", "desert"],
       "number": 16,
       "correct": 0
     },
@@ -195,12 +164,7 @@
     },
     {
       "question": "Which of the following is not a common limiting factor for a lake ecosystem",
-      "choices": [
-        "rainfall",
-        "phosphate",
-        "light",
-        "dissolved oxygen"
-      ],
+      "choices": ["rainfall", "phosphate", "light", "dissolved oxygen"],
       "number": 18,
       "correct": 0
     },
@@ -299,11 +263,7 @@
     },
     {
       "question": "Another name for geometric growth is",
-      "choices": [
-        "exponential",
-        "arithmetic",
-        "sigmoidal"
-      ],
+      "choices": ["exponential", "arithmetic", "sigmoidal"],
       "number": 27,
       "correct": 0
     },
@@ -364,11 +324,11 @@
     {
       "question": "What is world human population?",
       "choices": [
-        "just under 2 billion",
-        "just under 3 billion",
-        "just under 4 billion",
         "just under 5 billion",
-        "just under 6 billion"
+        "just under 6 billion",
+        "just under 7 billion",
+        "just under 8 billion",
+        "just over 8 billion"
       ],
       "number": 33,
       "correct": 4

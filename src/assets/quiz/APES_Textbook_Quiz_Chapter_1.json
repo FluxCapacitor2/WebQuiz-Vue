@@ -49,10 +49,7 @@
     {
       "number": 5,
       "question": "Collectively, we are living unsustainably and degrading the earth\u0027s natural capital at an expanding rate.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 0
     },
     {
@@ -80,12 +77,7 @@
     {
       "number": 8,
       "question": "An example of a perpetual resource is",
-      "choices": [
-        "solar.",
-        "timber.",
-        "coal.",
-        "iron."
-      ],
+      "choices": ["solar.", "timber.", "coal.", "iron."],
       "correct": 0
     },
     {
@@ -102,12 +94,7 @@
     {
       "number": 10,
       "question": "In contrast to reuse, recycling materials completely changes their form (but not their substance). Which of the  following may be recycled?",
-      "choices": [
-        "plastic",
-        "copper",
-        "all of the choices",
-        "glass"
-      ],
+      "choices": ["plastic", "copper", "all of the choices", "glass"],
       "correct": 2
     },
     {

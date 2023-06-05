@@ -27,10 +27,7 @@
     {
       "number": 3,
       "question": "Fortunately, the resource freshwater is fairly evenly divided throughout nations and continents.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 1
     },
     {
@@ -58,23 +55,13 @@
     {
       "number": 6,
       "question": "One in ________ people per year lack regular access to enough clean water for drinking, cooking, and washing.",
-      "choices": [
-        "50",
-        "33",
-        "6",
-        "14"
-      ],
+      "choices": ["50", "33", "6", "14"],
       "correct": 2
     },
     {
       "number": 7,
       "question": "The current land area experiencing severe or extreme drought is approximately",
-      "choices": [
-        "30%",
-        "3%",
-        "50%",
-        "10%"
-      ],
+      "choices": ["30%", "3%", "50%", "10%"],
       "correct": 0
     },
     {
@@ -146,10 +133,7 @@
     {
       "number": 14,
       "question": "There are no disadvantages of hydroelectric dams.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 0
     },
     {
@@ -199,12 +183,7 @@
     {
       "number": 20,
       "question": "A natural area that is prone to flooding is called a",
-      "choices": [
-        "dam.",
-        "floodplain.",
-        "levy.",
-        "watershed."
-      ],
+      "choices": ["dam.", "floodplain.", "levy.", "watershed."],
       "correct": 1
     }
   ]

@@ -38,21 +38,13 @@
     {
       "number": 4,
       "question": "The rapid rise in global mean temperatures over the past few decades could have been caused by an increase in solar output from the sun.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 1
     },
     {
       "number": 5,
       "question": "A region of the planet that has served as a large carbon sink is",
-      "choices": [
-        "Antarctica.",
-        "oceans.",
-        "deserts.",
-        "cities."
-      ],
+      "choices": ["Antarctica.", "oceans.", "deserts.", "cities."],
       "correct": 1
     },
     {
@@ -91,12 +83,7 @@
     {
       "number": 9,
       "question": "A species immediately impacted by global warming is the",
-      "choices": [
-        "panda bear.",
-        "black bear.",
-        "grizzly bear.",
-        "polar bear."
-      ],
+      "choices": ["panda bear.", "black bear.", "grizzly bear.", "polar bear."],
       "correct": 3
     },
     {
@@ -113,23 +100,13 @@
     {
       "number": 11,
       "question": "The dirtiest fossil fuel is",
-      "choices": [
-        "petroleum.",
-        "uranium.",
-        "coal.",
-        "natural gas."
-      ],
+      "choices": ["petroleum.", "uranium.", "coal.", "natural gas."],
       "correct": 2
     },
     {
       "number": 12,
       "question": "The most notable country not providing support for the Kyoto Protocol was",
-      "choices": [
-        "India.",
-        "the United States.",
-        "Japan.",
-        "Brazil."
-      ],
+      "choices": ["India.", "the United States.", "Japan.", "Brazil."],
       "correct": 1
     },
     {
@@ -157,23 +134,13 @@
     {
       "number": 15,
       "question": "The so-called \"ozone hole\" appears strongest each year above",
-      "choices": [
-        "North America.",
-        "Australia.",
-        "the poles.",
-        "Africa."
-      ],
+      "choices": ["North America.", "Australia.", "the poles.", "Africa."],
       "correct": 2
     },
     {
       "number": 16,
       "question": "Chlorofluorocarbons (CFCs) have been used as all of the following except",
-      "choices": [
-        "cleaners.",
-        "coolants.",
-        "fuel for cars.",
-        "propellants"
-      ],
+      "choices": ["cleaners.", "coolants.", "fuel for cars.", "propellants"],
       "correct": 2
     },
     {
@@ -190,10 +157,7 @@
     {
       "number": 19,
       "question": "Stratospheric ozone depletion can never be reversed.",
-      "choices": [
-        "false",
-        "true"
-      ],
+      "choices": ["false", "true"],
       "correct": 0
     }
   ]

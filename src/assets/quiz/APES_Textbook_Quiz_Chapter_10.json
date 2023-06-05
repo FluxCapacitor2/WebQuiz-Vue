@@ -38,10 +38,7 @@
     {
       "number": 4,
       "question": "We are cutting forests faster than they are able to replenish themselves.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 0
     },
     {
@@ -58,10 +55,7 @@
     {
       "number": 6,
       "question": "Forest fires are always a bad thing.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 0
     },
     {
@@ -89,12 +83,7 @@
     {
       "number": 9,
       "question": "The Amazon basin is found in which country?",
-      "choices": [
-        "India",
-        "Costa Rica",
-        "Australia",
-        "Brazil"
-      ],
+      "choices": ["India", "Costa Rica", "Australia", "Brazil"],
       "correct": 3
     },
     {
@@ -133,21 +122,13 @@
     {
       "number": 13,
       "question": "In rangelands and grasslands, livestock tend to gather around ________, making these areas particularly vulnerable to damage.",
-      "choices": [
-        "hilltops",
-        "fence rows",
-        "water",
-        "protected ravines"
-      ],
+      "choices": ["hilltops", "fence rows", "water", "protected ravines"],
       "correct": 2
     },
     {
       "number": 14,
       "question": "In developing nations, national parks are highly protected areas that act as sanctuaries to wildlife.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 0
     },
     {
@@ -175,10 +156,7 @@
     {
       "number": 17,
       "question": "Ecosystems that we have degraded are irreversibly damaged.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 1
     },
     {

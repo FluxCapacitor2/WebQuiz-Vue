@@ -5,10 +5,7 @@
     {
       "number": 1,
       "question": "Generally, there is no waste in nature.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 0
     },
     {
@@ -25,23 +22,13 @@
     {
       "number": 3,
       "question": "The country that produces the greatest amount of solid waste is",
-      "choices": [
-        "Mexico.",
-        "the United States.",
-        "Japan.",
-        "China."
-      ],
+      "choices": ["Mexico.", "the United States.", "Japan.", "China."],
       "correct": 1
     },
     {
       "number": 4,
       "question": "Most of New York City\u0027s garbage is",
-      "choices": [
-        "burned.",
-        "recycled.",
-        "buried.",
-        "exported out of state."
-      ],
+      "choices": ["burned.", "recycled.", "buried.", "exported out of state."],
       "correct": 3
     },
     {
@@ -58,23 +45,13 @@
     {
       "number": 6,
       "question": "Which of the following methods best addresses the amount of virgin materials used by consumers?",
-      "choices": [
-        "all of the choices",
-        "reusing",
-        "recycling",
-        "reducing"
-      ],
+      "choices": ["all of the choices", "reusing", "recycling", "reducing"],
       "correct": 3
     },
     {
       "number": 7,
       "question": "Which of the following methods of waste reduction is the most effective?",
-      "choices": [
-        "reusing",
-        "none of the choices",
-        "reducing",
-        "recycling"
-      ],
+      "choices": ["reusing", "none of the choices", "reducing", "recycling"],
       "correct": 2
     },
     {
@@ -124,21 +101,13 @@
     {
       "number": 12,
       "question": "By providing more access to electronic information, the internet has reduced the amount of paper used in the United States.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 0
     },
     {
       "number": 13,
       "question": "________ consists of various types of large polymers, or resins, produced mostly from oil and natural gas.",
-      "choices": [
-        "Paper",
-        "Steel",
-        "Plastic",
-        "Aluminum"
-      ],
+      "choices": ["Paper", "Steel", "Plastic", "Aluminum"],
       "correct": 2
     },
     {
@@ -177,12 +146,7 @@
     {
       "number": 17,
       "question": "Hazardous wastes may be detoxified by which of the following methods?",
-      "choices": [
-        "chemical",
-        "physical",
-        "biological",
-        "all of the choices"
-      ],
+      "choices": ["chemical", "physical", "biological", "all of the choices"],
       "correct": 3
     },
     {
@@ -199,12 +163,7 @@
     {
       "number": 19,
       "question": "________, a highly toxic pollutant, was phased out of gasoline in the United States during the 1970s.",
-      "choices": [
-        "Carbon monoxide",
-        "Mercury",
-        "Lead",
-        "Ozone"
-      ],
+      "choices": ["Carbon monoxide", "Mercury", "Lead", "Ozone"],
       "correct": 2
     },
     {

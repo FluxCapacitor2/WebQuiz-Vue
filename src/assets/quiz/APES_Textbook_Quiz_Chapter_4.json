@@ -49,10 +49,7 @@
     {
       "number": 5,
       "question": "Populations, not individuals, evolve.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 0
     },
     {
@@ -80,21 +77,13 @@
     {
       "number": 8,
       "question": "Scientific evidence suggests that the earth\u0027s surface has changed significantly over time, as great land masses have moved past and/or into each other. These shifting land masses are connected to subsurface structures called",
-      "choices": [
-        "tectonic plates.",
-        "continents.",
-        "fossils.",
-        "glaciers."
-      ],
+      "choices": ["tectonic plates.", "continents.", "fossils.", "glaciers."],
       "correct": 0
     },
     {
       "number": 9,
       "question": "Climate changes and asteroids impacting the earth may be seen as opportunities for evolutionary change.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 1
     },
     {
@@ -111,10 +100,7 @@
     {
       "number": 11,
       "question": "Fortunately for the world, the golden toad, once thought extinct in its Costa Rican rainforests, has been rediscovered.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 1
     },
     {
@@ -131,23 +117,13 @@
     {
       "number": 13,
       "question": "The American alligator, once nearly hunted to extinction, is making a comeback. It plays an essential role in its habitat because its nesting mounds and resting holes are important to the lives of other species. The alligator is also important in keeping some prey populations in check. Should such an important species become extinct, there would be devastating consequences to its ecosystem. Such a species is called a/an ________ species.",
-      "choices": [
-        "native",
-        "keystone",
-        "indicator",
-        "exotic"
-      ],
+      "choices": ["native", "keystone", "indicator", "exotic"],
       "correct": 1
     },
     {
       "number": 14,
       "question": "The role that a species plays in its ecosystem, its \"way of life\" or pattern of living, is called its",
-      "choices": [
-        "habitat.",
-        "ecosystem.",
-        "niche.",
-        "species richness."
-      ],
+      "choices": ["habitat.", "ecosystem.", "niche.", "species richness."],
       "correct": 2
     },
     {
@@ -164,12 +140,7 @@
     {
       "number": 17,
       "question": "While some landowners may consider beavers a pest, they are important to their ecosystem: the dams they build create wetland that many other species use. Because of the role they play, we call them ________ species.",
-      "choices": [
-        "foundation",
-        "indicator",
-        "endangered",
-        "vermin"
-      ],
+      "choices": ["foundation", "indicator", "endangered", "vermin"],
       "correct": 0
     }
   ]

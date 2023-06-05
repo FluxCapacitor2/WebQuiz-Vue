@@ -1,396 +1,357 @@
 {
-    "id": "apes_rev2",
-    "displayName": "Exam Review 2",
-    "questions": [
-        {
-            "question": "Minerals are an example of a (an)",
-            "choices": [
-                "exhaustible resource",
-                "renewable resource",
-                "human resource",
-                "intangible resource"
-            ],
-            "number": 1,
-            "correct": 0
-        },
-        {
-            "question": "Making manufacturers take into account the cost of dealing with their waste products is an example of",
-            "choices": [
-                "internalizing costs",
-                "externalizing costs",
-                "cost/benefit analysis"
-            ],
-            "number": 2,
-            "correct": 0
-        },
-        {
-            "question": "Which of the following would not be a goal of sustainable development?",
-            "choices": [
-                "a demographic transition to a stable world population of low birth and death rates",
-                "an increasing reliance upon renewable energy",
-                "a resource transition to reliance on nature’s “income” without depleting its “capital”",
-                "a transition to more efficient use of energy and resources",
-                "an attempt to simplify ecosystems"
-            ],
-            "number": 3,
-            "correct": 4
-        },
-        {
-            "question": "What is the relationship between supply and demand?",
-            "choices": [
-                "supply increases, demand increases",
-                "supply increases, demand decreases",
-                "supply decreases, demand decreases",
-                "supply decreases, demand increases",
-                "both b and d",
-                "both a and c"
-            ],
-            "number": 4,
-            "correct": 4
-        },
-        {
-            "question": "Which of the following is not a market-based incentive?",
-            "choices": [
-                "pollution fines",
-                "SO2 gas emissions trading",
-                "“gas-guzzler” tax on cars",
-                "government subsides for water"
-            ],
-            "number": 5,
-            "correct": 3
-        },
-        {
-            "question": "What organism of an aquatic food chain is most likely to have the highest level of a toxin sprayed upon the water?",
-            "choices": [
-                "phytoplankton",
-                "humans",
-                "small fish",
-                "large fish",
-                "zooplankton"
-            ],
-            "number": 6,
-            "correct": 3
-        },
-        {
-            "question": "What does LD50 mean?",
-            "choices": [
-                "the dosage needed to kill half of a population",
-                "half of the dosage needed to kill an entire population",
-                "the lethal dosage for a population"
-            ],
-            "number": 7,
-            "correct": 0
-        },
-        {
-            "question": "If the lethal dose of parathion, an insecticide, is 1.5 mg/kg, how much would kill a 10 kg dog?",
-            "choices": [
-                "0.15 mg",
-                "1.5 mg",
-                "15 mg",
-                "150 mg"
-            ],
-            "number": 8,
-            "correct": 1
-        },
-        {
-            "question": "Which of the following characteristics of a risk would make the risk seem worse than it actually is to the public?",
-            "choices": [
-                "voluntary",
-                "equitably distributed",
-                "observable",
-                "new technology",
-                "low risk to future generation"
-            ],
-            "number": 9,
-            "correct": 3
-        },
-        {
-            "question": "Which of the following is perceived by the public as a greater risk than is actually is?",
-            "choices": [
-                "skiing",
-                "smoking",
-                "auto accidents",
-                "nuclear radiation",
-                "alcohol"
-            ],
-            "number": 10,
-            "correct": 3
-        },
-        {
-            "question": "What has happened to total world agricultural production over the last century?",
-            "choices": [
-                "it has increased",
-                "it has decreased",
-                "it has remained the same"
-            ],
-            "number": 11,
-            "correct": 0
-        },
-        {
-            "question": "Which of the following was not associated with the Green Revolution?",
-            "choices": [
-                "new breeds of high-yielding crops",
-                "greater use of fertilizers",
-                "use of machinery to carry out high-intensity farming",
-                "use of a greater variety of crops",
-                "increased food production"
-            ],
-            "number": 12,
-            "correct": 3
-        },
-        {
-            "question": "Which of the following is a cash crop?",
-            "choices": [
-                "corn",
-                "coffee",
-                "apples",
-                "oats",
-                "beans"
-            ],
-            "number": 13,
-            "correct": 1
-        },
-        {
-            "question": "What is the relationship between soil formation and soil depletion at the present time?",
-            "choices": [
-                "soil is being formed slightly faster than it is being depleted",
-                "soil is being formed at the same rate than it is being depleted",
-                "soil is being formed slightly slower than it is being depleted",
-                "soil is being formed much slower than it is being depleted"
-            ],
-            "number": 14,
-            "correct": 3
-        },
-        {
-            "question": "Which is the smallest sized component of soil?",
-            "choices": [
-                "silt",
-                "clay",
-                "sand"
-            ],
-            "number": 15,
-            "correct": 1
-        },
-        {
-            "question": "Which soil component has the fastest infiltration rate?",
-            "choices": [
-                "silt",
-                "clay",
-                "sand"
-            ],
-            "number": 16,
-            "correct": 2
-        },
-        {
-            "question": "Which soil horizon contains the most organic material?",
-            "choices": [
-                "A (topsoil)",
-                "B (subsoil)",
-                "C (parent material)"
-            ],
-            "number": 17,
-            "correct": 0
-        },
-        {
-            "question": "What is leached from the A-horizon to the B-horizon",
-            "choices": [
-                "iron",
-                "aluminum",
-                "clay",
-                "all of the above",
-                "none of the above"
-            ],
-            "number": 18,
-            "correct": 3
-        },
-        {
-            "question": "Which of the following agricultural practices reduce the rate of soil erosion?",
-            "choices": [
-                "long row planting",
-                "herbicide applications",
-                "leaving a field bare all winter",
-                "mulching",
-                "using large harvesting machines"
-            ],
-            "number": 19,
-            "correct": 3
-        },
-        {
-            "question": "Which term includes the others",
-            "choices": [
-                "insecticide",
-                "pesticide",
-                "herbicide",
-                "fungicide"
-            ],
-            "number": 20,
-            "correct": 1
-        },
-        {
-            "question": "When did synthetic pesticides become widely used?",
-            "choices": [
-                "at the beginning of the 20th century",
-                "at the onset of the agricultural revolution",
-                "at the onset of the industrial revolution",
-                "during World War II",
-                "during the late 70s"
-            ],
-            "number": 21,
-            "correct": 3
-        },
-        {
-            "question": "Which statement is true?",
-            "choices": [
-                "almost all of a pesticide reaches its intended target",
-                "about 75% of a pesticide reaches its intended target",
-                "about 50% of a pesticide reaches its intended target",
-                "about 25 % of a pesticide reaches its intended target",
-                "about 10% of a pesticide reaches its intended target"
-            ],
-            "number": 22,
-            "correct": 4
-        },
-        {
-            "question": "Which of the following processes are responsible for the pesticide treadmill?",
-            "choices": [
-                "pests develop a resistance to pesticides",
-                "larger doses are eventually needed for the same result",
-                "new pesticides must continuously be developed",
-                "pesticides kill the predators or competitors of the pests",
-                "all of the above"
-            ],
-            "number": 23,
-            "correct": 4
-        },
-        {
-            "question": "Which of the following is not true about DDT?",
-            "choices": [
-                "it is a chlorinated hydrocarbon",
-                "it is a broad-spectrum pesticide",
-                "it has been banned world-wide",
-                "it is concentrated in the food chain",
-                "its residue can be found throughout the world"
-            ],
-            "number": 24,
-            "correct": 2
-        },
-        {
-            "question": "Who is more likely to use more pesticides than needed?",
-            "choices": [
-                "homeowners",
-                "farmers"
-            ],
-            "number": 25,
-            "correct": 0
-        },
-        {
-            "question": "Which of the following is not a part of integrated pest management (IPM)",
-            "choices": [
-                "abolishing all chemical pesticides",
-                "vacuuming bugs off crops",
-                "using biological controls such as ladybugs",
-                "using cultivation techniques that minimize the spread of pests",
-                "using pest-resistant crops"
-            ],
-            "number": 26,
-            "correct": 0
-        },
-        {
-            "question": "Which of the following is the most damaging?",
-            "choices": [
-                "decrease in abundance of a once-plentiful species",
-                "local extinction of a species",
-                "extinction of a keystone species"
-            ],
-            "number": 27,
-            "correct": 2
-        },
-        {
-            "question": "Which of the following has caused the greatest amount of species extinction",
-            "choices": [
-                "habitat destruction",
-                "over hunting/harvesting",
-                "pollution",
-                "competition by exotic species"
-            ],
-            "number": 28,
-            "correct": 0
-        },
-        {
-            "question": "How does the current rate of extinction compare to past rates of extinction",
-            "choices": [
-                "it is slightly greater than the normal rates of the past",
-                "it is much greater than any time in the past",
-                "it is greater than all but the most catastrophic extinction events of the past",
-                "it is not significantly different from normal rates of the past"
-            ],
-            "number": 29,
-            "correct": 2
-        },
-        {
-            "question": "What caused the ivory trade to collapse?",
-            "choices": [
-                "the CITES treaty",
-                "the U.S. Endangered Species Act",
-                "the decline of the Elephant population due to competition of alien species",
-                "the Montreal Protocol",
-                "the Koyoto Conference Treaty"
-            ],
-            "number": 30,
-            "correct": 0
-        },
-        {
-            "question": "Which of the following is an advantage of monoculture forests over mixed species forests?",
-            "choices": [
-                "high biodiversity",
-                "fewer opportunities for pest infestation",
-                "less need for fertilizers",
-                "more efficient lumber production",
-                "more ecological stability"
-            ],
-            "number": 31,
-            "correct": 3
-        },
-        {
-            "question": "Which method of harvesting lumber results in the most soil erosion?",
-            "choices": [
-                "clear-cutting",
-                "selective cutting"
-            ],
-            "number": 32,
-            "correct": 0
-        },
-        {
-            "question": "Which process is most responsible for soil degradation world-wide?",
-            "choices": [
-                "deforestation",
-                "agriculture",
-                "industry",
-                "overgrazing"
-            ],
-            "number": 33,
-            "correct": 3
-        },
-        {
-            "question": "What United States agency controls the most public land?",
-            "choices": [
-                "U.S. Forest Service",
-                "U.S. Park Service",
-                "Army Corps of Engineers",
-                "Bureau of Land Management (BLM)"
-            ],
-            "number": 34,
-            "correct": 3
-        },
-        {
-            "question": "What is the relationship between the size of an island and the biodiversity on the island?",
-            "choices": [
-                "no relationship, a large and a small island are likely to have about the same number of species",
-                "slight relationship, a large island is likely to have slightly more biodiversity",
-                "great, a large island will have considerably more biodiversity than a small island"
-            ],
-            "number": 35,
-            "correct": 2
-        }
-    ]
+  "id": "apes_rev2",
+  "displayName": "Exam Review 2",
+  "questions": [
+    {
+      "question": "Minerals are an example of a (an)",
+      "choices": [
+        "exhaustible resource",
+        "renewable resource",
+        "human resource",
+        "intangible resource"
+      ],
+      "number": 1,
+      "correct": 0
+    },
+    {
+      "question": "Making manufacturers take into account the cost of dealing with their waste products is an example of",
+      "choices": [
+        "internalizing costs",
+        "externalizing costs",
+        "cost/benefit analysis"
+      ],
+      "number": 2,
+      "correct": 0
+    },
+    {
+      "question": "Which of the following would not be a goal of sustainable development?",
+      "choices": [
+        "a demographic transition to a stable world population of low birth and death rates",
+        "an increasing reliance upon renewable energy",
+        "a resource transition to reliance on nature’s “income” without depleting its “capital”",
+        "a transition to more efficient use of energy and resources",
+        "an attempt to simplify ecosystems"
+      ],
+      "number": 3,
+      "correct": 4
+    },
+    {
+      "question": "What is the relationship between supply and demand?",
+      "choices": [
+        "supply increases, demand increases",
+        "supply increases, demand decreases",
+        "supply decreases, demand decreases",
+        "supply decreases, demand increases",
+        "both b and d",
+        "both a and c"
+      ],
+      "number": 4,
+      "correct": 4
+    },
+    {
+      "question": "Which of the following is not a market-based incentive?",
+      "choices": [
+        "pollution fines",
+        "SO2 gas emissions trading",
+        "“gas-guzzler” tax on cars",
+        "government subsides for water"
+      ],
+      "number": 5,
+      "correct": 3
+    },
+    {
+      "question": "What organism of an aquatic food chain is most likely to have the highest level of a toxin sprayed upon the water?",
+      "choices": [
+        "phytoplankton",
+        "humans",
+        "small fish",
+        "large fish",
+        "zooplankton"
+      ],
+      "number": 6,
+      "correct": 3
+    },
+    {
+      "question": "What does LD50 mean?",
+      "choices": [
+        "the dosage needed to kill half of a population",
+        "half of the dosage needed to kill an entire population",
+        "the lethal dosage for a population"
+      ],
+      "number": 7,
+      "correct": 0
+    },
+    {
+      "question": "If the lethal dose of parathion, an insecticide, is 1.5 mg/kg, how much would kill a 10 kg dog?",
+      "choices": ["0.15 mg", "1.5 mg", "15 mg", "150 mg"],
+      "number": 8,
+      "correct": 2
+    },
+    {
+      "question": "Which of the following characteristics of a risk would make the risk seem worse than it actually is to the public?",
+      "choices": [
+        "voluntary",
+        "equitably distributed",
+        "observable",
+        "new technology",
+        "low risk to future generation"
+      ],
+      "number": 9,
+      "correct": 3
+    },
+    {
+      "question": "Which of the following is perceived by the public as a greater risk than is actually is?",
+      "choices": [
+        "skiing",
+        "smoking",
+        "auto accidents",
+        "nuclear radiation",
+        "alcohol"
+      ],
+      "number": 10,
+      "correct": 3
+    },
+    {
+      "question": "What has happened to total world agricultural production over the last century?",
+      "choices": [
+        "it has increased",
+        "it has decreased",
+        "it has remained the same"
+      ],
+      "number": 11,
+      "correct": 0
+    },
+    {
+      "question": "Which of the following was not associated with the Green Revolution?",
+      "choices": [
+        "new breeds of high-yielding crops",
+        "greater use of fertilizers",
+        "use of machinery to carry out high-intensity farming",
+        "use of a greater variety of crops",
+        "increased food production"
+      ],
+      "number": 12,
+      "correct": 3
+    },
+    {
+      "question": "Which of the following is a cash crop?",
+      "choices": ["corn", "coffee", "apples", "oats", "beans"],
+      "number": 13,
+      "correct": 1
+    },
+    {
+      "question": "What is the relationship between soil formation and soil depletion at the present time?",
+      "choices": [
+        "soil is being formed slightly faster than it is being depleted",
+        "soil is being formed at the same rate than it is being depleted",
+        "soil is being formed slightly slower than it is being depleted",
+        "soil is being formed much slower than it is being depleted"
+      ],
+      "number": 14,
+      "correct": 3
+    },
+    {
+      "question": "Which is the smallest sized component of soil?",
+      "choices": ["silt", "clay", "sand"],
+      "number": 15,
+      "correct": 1
+    },
+    {
+      "question": "Which soil component has the fastest infiltration rate?",
+      "choices": ["silt", "clay", "sand"],
+      "number": 16,
+      "correct": 2
+    },
+    {
+      "question": "Which soil horizon contains the most organic material?",
+      "choices": ["A (topsoil)", "B (subsoil)", "C (parent material)"],
+      "number": 17,
+      "correct": 0
+    },
+    {
+      "question": "What is leached from the A-horizon to the B-horizon",
+      "choices": [
+        "iron",
+        "aluminum",
+        "clay",
+        "all of the above",
+        "none of the above"
+      ],
+      "number": 18,
+      "correct": 3
+    },
+    {
+      "question": "Which of the following agricultural practices reduce the rate of soil erosion?",
+      "choices": [
+        "long row planting",
+        "herbicide applications",
+        "leaving a field bare all winter",
+        "mulching",
+        "using large harvesting machines"
+      ],
+      "number": 19,
+      "correct": 3
+    },
+    {
+      "question": "Which term includes the others",
+      "choices": ["insecticide", "pesticide", "herbicide", "fungicide"],
+      "number": 20,
+      "correct": 1
+    },
+    {
+      "question": "When did synthetic pesticides become widely used?",
+      "choices": [
+        "at the beginning of the 20th century",
+        "at the onset of the agricultural revolution",
+        "at the onset of the industrial revolution",
+        "during World War II",
+        "during the late 70s"
+      ],
+      "number": 21,
+      "correct": 3
+    },
+    {
+      "question": "Which statement is true?",
+      "choices": [
+        "almost all of a pesticide reaches its intended target",
+        "about 75% of a pesticide reaches its intended target",
+        "about 50% of a pesticide reaches its intended target",
+        "about 25 % of a pesticide reaches its intended target",
+        "about 10% of a pesticide reaches its intended target"
+      ],
+      "number": 22,
+      "correct": 4
+    },
+    {
+      "question": "Which of the following processes are responsible for the pesticide treadmill?",
+      "choices": [
+        "pests develop a resistance to pesticides",
+        "larger doses are eventually needed for the same result",
+        "new pesticides must continuously be developed",
+        "pesticides kill the predators or competitors of the pests",
+        "all of the above"
+      ],
+      "number": 23,
+      "correct": 4
+    },
+    {
+      "question": "Which of the following is not true about DDT?",
+      "choices": [
+        "it is a chlorinated hydrocarbon",
+        "it is a broad-spectrum pesticide",
+        "it has been banned world-wide",
+        "it is concentrated in the food chain",
+        "its residue can be found throughout the world"
+      ],
+      "number": 24,
+      "correct": 2
+    },
+    {
+      "question": "Who is more likely to use more pesticides than needed?",
+      "choices": ["homeowners", "farmers"],
+      "number": 25,
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is not a part of integrated pest management (IPM)",
+      "choices": [
+        "abolishing all chemical pesticides",
+        "vacuuming bugs off crops",
+        "using biological controls such as ladybugs",
+        "using cultivation techniques that minimize the spread of pests",
+        "using pest-resistant crops"
+      ],
+      "number": 26,
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is the most damaging?",
+      "choices": [
+        "decrease in abundance of a once-plentiful species",
+        "local extinction of a species",
+        "extinction of a keystone species"
+      ],
+      "number": 27,
+      "correct": 2
+    },
+    {
+      "question": "Which of the following has caused the greatest amount of species extinction",
+      "choices": [
+        "habitat destruction",
+        "over hunting/harvesting",
+        "pollution",
+        "competition by exotic species"
+      ],
+      "number": 28,
+      "correct": 0
+    },
+    {
+      "question": "How does the current rate of extinction compare to past rates of extinction",
+      "choices": [
+        "it is slightly greater than the normal rates of the past",
+        "it is much greater than any time in the past",
+        "it is greater than all but the most catastrophic extinction events of the past",
+        "it is not significantly different from normal rates of the past"
+      ],
+      "number": 29,
+      "correct": 2
+    },
+    {
+      "question": "What caused the ivory trade to collapse?",
+      "choices": [
+        "the CITES treaty",
+        "the U.S. Endangered Species Act",
+        "the decline of the Elephant population due to competition of alien species",
+        "the Montreal Protocol",
+        "the Koyoto Conference Treaty"
+      ],
+      "number": 30,
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is an advantage of monoculture forests over mixed species forests?",
+      "choices": [
+        "high biodiversity",
+        "fewer opportunities for pest infestation",
+        "less need for fertilizers",
+        "more efficient lumber production",
+        "more ecological stability"
+      ],
+      "number": 31,
+      "correct": 3
+    },
+    {
+      "question": "Which method of harvesting lumber results in the most soil erosion?",
+      "choices": ["clear-cutting", "selective cutting"],
+      "number": 32,
+      "correct": 0
+    },
+    {
+      "question": "Which process is most responsible for soil degradation world-wide?",
+      "choices": ["deforestation", "agriculture", "industry", "overgrazing"],
+      "number": 33,
+      "correct": 3
+    },
+    {
+      "question": "What United States agency controls the most public land?",
+      "choices": [
+        "U.S. Forest Service",
+        "U.S. Park Service",
+        "Army Corps of Engineers",
+        "Bureau of Land Management (BLM)"
+      ],
+      "number": 34,
+      "correct": 3
+    },
+    {
+      "question": "What is the relationship between the size of an island and the biodiversity on the island?",
+      "choices": [
+        "no relationship, a large and a small island are likely to have about the same number of species",
+        "slight relationship, a large island is likely to have slightly more biodiversity",
+        "great, a large island will have considerably more biodiversity than a small island"
+      ],
+      "number": 35,
+      "correct": 2
+    }
+  ]
 }

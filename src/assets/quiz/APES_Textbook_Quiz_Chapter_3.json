@@ -5,23 +5,13 @@
     {
       "number": 1,
       "question": "The basic, fundamental unit of life is the",
-      "choices": [
-        "molecule.",
-        "organism.",
-        "species.",
-        "cell."
-      ],
+      "choices": ["molecule.", "organism.", "species.", "cell."],
       "correct": 3
     },
     {
       "number": 2,
       "question": "Even though it interacts with others of its kind and with the abiotic realm around it, a single living individual is best described as a/an",
-      "choices": [
-        "species.",
-        "system.",
-        "population.",
-        "organism."
-      ],
+      "choices": ["species.", "system.", "population.", "organism."],
       "correct": 3
     },
     {
@@ -71,10 +61,7 @@
     {
       "number": 7,
       "question": "Think of a terrestrial forest ecosystem (we have presumably all walked in a forest). From an ecological point of view, ecosystems such as this are actually simple to understand.",
-      "choices": [
-        "False",
-        "True"
-      ],
+      "choices": ["False", "True"],
       "correct": 0
     },
     {
@@ -113,10 +100,7 @@
     {
       "number": 11,
       "question": "Heat is a byproduct of each energy transformation in an ecosystem. Therefore, this represents a one way energy flow from the sun through the ecosystem.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 0
     },
     {
@@ -166,12 +150,7 @@
     {
       "number": 16,
       "question": "Which of the following does not qualify as a biogeochemical cycle?",
-      "choices": [
-        "water",
-        "nitrogen",
-        "energy",
-        "carbon"
-      ],
+      "choices": ["water", "nitrogen", "energy", "carbon"],
       "correct": 2
     },
     {

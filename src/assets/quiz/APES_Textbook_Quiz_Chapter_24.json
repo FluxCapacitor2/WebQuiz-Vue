@@ -27,12 +27,7 @@
     {
       "number": 3,
       "question": "The process by which individuals and groups try to influence or control the policies and actions of governments at local, state, national, and international levels is known as",
-      "choices": [
-        "policies.",
-        "economics.",
-        "politics.",
-        "free enterprise."
-      ],
+      "choices": ["policies.", "economics.", "politics.", "free enterprise."],
       "correct": 2
     },
     {
@@ -60,12 +55,7 @@
     {
       "number": 6,
       "question": "Using public pressure, personal contacts, and political action to persuade legislators to vote or act in your favor is known as",
-      "choices": [
-        "precedents.",
-        "policy making.",
-        "networking.",
-        "lobbying."
-      ],
+      "choices": ["precedents.", "policy making.", "networking.", "lobbying."],
       "correct": 3
     },
     {
@@ -82,23 +72,13 @@
     {
       "number": 8,
       "question": "The country that has set aside the most public lands for its citizens is",
-      "choices": [
-        "Mexico.",
-        "Canada.",
-        "the United States.",
-        "China."
-      ],
+      "choices": ["Mexico.", "Canada.", "the United States.", "China."],
       "correct": 2
     },
     {
       "number": 9,
       "question": "Laws developed and passed by legislative bodies such as federal and state governments are ________ laws.",
-      "choices": [
-        "administrative",
-        "statutory",
-        "common",
-        "environmental"
-      ],
+      "choices": ["administrative", "statutory", "common", "environmental"],
       "correct": 1
     },
     {
@@ -115,10 +95,7 @@
     {
       "number": 11,
       "question": "Environmental lawsuits against polluters are typically decided in favor of the plaintiff.",
-      "choices": [
-        "True",
-        "False"
-      ],
+      "choices": ["True", "False"],
       "correct": 1
     },
     {
@@ -146,34 +123,19 @@
     {
       "number": 14,
       "question": "In recent years, attempts to ________ environmental laws have been occurring.",
-      "choices": [
-        "weaken",
-        "strengthen",
-        "expand",
-        "reinforce"
-      ],
+      "choices": ["weaken", "strengthen", "expand", "reinforce"],
       "correct": 0
     },
     {
       "number": 15,
       "question": "Regulating pollution has become more difficult as environmental problems have become more",
-      "choices": [
-        "visible.",
-        "invisible.",
-        "obvious.",
-        "simple."
-      ],
+      "choices": ["visible.", "invisible.", "obvious.", "simple."],
       "correct": 1
     },
     {
       "number": 16,
       "question": "Many major green laws were enacted during the environmental decade of the",
-      "choices": [
-        "1980s.",
-        "1960s.",
-        "1990s.",
-        "1970s."
-      ],
+      "choices": ["1980s.", "1960s.", "1990s.", "1970s."],
       "correct": 3
     },
     {
@@ -201,12 +163,7 @@
     {
       "number": 19,
       "question": "Governments often overlook the importance of ________ security.",
-      "choices": [
-        "personal",
-        "economic",
-        "military",
-        "environmental"
-      ],
+      "choices": ["personal", "economic", "military", "environmental"],
       "correct": 3
     },
     {

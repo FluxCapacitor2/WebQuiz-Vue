@@ -5,12 +5,7 @@
     {
       "number": 1,
       "question": "________ occurs when one organism feeds on the body of, or the energy used by, another organism, usually by living on or in it.",
-      "choices": [
-        "Parasitism",
-        "Commensalism",
-        "Mutualism",
-        "Predation"
-      ],
+      "choices": ["Parasitism", "Commensalism", "Mutualism", "Predation"],
       "correct": 0
     },
     {
@@ -49,12 +44,7 @@
     {
       "number": 5,
       "question": "This interaction benefits one organism, but neither helps nor harms a second organism.",
-      "choices": [
-        "mutualism",
-        "parasitism",
-        "predation",
-        "commensalism"
-      ],
+      "choices": ["mutualism", "parasitism", "predation", "commensalism"],
       "correct": 3
     },
     {
@@ -115,12 +105,7 @@
     {
       "number": 11,
       "question": "Species with a capacity for a high rate of increase of ten produce many small offspring and give them little or no parental care. Such species are called ________ species.",
-      "choices": [
-        "predator",
-        "commensal",
-        "K-selected",
-        "r-selected"
-      ],
+      "choices": ["predator", "commensal", "K-selected", "r-selected"],
       "correct": 3
     },
     {
@@ -137,34 +122,19 @@
     {
       "number": 13,
       "question": "Examples of density-dependent population limiting factors include all of the following except",
-      "choices": [
-        "parasitism.",
-        "predation.",
-        "fire.",
-        "disease."
-      ],
+      "choices": ["parasitism.", "predation.", "fire.", "disease."],
       "correct": 2
     },
     {
       "number": 14,
       "question": "Skunks have few predators, yet their populations change relatively little from one year to the next. Such a species demonstrates ________ pattern of variation in its population size.",
-      "choices": [
-        "irruptive",
-        "irregular",
-        "stable",
-        "cyclic"
-      ],
+      "choices": ["irruptive", "irregular", "stable", "cyclic"],
       "correct": 2
     },
     {
       "number": 15,
       "question": "Population controls are factors that limit population size for a given environment. Which of the following would be considered a human population control?",
-      "choices": [
-        "HIV leading to AIDS",
-        "war",
-        "all of the choices",
-        "famine"
-      ],
+      "choices": ["HIV leading to AIDS", "war", "all of the choices", "famine"],
       "correct": 2
     },
     {
@@ -192,12 +162,7 @@
     {
       "number": 19,
       "question": "The ability of a living system to be restored through secondary succession after a moderate disturbance is called",
-      "choices": [
-        "tipping point.",
-        "persistence.",
-        "inertia.",
-        "resilience."
-      ],
+      "choices": ["tipping point.", "persistence.", "inertia.", "resilience."],
       "correct": 3
     }
   ]
