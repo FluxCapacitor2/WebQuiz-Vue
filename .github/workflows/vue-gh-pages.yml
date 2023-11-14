@@ -12,5 +12,5 @@ jobs:
       uses: xRealNeon/VuePagesAction@1.0.1
       with:
         username: 'FluxCapacitor2'
-        reponame: 'WebQuiz'
+        reponame: 'WebQuiz-Vue'
         token: ${{ secrets.GITHUB_TOKEN }}
